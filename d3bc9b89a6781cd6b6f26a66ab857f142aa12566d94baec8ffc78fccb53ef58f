@@ -1,0 +1,10 @@
+{
+  "priority": 12000,
+  "name": "zombiegrief",
+  "desc": "Can zombies break doors in this territory?",
+  "descYes": "Zombies can break doors in this territory.",
+  "descNo": "Zombies can NOT break doors in this territory.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}

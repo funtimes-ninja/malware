@@ -1,0 +1,10 @@
+{
+  "priority": 10000,
+  "name": "firespread",
+  "desc": "Can fire spread in territory?",
+  "descYes": "Fire can spread in this territory.",
+  "descNo": "Fire can NOT spread in this territory.",
+  "standard": true,
+  "editable": false,
+  "visible": true
+}

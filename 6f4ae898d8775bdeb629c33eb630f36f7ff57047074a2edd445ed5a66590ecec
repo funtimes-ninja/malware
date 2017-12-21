@@ -1,0 +1,10 @@
+{
+  "priority": 9000,
+  "name": "offlineexplosions",
+  "desc": "Can explosions occur if faction is offline?",
+  "descYes": "Explosions if faction is offline.",
+  "descNo": "No explosions if faction is offline.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}

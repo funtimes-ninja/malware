@@ -1,0 +1,10 @@
+{
+  "priority": 4000,
+  "name": "powerloss",
+  "desc": "Is power lost on death in this territory?",
+  "descYes": "Power is lost on death in this territory.",
+  "descNo": "Power is NOT lost on death in this territory.",
+  "standard": true,
+  "editable": false,
+  "visible": true
+}

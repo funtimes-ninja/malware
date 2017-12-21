@@ -1,0 +1,10 @@
+{
+  "priority": 1000,
+  "name": "open",
+  "desc": "Can the faction be joined without an invite?",
+  "descYes": "Anyone can join. No invite required.",
+  "descNo": "An invite is required to join.",
+  "standard": false,
+  "editable": true,
+  "visible": true
+}

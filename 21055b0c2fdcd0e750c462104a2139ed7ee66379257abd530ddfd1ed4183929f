@@ -1,0 +1,10 @@
+{
+  "priority": 8000,
+  "name": "explosions",
+  "desc": "Can explosions occur in this territory?",
+  "descYes": "Explosions can occur in this territory.",
+  "descNo": "Explosions can NOT occur in this territory.",
+  "standard": true,
+  "editable": false,
+  "visible": true
+}

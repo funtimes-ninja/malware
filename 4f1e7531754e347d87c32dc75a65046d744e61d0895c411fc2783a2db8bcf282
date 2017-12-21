@@ -1,0 +1,10 @@
+{
+  "priority": 6000,
+  "name": "pvp",
+  "desc": "Can you PVP in territory?",
+  "descYes": "You can PVP in this territory.",
+  "descNo": "You can NOT PVP in this territory.",
+  "standard": true,
+  "editable": false,
+  "visible": true
+}

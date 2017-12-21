@@ -1,0 +1,10 @@
+{
+  "priority": 15000,
+  "name": "infpower",
+  "desc": "Does the faction have infinite power?",
+  "descYes": "The faction has infinite power.",
+  "descNo": "The faction power works as usual.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}

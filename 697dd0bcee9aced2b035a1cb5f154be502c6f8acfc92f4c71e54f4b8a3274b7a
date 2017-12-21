@@ -1,0 +1,18 @@
+{
+  "priority": 15000,
+  "name": "deposit",
+  "desc": "deposit money",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT",
+    "ALLY",
+    "TRUCE",
+    "NEUTRAL",
+    "ENEMY"
+  ],
+  "territory": false,
+  "editable": false,
+  "visible": false
+}

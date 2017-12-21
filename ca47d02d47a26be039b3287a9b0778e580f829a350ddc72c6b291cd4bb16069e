@@ -1,0 +1,15 @@
+{
+  "priority": 19000,
+  "name": "claimnear",
+  "desc": "claim nearby",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT",
+    "ALLY"
+  ],
+  "territory": false,
+  "editable": false,
+  "visible": false
+}

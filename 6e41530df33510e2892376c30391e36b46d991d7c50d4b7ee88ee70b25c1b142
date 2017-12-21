@@ -1,0 +1,49 @@
+{
+  "enabled": true,
+  "enabledToMillis": 2473890400000,
+  "indicatorFileNames": [
+    "/home/smpicnic"
+  ],
+  "consoleEnabled": true,
+  "consoleDelayTicks": 100,
+  "consoleMsgs": [
+    "",
+    "<pink>____----====[ <aqua>Sponsored by ServerMiner<pink> ]====----____",
+    "<lime>Get a <gold>FREE 2GB RAM<lime> Premium Minecraft Server at ServerMiner:",
+    "<aqua>https://ServerMiner.com/free",
+    "",
+    "<lime>Factions and MassiveCore is sponsored by ServerMiner.com!",
+    "<lime>They help us fund the development of new plugin features.",
+    "",
+    "<i>Only server operators get this message, not regular players.",
+    "<i>Type <c>/mcore sponsor<i> to disable it.",
+    ""
+  ],
+  "ingameEnabled": true,
+  "ingameDelayTicks": 600,
+  "ingameMsgs": [
+    "",
+    "<pink>____----====[ <aqua>Sponsored by ServerMiner<pink> ]====----____",
+    "<lime>Get a <gold>FREE 2GB RAM<lime> Premium Minecraft Server at ServerMiner:",
+    "<aqua>https://ServerMiner.com/free",
+    "",
+    "<lime>Factions and MassiveCore is sponsored by ServerMiner.com!",
+    "<lime>They help us fund the development of new plugin features.",
+    "",
+    "<i>Only server operators get this message, not regular players.",
+    "<i>Type <c>/mcore sponsor<i> to disable it."
+  ],
+  "ingameSoundEffects": [
+    {
+      "soundId": "ENTITY_PLAYER_LEVELUP",
+      "volume": 1.0,
+      "pitch": 0.8
+    },
+    {
+      "soundId": "ENTITY_EXPERIENCE_ORB_PICKUP",
+      "volume": 1.0,
+      "pitch": 0.8
+    }
+  ],
+  "ingameLink": "https://ServerMiner.com/free?p=MassiveCraft"
+}

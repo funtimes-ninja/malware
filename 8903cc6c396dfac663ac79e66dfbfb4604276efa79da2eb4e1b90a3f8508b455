@@ -1,0 +1,10 @@
+{
+  "priority": 14000,
+  "name": "peaceful",
+  "desc": "Is the faction in truce with everyone?",
+  "descYes": "The faction is in truce with everyone.",
+  "descNo": "The faction relations work as usual.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}

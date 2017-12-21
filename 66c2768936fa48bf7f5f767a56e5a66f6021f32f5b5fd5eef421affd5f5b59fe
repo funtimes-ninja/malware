@@ -1,0 +1,45 @@
+# EZRanksLite messages file
+no_permission: '&4You don''t have permission to do that!'
+ranks_no_rankups_loaded: '&cThere are no rankups setup!'
+ranks_disabled: '&c/ranks is disabled in the config.yml!'
+rankup_on_cooldown: '&cYou need to wait &f{0} &cseconds to rankup again!'
+rankup_no_rankups_available: '&cRank &f{0} &cdoes not have any rankups available!'
+rankup_disabled: '&cThe rankup to &f{0} &cis currently disabled!'
+rankup_confirmation: '&bAre you sure you want to rankup to &f{0} &bfor &a${1}&b? Type
+  &e/rankup &bagain to confirm!'
+rankup_confirmation_multiple_rankups: '&bAre you sure you want to rankup to &f{0}
+  &bfor &a${1}&b? Type &e/rankup {0} &bagain to confirm!'
+rankup_confirmation_incorrect_rankup: '&cYou need to wait for your rankup confirmation
+  for &f{0} &cto expire before you can rankup to &f{1}&c!'
+rankup_multiple_rankups: '&aYou have &e{0} &arankups available at rank &f{1}'
+rankup_multiple_rankups_list: '&b/rankup {0}  &aCost: &f{1}'
+rankup_last_rank: '&cYou are at the last rank and have no rankups!'
+rankup_incorrect_rankname_argument: '&f{0} &cis not a valid rankup name! type /rankup!'
+help_header: '{0} &fRankup Help'
+help_rankup: '&b/rankup &7- &frankup to your next rank'
+help_ranks: '&b/ranks &7- &fview ranks list'
+help_rank_reset: '&b/rankup reset &7- &freset your rank'
+help_scoreboard_toggle: '&b/sbtoggle &7- &ftoggle scoreboard on/off'
+help_scoreboard_refresh: '&b/sbrefresh &7- &frefresh scoreboard stats'
+reset_not_allowed: '&cYou are not allowed to use &7/rankup reset &cat your current
+  rank!'
+reset_not_enough_money: '&cYou need &a$&f{0} &cto reset your rank! You only have &a$&f{1}&c!'
+reset_confirmation_free: '&bAre you sure you want to reset your rank? Use &7/rankup
+  reset &bagain to confirm!'
+reset_confirmation_has_cost: '&bAre you sure you want to reset your rank for &a${0}&b?
+  Use &7/rankup reset &aagain to confirm!'
+ezscoreboard_disabled: '&cThe scoreboard is currently disabled!'
+ezscoreboard_disabled_disabled_in_current_world_self: '&cThe scoreboard is disabled
+  in the world you are currently in!'
+ezscoreboard_disabled_disabled_in_current_world_others: '&f{0} &cis in a world that
+  has the scoreboard disabled!'
+ezscoreboard_toggle_on_self: '&aYour scoreboard has been toggled on!'
+ezscoreboard_toggle_off_self: '&cYour scoreboard has been toggled off!'
+ezscoreboard_refreshed_self: '&aYour scoreboard has been refreshed!'
+ezscoreboard_toggle_on_others: '&f{0}s &ascoreboard has been toggled on!'
+ezscoreboard_toggle_off_others: '&f{0}s &cscoreboard has been toggled off!'
+ezscoreboard_refreshed_others: '&f{0}s &ascoreboard has been refreshed!'
+staff_scoreboard_disabled: '&cThe staff scoreboard is disabled!'
+staff_scoreboard_toggle_on: '&aYour scoreboard has been switched to (Staff)'
+staff_scoreboard_toggle_off: '&aYour scoreboard has been switched to (Player)'
+player_not_online: '&f{0} &cis not online!'

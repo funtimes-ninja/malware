@@ -1,0 +1,162 @@
+SQLite: true
+sql:
+  host: 127.0.0.1
+  port: '3306'
+  database: database
+  user: user
+  pass: password
+auction:
+  listingPrice: 2
+  listingHours: 48
+  unclaimedHours: 240
+  preventCreativeSale: true
+  maxSellPrice: 2147483647
+  taxPercentage: 0
+  maxPermissionIncludeExpired: false
+  useAuctionNoAHPermission: true
+  allowDamagedArmorOrWeapons: false
+blacklist:
+- '1000'
+- '1001:12'
+- '12333:4'
+blacklistLore:
+- Blacklisted Line Of Lore
+language:
+  mainMenuName: Auction House
+  currentListingsMenuName: Your Current Listings
+  expiredMenuName: Cancelled / Expired Listings
+  purchaseItemMenuName: 'Purchase Item: Are You Sure?'
+  menuItemText:
+    listedItem:
+      lore:
+      - '&7-------------------------'
+      - '&aClick here to purchase.'
+      - '&9Price: &e$%price%'
+      - '&9Seller: &e%seller%'
+      - '&9Expire: &e%time%'
+      - '&7-------------------------'
+    yourListedItem:
+      lore:
+      - '&7-------------------------'
+      - '&cClick here to cancel.'
+      - '&9Price: &e$%price%'
+      - '&9Expire: &e%time%'
+      - '&7-------------------------'
+    yourExpiredItem:
+      lore:
+      - '&7-------------------------'
+      - '&aClick here to return to you.'
+      - '&7-------------------------'
+    yourListedItems:
+      id: '264'
+      name: '&6Items You''re Selling'
+      lore:
+      - '&aClick here to view all of the items you'
+      - '&aare currently selling on the auction.'
+      - '&9Selling: &e%selling%'
+    yourExpiredItems:
+      id: '394'
+      name: '&6Collect Expired / Cancelled Items'
+      lore:
+      - '&aClick here to view and collect all of the'
+      - '&aitems you have cancelled or have expired.'
+      - '&9Items To Collect: &e%expired%'
+    returnAllItems:
+      id: '390'
+      name: '&6Return All'
+      lore:
+      - '&aClick here to return all cancelled'
+      - '&aand expired items to your inventory.'
+    previousPage:
+      id: '339'
+      name: '&6Previous Page'
+    refreshPage:
+      id: '175'
+      name: '&6Refresh Page'
+    nextPage:
+      id: '339'
+      name: '&6Next Page'
+    backButton:
+      id: '339'
+      name: '&6Back'
+    howToSell:
+      id: '388'
+      name: '&6How To Sell An Item'
+      lore:
+      - '&aTo list an item on the auction house, just hold'
+      - '&athe item in your hand and type &b/ah sell <price>&a.'
+    mainWhatIsThisPage:
+      id: '340'
+      name: '&6What Is This Page?'
+      lore:
+      - '&aThis is the auction house, here you can'
+      - '&alist items for sale, and purchase items'
+      - '&athat others have listed for sale.'
+      - '&aThe auction is also a great way to make'
+      - '&amoney by selling farmable items other'
+      - '&aplayers may be interested in buying.'
+    yourListedWhatIsThisPage:
+      id: '340'
+      name: '&6What Is This Page?'
+      lore:
+      - '&aThese are your current listings, all of'
+      - '&athe items you currently have listed on'
+      - '&athe auction house are displayed here.'
+      - '&aYou can cancel and view your listing''s'
+      - '&aexpire time here.'
+    expiredWhatIsThisPage:
+      id: '340'
+      name: '&6What Is This Page?'
+      lore:
+      - '&aThis page houses all of your cancelled and'
+      - '&aexpired items, when a listings is cancelled'
+      - '&aor expires you will be able to return that'
+      - '&aitem back to you from this menu.'
+      - '&aJust click on the item and if you have enough'
+      - '&ainventory space you will recieve the item.'
+    purchaseConfirm:
+      name: '&aConfirm'
+    purchaseCancel:
+      name: '&cCancel'
+    purchaseItem:
+      lore:
+      - '&9Price: &e$%price%'
+      - '&9Seller: &e%seller%'
+    recentSalesLog:
+      id: '266'
+      name: '&6Recently Sold Items'
+      logLineFormat: '&9Sold &e%item% &9to &e%buyer% &9for &e$%price%&9.'
+      noneSoldLore: '&cYou have not sold any items yet.'
+  clickFails:
+    clickFailItem: '152'
+    notEnoughInventory: Not Enough Inventory Space
+    cannotPurchaseSelf: You Cannot Purchase Your Own Item
+    notExists: This Item No Longer Exists
+    cannotAfford: You Cannot Afford This
+    noListingsToReturn: No Listings To Return
+  chatMessages:
+    itemPurchased: '&eItem &6purchased&e!'
+    buyerPurchased: '&6%buyer% &epurchased your auction and you earned &6$%taxedPrice%&e!'
+    listedItem: '&eYou have &6listed &ean item on the &6auction house&e!'
+    listingCancel: '&eYou have &6cancelled &ean auction. Return cancelled and expired
+      items at &6/ah expired&e.'
+    adminRemoveListing: '&eListing Removed.'
+    expiredReturned: '&eItem &6returned &eto your inventory.'
+    notEnoughInventory: '&cYou do not have enough inventory space.'
+    returnedAll: '&6All &eexpired listings have been &6returned&e.'
+    unknownCommand: '&cUnknown command. Use /ah help for auction commands.'
+    notHoldingItem: '&cYou are not holding an item in your hand.'
+    inCreative: '&cYou cannot sell items while in creative.'
+    noMore: '&cYou can not list any more items at once.'
+    max: '&cYou cannot list more than 45 items at a time.'
+    invalidPrice: '&cThat is not a valid price.'
+    maxMoney: '&cYou can not list with a price higher than $999,999,999.'
+    maxSetMoney: '&cYou can not list with a price higher than $1,000,000,000,000'
+    notEnoughMoney: '&cYou do not have enough money to list an auction.'
+    getHelp: '&cUse /ah help for help.'
+    isBlacklisted: '&cThat item is not allowed to be put on the auction house!'
+    help:
+    - '&9/ah - &6Open the Auction house.'
+    - '&9/ah sell <amount>- &6Sell the item you are holding.'
+    - '&9/ah selling - &6View the items you are selling.'
+    - '&9/ah expired - &6View your expired items to return.'

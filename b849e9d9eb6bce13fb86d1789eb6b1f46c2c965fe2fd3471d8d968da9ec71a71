@@ -1,0 +1,10 @@
+{
+  "priority": 7000,
+  "name": "friendlyfire",
+  "desc": "Can friends hurt eachother in this territory?",
+  "descYes": "Friendly fire is on here.",
+  "descNo": "Friendly fire is off here.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}

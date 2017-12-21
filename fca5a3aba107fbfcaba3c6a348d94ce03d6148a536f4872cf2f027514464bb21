@@ -1,0 +1,16 @@
+#!/bin/bash
+############### Config ###############
+#
+ssh2Threads=500
+port=22
+ssSpeed=9
+ssh2Timeout=3
+############## Running ##############
+rm -rf scan.log session.txt bios.txt
+echo "############################"
+echo "# GOOD for ROOTs and USERs #"
+echo "############################"
+./ss $port -a $1 -s $ssSpeed
+cat bios.txt |sort -u > scan.log
+sleep 2
+./ssh2 $ssh2Threads $port $ssh2Timeout unlimited

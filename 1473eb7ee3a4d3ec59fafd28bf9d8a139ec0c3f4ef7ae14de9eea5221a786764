@@ -1,0 +1,10 @@
+{
+  "priority": 11000,
+  "name": "endergrief",
+  "desc": "Can endermen grief in this territory?",
+  "descYes": "Endermen can grief in this territory.",
+  "descNo": "Endermen can NOT grief in this territory.",
+  "standard": false,
+  "editable": false,
+  "visible": true
+}

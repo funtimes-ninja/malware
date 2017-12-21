@@ -1,0 +1,10 @@
+{
+  "priority": 2000,
+  "name": "monsters",
+  "desc": "Can monsters spawn in this territory?",
+  "descYes": "Monsters can spawn in this territory.",
+  "descNo": "Monsters can NOT spawn in this territory.",
+  "standard": false,
+  "editable": true,
+  "visible": true
+}

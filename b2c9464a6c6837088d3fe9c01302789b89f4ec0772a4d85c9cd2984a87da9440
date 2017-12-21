@@ -1,0 +1,350 @@
+Booster MM Plugin v2.40 (Booster)
+- by Jussi Kivilinna (hullu)
+- CPU management, source code merge and on-going maintenance by BuzzKill
+ 
+04/12/2004 
+
+
+   --  Thank you for everything, Hullu!  --
+   
+
+[WHAT'S NEW]
+
+* Added the ability for Booster to ping an external machine and record the value. This can help admins diagnose latency problems. Value is stored in booster_extping. IP address to ping is stored in booster_pingaddr.
+* Added a cvar to hold average player ping. Value is stored in booster_intping.
+* Added 'booster_status' console command, which reports on CPU, entities used, FPS and pings.
+* Re-introduced the 686/p4 optimized build.
+
+
+[OVERVIEW]
+
+- Booster2 improves your server's responsiveness by reducing the time HLDS spends 'sleeping' between frames. This improves player ping and event response time by increasing FPS. There are two approaches Booster2 can use to improve responsiveness:
+
+1) mmtimer approach (original WinHLBooster method) - this works by modifying sys_ticrate and the Win32 multimedia timer to adjust the 'clock' HLDS uses to time its sleep period. It essentially tricks HLDS into sleeping less. Options are available to both target a specific server FPS and to prevent CPU consumption from exceeding certain thresholds. Under this approach, server FPS will start high under no load and gradually decrease as load (players) is added.
+2) pingbooster approach (Booster-Lite method) - this works by teaching HLDS to wake up from a sleep state whenever data arrives from the player. Options are available to vary exactly how this approach functions. Under this approach, server FPS will generally start low under no load and increase as load is added.
+
+- ** WARNING ** Features of each approach can be used together, and Booster2 will attempt to catch cvar values that might cause problems. However, keep in mind that using extreme or contradictory values can cause your server to run worse than it would if Booster2 were not loaded at all. Any incompatible settings that Booster2 catches will be reported in the HLDS logs. Remember, the 'faster' you make your server run, the higher your CPU consumption will be. Always check CPU usage to make sure you aren't nearing 100%.
+- This version only works on Windows NT/2000/XP/2003. See links at bottom of this file for 95/98/ME version.
+
+
+
+[INSTALLATION]
+
+1) You need Metamod installed to use Booster2.
+2) Extract booster_mm.dll to your "...\<MOD>\addons\booster" folder.
+3) Add following line to either "...\<MOD>\metamod.ini" or "...\<MOD>\addons\metamod\plugins.ini":
+
+win32 addons/booster/booster_mm.dll
+
+
+
+[CONFIGURATION]
+
+The following cvar settings should be copied to your server.cfg or to booster.cfg (which you then need to 'exec' from server.cfg). By default, these settings will target an FPS of 200 via autofps and a change to the multimedia timer.
+
+// booster_show_connmsg x (0 = disabled, 1 = small message, 2 = large message)
+//	Shows a console message to players with booster information when they connect.
+booster_show_connmsg 1
+
+// booster_autofps x (x = 0 to 1000, 0 = no target FPS)
+//      Automatically changes value of sys_ticrate to achieve and maintain the desired server FPS (if possible).
+//	It is not recommended to target FPS greater than 200 or so.
+//	Note that autofps adjusts sys_ticrate, which makes it incompatible with any booster_lite_mode other
+//	than 3. Setting booster_autofps will force booster_lite_mode to 3.
+booster_autofps 200
+
+// booster_minsleepms x (x = 1 to 10, 10 = no change to multimedia timer)
+//      This adjusts the multimedia system timer to trick HLDS into sleeping for less time. Note that
+//	the lower the value set, the higher the CPU consumption will be for HLDS. Values lower than 3
+//	are not recommended, as they can cause massive CPU consumption and/or system instability.
+booster_minsleepms 5
+
+// booster_force_systicrate x (x = 0 to 10000, 0 = let Booster2 manage the value itself (no force))
+//	Booster2 will force this sys_ticrate value. Note that using this option will set booster_autofps to 0
+//	and booster_lite_mode to 3, as these methods rely on a sys_ticrate value untouched by user settings.
+//	You should avoid directly setting sys_ticrate in your server.cfg, as manually adjusted values can
+//	cause problems with various parts of Booster2.
+booster_force_systicrate 0
+
+// booster_cpu_enabled x [0 to 2] (0 = off, 1 = on, 2 = report CPU only - don't actively manage CPU)
+//	Booster2 can monitor CPU usage and adjust the multimedia timer to reduce load when necessary
+booster_cpu_enabled 0
+
+// booster_cpu_spikemax x
+//      If CPU management is enabled, number of times booster_cpu_spikelevel needs 
+//	to be exceeded in order for mmtimer to increase and CPU load to be reduced.      
+booster_cpu_spikemax 3
+
+// booster_cpu_spikelevel x [0 to 100]
+//	If CPU management is enabled, level which CPU utilization needs to exceed 
+//      (booster_cpu_spikemax times) for mmtimer to increase and CPU load to be reduced.
+booster_cpu_spikelevel 75
+
+// booster_cpu_floor x [0 to 100]
+//	If CPU management is enabled, level which CPU utilization needs to stay under 
+//      (for booster_cpu_quiettime seconds) for mmtimer to decrease and FPS to increase.
+booster_cpu_floor 50
+
+// booster_cpu_mminc x [1 to 10]
+//	If CPU management is enabled, amount mmtimer will increment (Booster2 will also decrease
+//      the mmtimer by 1 for every 5 minute period that booster_cpu_spikelevel is not exceeded.
+booster_cpu_mminc 2
+
+// booster_cpu_quiettime
+//	Seconds required without CPU spike exceeding booster_cpu_floor before
+//	mmtimer value is decreased by 1.
+booster_cpu_quiettime 300
+
+// booster_cpu_mmmin x [1 to 10]
+//	If CPU management is enabled, Booster2 will never set the mmtimer below this value.
+booster_cpu_mmmin 3
+
+// booster_cpu_mmmax x [1 to 10]
+//	If CPU management is enabled, Booster2 will never set the mmtimer above this value.
+booster_cpu_mmmax 8
+
+// booster_lite_mode x [0 to 3]
+//	Controls how the Booster-Lite approach is implemented:
+//	0 - HLDS sleeps 10ms if no network packets are received. If HLDS
+//	    receives a packet, it stops sleeping. (this mode has been added
+//	    to provide backward compatibility with how BL v1.00 worked).
+//	1 - HLDS attempts to sleep 10ms. If a packet is received,
+//	    HLDS stops sleeping. Otherwise it attempts to sleep another 10ms.
+//	2 - HLDS attempts to sleep 50ms. If a packet is received, it stops sleeping.
+//	3 - HLDS will sleep the standard amount (this value turns this feature off).
+booster_lite_mode 3
+    
+// booster_lite_extra_sleep_frequency x
+//	Forces HLDS server to sleep x milliseconds even if a packet is received.
+//	This setting helps to lower CPU usage.
+booster_lite_extra_sleep_frequency 0
+
+// booster_stats_cpu_counter
+// Sets the string Booster will use to query cpu performance. By default this is 
+// "\Processor(_Total)\% Processor Time". Manually set this only if you need to
+// support non-english counter names or to query a specific processor.
+// This cvar is only used if booster_cpu_enabled is turned on.
+
+// booster_stats_in_counter
+// Sets the string Booster will use to query bandwidth in. By default this is 
+// "\Network Interface(NDIS 5.0 driver)\Bytes Received/sec". Manually set this only
+// if you need to support non-english counter names or to query a specific interface.
+// This cvar is only used if booster_stats is turned on.
+
+// booster_stats_out_counter
+// Sets the string Booster will use to query bandwidth out. By default this is 
+// "\Network Interface(NDIS 5.0 driver)\Bytes Sent/sec". Manually set this only
+// if you need to support non-english counter names or to query a specific interface.
+// This cvar is only used if booster_stats is turned on.
+
+// booster_stats [0-1]
+// This turns on statistics gathering. This options is not supported. See info at the end
+// of the readme regarding this option.
+
+// booster_trigger_cmd
+// Sets a command to be executed the first time (during any given map) that CPU consumption
+// trips booster_cpu_spikemax. This allows admins to do things such as turn off wallhack
+// blocks or other CPU intensive systems under heavy load.
+
+// booster_intping
+// This is a read-only value, and holds the current average player ping.
+
+// booster_extping
+// This is a read-only value, and holds the current ping to the address set in booster_pingaddr.
+
+// booster_pingaddr
+// Sets the address (in IP format x.x.x.x) that Booster will ping once a minute. If no value is
+// set, Booster won't ping anything. Pinging an external address is useful in helping determine
+// latency issues. If clients are showing high ping, pings to a nearby router can help determine
+// if the problem is close to the server or part of something that is beyond the administrator's
+// control.
+
+
+
+[HISTORY]
+
+[2.40]
+* Added the ability for Booster to ping an external machine and record the value. This can help admins diagnose latency problems. Value is stored in booster_extping. IP address to ping is stored in booster_pingaddr.
+* Added a cvar to hold average player ping. Value is stored in booster_intping.
+* Added 'booster_status' console command, which reports on CPU, entities used, FPS and pings.
+* Re-introduced the 686/p4 optimized build.
+
+[2.35]
+* Fixed a bug in stats collection where cpu was being reported correctly (only affected statsdat.dat creation).
+* Added a filter to excluded pings > 1000 from ping averages.
+* Booster plugin defaults are now in line with values in default cfg sample.
+
+[2.31]
+* Fixed a bug that caused 2.3 to shut down after 4 seconds.
+* Added '-nolite' commandline option to remove Booster-Lite function swapping for those who might need it (rare).
+
+[2.3]
+* Added 'booster_cpu_floor' to help better manage CPU monitoring/sleep timer management. 
+* Revised the build optimizations. Eliminated multiple processor builds.
+
+[2.2]
+* Added booster_trigger_cmd cvar, which is executed as a server command the first time booster_cpu_spikemax is tripped. 
+* booster_cpu_enabled is automatically turned off (set to 0) if Booster cannot read the CPU performance monitor.
+* Booster will prevent itself from being loaded on a Listenserver.
+* Changed the build optimizations. booster_mm.dll is not optimized. booster_586_mm.dll is for the 586 family, and booster_p4_mm.dll is for the P4 family.
+
+[2.1]
+* Added cvars to allow cpu statistics counter (and others) to be changed (to support non-English counter names and multi-processor machines).
+* Amended the documentation to include booster_stats cvar.
+
+[2.0]
+* Combined WinHL-Booster and Booster-Lite
+* Added cvar compatibility checks
+
+[1.70]
+* Switched back to 1.50beta source (all 1.60 changes are removed).
+* Removed TOS tweak.
+
+[1.60]
+* uses kernel timer tweak now on Windows NT4/2000/XP/2003
+    - no longer cause system wide timer accurency change
+* similiar changes on Windows 95/98/ME
+    - only enables higher accurency just before sleeping and disables right after
+
+[1.50beta]
+* WinHL-Booster can monitor CPU usage and automatically manage the sleep timer to balance between FPS and CPU utilization (by Buzz_Kill <buzzkill@100acrebloodbath.com>)
+* Added TOS low delay tweak, "-tos" commandline option for activating TOS tweak
+ 
+[1.46]
+* booster_force_systicrate is set to 10000 by default now
+* made filesize bigger (don't ask)
+ 
+[1.45 beta]
+* booster_minsleepms cvar for adjusting sleep timer tweak
+
+[1.44] 
+* booster_autofps 100 for better ping and better server stability
+
+[1.43]
+* Oh .. did I skip 1.43 .. oops I think I did :D
+
+[1.42]
+* Name changed back to WinHL-Booster
+* sets sys_ticrate to 10000 instead of 1000. Seems to help ping problems that booster causes on some servers.
+ 
+[1.41]
+* removed url from connmessages
+ 
+[1.40]
+* !! Makes server run with higher fps than 100 !!
+    - Uses multimedia timer tweaking of Windows
+    - Same effect than with flash-ani trick
+    - OS wide effect .. only one server running booster -> all servers boosted
+    
+* No more Linux binary (sorry .. no mm timer tweak in linux that I know off (You might want to try multimedia timer tweaked kernel(search net))))
+* Connection message can be disabled
+ 
+* Removed all extra stuff that were causing more bad than good
+    - Underrun £@&$ removed
+    - Dynamic sys_ticrate adjusting for fps removed
+    - Cleaned connection messages from extra crap removed
+ 
+[1.36b]
+* New installation directories in booster_mm.txt (http://www.unitedadmins.com/info_addon_dev_standards.aspx)
+ 
+[1.36]
+* Fixed targetfps system to work under linux
+* Tested with DoD3 (works fine with me)
+
+[1.35]
+* sys_ticrate/targetfps system is now deactivated on listenservers!
+* Setting "booster_targetfps 0" deactivates targetfps system (you can still use underrun mode with this)
+ 
+[1.34]
+* Trying to fix XP problems
+ 
+[1.33]
+* targetfps default value is now 133 ;)
+* booster_maxsysticrate, booster_mixsysticrate cvars to 
+   set maximum and minimum boundaries for target-fps system
+* Small connection message is now default
+* booster_underrun_scale changed to booster_underrun_finalrate (thanks to !2SX!)
+
+[1.32]
+* Booster's day off.. Sauna & Vodka
+ 
+[1.31]
+* sys_ticrate, sv_maxupdaterate are now visible in server info
+ 
+[1.30]
+* targetfps system for better function with 1.1.0.9
+ 
+[1.21]
+* [bugfix] Fixed (hopefully) current players counting :P
+
+[1.20]
+* Shows current map in connection message
+* [bugfix] Now underrun even works :D .. fixed current players counting
+ 
+[1.17]
+* [bugfix] rewritten underrun code
+
+[1.16]
+* Comes with Linux binary by default (LinHL-Booster)
+* Added 'booster_small_connmsg' for those who don't want that big connection message ruin other messages
+* Speed tweaks (this was in 1.15 already)
+* [bugfix] Underrun works now even if force settings is enabled
+ 
+[1.15]
+* Changed connection message 'made by' to 'plugin-url' so that people stop email-asking me for url ;)
+
+[1.14]
+* [bugfix] Removed "meta-interface version mismatch"-warnings
+
+[1.13]
+* Jumped over this version (I don't like number 13 :D)
+
+[1.12]
+* [bugfix] booster_forcesettings should work right way now.
+* [bugfix] booster_underrun should work right way now.
+* [bugfix] Current players on server counter function fixed.
+ 
+[1.11]
+* Added 'booster_forcesettings'
+* [bugfix] Removed debugging message that I left in 1.10
+ 
+[1.10]
+* Added 'booster_underrun_on', 'booster_underrun_players' and 'booster_underrun_scale' cvars for servers with low bandwidth.
+ 
+[1.02]
+* Shows how many players are present on server to joining player.
+ 
+[1.01] 
+* Small code tweaks
+ 
+[1.00]
+* -
+
+
+
+[CREDITS]
+
+* -[SBV]-MeGaHuRtZ, Rage, Mikee and all others for betatesting
+
+
+
+[LINKS]
+
+Unitedadmins: http://www.unitedadmins.com/
+Metamod:      http://www.metamod.org/
+
+
+
+[UNSUPPORTED FEATURES]
+
+- Booster has TOS Low Delay bit tweak (Type of service) which should make packets go to client smaller latency.
+Use -tos commandline option on hlds.exe to activate TOS low delay tweak. You have to set following registry setting to allow this tweak to work (only Windows 2000/XP):
+
+Key: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+ Value name: DisableUserTOSSetting
+ Value type: DWORD
+ Value data: 0
+
+
+- Stats generation
+Booster2 can generate statistics (player count, average player ping, cpu consumption and fps) every minute and log these to a stats file, which can then be parsed and processed by a PERL script. These will be generated in your root HLDS folder as statsdat.dat

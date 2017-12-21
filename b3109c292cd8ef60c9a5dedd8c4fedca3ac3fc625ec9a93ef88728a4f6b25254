@@ -1,0 +1,45 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              # No Color
+clear
+echo -e "${GREEN}"
+echo "+===============================+"
+echo "+-------------------------------+"
+echo "+    ___  _               _     +"  
+echo "+   | . || |_  ___  _ _ _| |_   +" 
+echo "+   |   || . \/ . \| | | | |    +"  
+echo "+   |_|_||___/\___/|___| |_|    +"
+echo "+-------------------------------+"
+echo "+===============================+"
+echo -e "${LIGHTBLUE}[Project Name] ${GREEN}Project TITANIUM     "
+echo -e "${LIGHTBLUE}[Version] ${GREEN}     Titanium Version 1.2     "
+echo -e "${LIGHTBLUE}[Release Date] ${GREEN}27-12-2015     "
+echo -e "${LIGHTBLUE}[Developed By] ${RED} Modz Titanium    "
+echo -e "${LIGHTBLUE}[Coder] ${RED}        Modz Titanium    "
+echo -e "${LIGHTBLUE}[Beta Tester] ${RED}  Modz Titanium    "
+echo -e ""
+echo -e "${LIGHTBLUE}[Disclaimer] "
+echo -e "${RED}"
+echo -e "We take no responsibility for what you use this tool to accomplish."
+echo -e "This tool is intended for private/personal use to conduct stress testing on " 
+echo -e "network equipment. It may be unlawful to use this software for purposes other"
+echo -e "than its intended use"
+echo -e ""
+echo -e "DO NOT REDISTRIBUTE OR CONTACT Modz Titanium "
+read
+

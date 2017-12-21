@@ -1,0 +1,10 @@
+{
+  "priority": 3000,
+  "name": "animals",
+  "desc": "Can animals spawn in this territory?",
+  "descYes": "Animals can spawn in this territory.",
+  "descNo": "Animals can NOT spawn in this territory.",
+  "standard": true,
+  "editable": true,
+  "visible": true
+}

